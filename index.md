@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+#Chairloader
+Chairloader is a modding framework built for Prey (2017) released by Arkane. It is primarily built to enable real time code execution, injection, and hooking for the game. This includes things like spawning entities and items, manipulating entities, accessing internal game functions like free-cam, and much more. This repository isn't built to be a place to get mods, it's intended to hold the tools needed to make whatever mods your heart desires. 
 
-You can use the [editor on GitHub](https://github.com/thelivingdiamond/ChairLoader/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+**Be warned, this is extremely experimental code at the moment. I don't have much in terms of documentation or examples yet. This is the cutting edge of runtime modding for this game and as such, things will change sporadically and quickly. Many many things you can do will crash the game. This is very much a WIP project**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+##What can Chairloader do right now?
+The current list of capabilities includes:
+- NPC Spawning (fully functional)
+- Entity Spawning (semi functional)
+- NPC and Entity Manipulation (fully functional)
+- Ability to execute internal console commands
+- Ability to spawn custom NPCs and entities added to the XML files
+- A mapped library of all pre-existing entity archetypes and their ID's
 
-### Markdown
+An important note is that this is primarily designed for things that appear or happen spontaneously. If you need something to always exist in a level then XML file manipulation is still your best bet
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+##Todo List
+- Working Cazavor (Cut Disc-Rifle weapon)
+- Generally more extensive mapping of functions and objects to enable more functionality
+- Documentation and Wiki (long term)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/thelivingdiamond/ChairLoader/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+And lastly I'm still a full time university student so please be lenient about consistent updates here. Working on this modding framework is very time intensive
