@@ -1,0 +1,23 @@
+glob:.svn
+glob:*.obj
+glob:*.pch
+glob:*.suo
+glob:*.idb
+glob:*.vcproj.*.user
+glob:*.ncb
+glob:*.vskdb
+glob:*.vsksln
+glob:.*Debug*
+glob:.*Release*
+glob:tags
+glob:states
+glob:*.user
+glob:*.sdf
+syntax: glob
+yasli-example-*
+qpropertytree-example-*
+*.a
+example-*
+.garbage/*
+.tmp/*
+.garbage*

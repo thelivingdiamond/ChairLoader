@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAnimation\CryAnimation_character_instance_uber_0.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAnimation\CryAnimation_character_instance_uber_1.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAnimation\CryAnimation_character_instance_uber_2.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAnimation\CryAnimation_character_instance_uber_3.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAnimation\CryAnimation_character_manager_uber.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAnimation\CryAnimation_uber_0.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AnimEventList.cpp">
+				<Filter>CharacterManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AnimEventList.h">
+				<Filter>CharacterManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AnimEventLoader.cpp">
+				<Filter>CharacterManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AnimEventLoader.h">
+				<Filter>CharacterManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AnimationBase.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AnimationBase.h">
+				<Filter>Common</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AnimationManager.cpp">
+				<Filter>CharacterManager\AnimLoader</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AnimationManager.h">
+				<Filter>CharacterManager\AnimLoader</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentBase.cpp">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentBase.h">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentBone.cpp">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentBone.h">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentFace.cpp">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentFace.h">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentManager.cpp">
+				<Filter>CharacterInstance</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentManager.h">
+				<Filter>CharacterInstance</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentMerged.cpp">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentMerged.h">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentMerger.cpp">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentMerger.h">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentPRow.cpp">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentPRow.h">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentProxy.cpp">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentProxy.h">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentSkin.cpp">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentSkin.h">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentVCloth.cpp">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentVCloth.h">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\CharacterInstance.cpp">
+				<Filter>CharacterInstance</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\CharacterInstance.h">
+				<Filter>CharacterInstance</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\CharacterInstanceProcessing.cpp">
+				<Filter>CharacterInstance</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\CharacterInstanceProcessing.h">
+				<Filter>CharacterInstance</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\CharacterInstance_Render.cpp">
+				<Filter>CharacterInstance</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\CharacterManager.cpp">
+				<Filter>CharacterManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\CharacterManager.h">
+				<Filter>CharacterManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Command_Buffer.cpp">
+				<Filter>CharacterInstance\Command</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Command_Buffer.h">
+				<Filter>CharacterInstance\Command</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Command_Commands.cpp">
+				<Filter>CharacterInstance\Command</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Command_Commands.h">
+				<Filter>CharacterInstance\Command</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Controller.h">
+				<Filter>CharacterManager\AnimLoader</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ControllerDefragHeap.cpp">
+				<Filter>Memory</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ControllerDefragHeap.h">
+				<Filter>Memory</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ControllerOpt.h">
+				<Filter>CharacterManager\AnimLoader</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ControllerPQ.cpp">
+				<Filter>CharacterManager\AnimLoader</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ControllerPQ.h">
+				<Filter>CharacterManager\AnimLoader</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ControllerPQLog.cpp">
+				<Filter>CharacterManager\AnimLoader</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ControllerPQLog.h">
+				<Filter>CharacterManager\AnimLoader</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ControllerTCB.cpp">
+				<Filter>CharacterManager\AnimLoader</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ControllerTCB.h">
+				<Filter>CharacterManager\AnimLoader</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\CryModEffMorph.cpp">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\CryModEffMorph.h">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\DrawHelper.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\DrawHelper.h">
+				<Filter>Common</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\EyeMovementFaceAnim.cpp">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\EyeMovementFaceAnim.h">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceAnimSequence.cpp">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceAnimSequence.h">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceAnimation.cpp">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceAnimation.h">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceChannelKeyCleanup.cpp">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceChannelKeyCleanup.h">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceChannelSmoothing.cpp">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceChannelSmoothing.h">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceEffector.cpp">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceEffector.h">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceEffectorLibrary.cpp">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceEffectorLibrary.h">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceJoystick.cpp">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceJoystick.h">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceState.cpp">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceState.h">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FacialInstance.cpp">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FacialInstance.h">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FacialModel.cpp">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FacialModel.h">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\LipSync.cpp">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\LipSync.h">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\GlobalAnimationHeader.h">
+				<Filter>CharacterManager\AnimLoader</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\GlobalAnimationHeaderAIM.cpp">
+				<Filter>CharacterManager\AnimLoader</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\GlobalAnimationHeaderAIM.h">
+				<Filter>CharacterManager\AnimLoader</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\GlobalAnimationHeaderCAF.cpp">
+				<Filter>CharacterManager\AnimLoader</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\GlobalAnimationHeaderCAF.h">
+				<Filter>CharacterManager\AnimLoader</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\GlobalAnimationHeaderLMG.cpp">
+				<Filter>CharacterManager\AnimLoader</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\GlobalAnimationHeaderLMG.h">
+				<Filter>CharacterManager\AnimLoader</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Helper.h">
+				<Filter>Common</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\LoaderCGA.cpp">
+				<Filter>CharacterManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\LoaderCGA.h">
+				<Filter>CharacterManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\LoaderCHR.cpp">
+				<Filter>CharacterManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\LoaderCHR.h">
+				<Filter>CharacterManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\LoaderDBA.cpp">
+				<Filter>CharacterManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\LoaderDBA.h">
+				<Filter>CharacterManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\LoaderSKIN.cpp">
+				<Filter>CharacterManager</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\LoaderTCB.cpp">
+				<Filter>CharacterManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\LoaderTCB.h">
+				<Filter>CharacterManager</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\AlignedAllocator.h">
+				<Filter>Memory</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\IAllocator.h">
+				<Filter>Memory</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\Memory.cpp">
+				<Filter>Memory</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\Memory.h">
+				<Filter>Memory</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\MultiBuffer.h">
+				<Filter>Memory</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\PolymorphicAllocator.cpp">
+				<Filter>Memory</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\PolymorphicAllocator.h">
+				<Filter>Memory</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\Pool.cpp">
+				<Filter>Memory</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\Pool.h">
+				<Filter>Memory</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\PoolAllocator.cpp">
+				<Filter>Memory</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\PoolAllocator.h">
+				<Filter>Memory</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Model.cpp">
+				<Filter>CharacterManager\ModelRig</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Model.h">
+				<Filter>CharacterManager\ModelRig</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ModelAnimationSet.cpp">
+				<Filter>CharacterManager\ModelRig</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ModelAnimationSet.h">
+				<Filter>CharacterManager\ModelRig</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ModelMesh.cpp">
+				<Filter>CharacterManager\ModelRig</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ModelMesh.h">
+				<Filter>CharacterManager\ModelRig</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ModelMesh_DebugPC.cpp">
+				<Filter>CharacterManager\ModelRig</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ModelSkin.cpp">
+				<Filter>CharacterManager\ModelRig</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ModelSkin.h">
+				<Filter>CharacterManager\ModelRig</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ParamLoader.cpp">
+				<Filter>CharacterManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ParamLoader.h">
+				<Filter>CharacterManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ParametricSampler.cpp">
+				<Filter>CharacterInstance\SkeletonAnim</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ParametricSampler.h">
+				<Filter>CharacterInstance\SkeletonAnim</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PathExpansion.cpp">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PathExpansion.h">
+				<Filter>CharacterInstance\FacialAnimation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\DirectionalBlender.cpp">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\DirectionalBlender.h">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\FeetLock.cpp">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\FeetLock.h">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\LimbIk.cpp">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\LimbIk.h">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\OperatorQueue.cpp">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\OperatorQueue.h">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseAlignerChain.cpp">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseAlignerChain.h">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseBlenderAim.cpp">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseBlenderAim.h">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseBlenderLook.cpp">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseBlenderLook.h">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseMatching.cpp">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseMatching.h">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseModifier.cpp">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseModifier.h">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseModifierDesc.cpp">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseModifierDesc.h">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseModifierHelper.cpp">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseModifierHelper.h">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\Recoil.cpp">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\Recoil.h">
+				<Filter>CharacterInstance\PoseModifier</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\QuatQuantization.h">
+				<Filter>CharacterManager\AnimLoader</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Serialization\SerializationCommon.h">
+				<Filter>Serialization</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Skeleton.cpp">
+				<Filter>CharacterInstance\Skeleton</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Skeleton.h">
+				<Filter>CharacterInstance\Skeleton</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonAnim.cpp">
+				<Filter>CharacterInstance\SkeletonAnim</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonAnim.h">
+				<Filter>CharacterInstance\SkeletonAnim</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonAnim_BlendMan.cpp">
+				<Filter>CharacterInstance\SkeletonAnim</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonAnim_Commands.cpp">
+				<Filter>CharacterInstance\SkeletonAnim</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonAnim_Locator.cpp">
+				<Filter>CharacterInstance\SkeletonAnim</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonAnim_Params.cpp">
+				<Filter>CharacterInstance\SkeletonAnim</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonAnim_Queue.cpp">
+				<Filter>CharacterInstance\SkeletonAnim</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonEffectManager.cpp">
+				<Filter>CharacterInstance</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonEffectManager.h">
+				<Filter>CharacterInstance</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonPhysics.cpp">
+				<Filter>CharacterInstance\SkeletonPhysics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonPhysics.h">
+				<Filter>CharacterInstance\SkeletonPhysics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonPhysics_Jobs.cpp">
+				<Filter>CharacterInstance\SkeletonPhysics</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonPose.cpp">
+				<Filter>CharacterInstance\SkeletonPose</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonPose.h">
+				<Filter>CharacterInstance\SkeletonPose</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonPose_Debug.cpp">
+				<Filter>CharacterInstance\SkeletonPose</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonPose_Process.cpp">
+				<Filter>CharacterInstance\SkeletonPose</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SocketSimulation.cpp">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SocketSimulation.h">
+				<Filter>CharacterInstance\Attachment</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\TransitionQueue.cpp">
+				<Filter>CharacterInstance</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\TransitionQueue.h">
+				<Filter>CharacterInstance</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Vertex\VertexAnimation.cpp">
+				<Filter>Vertex</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Vertex\VertexAnimation.h">
+				<Filter>Vertex</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Vertex\VertexCommand.cpp">
+				<Filter>Vertex</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Vertex\VertexCommand.h">
+				<Filter>Vertex</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Vertex\VertexCommandBuffer.cpp">
+				<Filter>Vertex</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Vertex\VertexCommandBuffer.h">
+				<Filter>Vertex</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Vertex\VertexData.cpp">
+				<Filter>Vertex</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Vertex\VertexData.h">
+				<Filter>Vertex</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\cryanimation.waf_files">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\cvars.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\cvars.h">
+				<Filter>Common</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\resource.h">
+				<Filter>Common</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\stdafx.cpp">
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\stdafx.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\wscript">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+			<Filter Include="CharacterManager">
+				<UniqueIdentifier>{1F269538-F83B-4A77-8246-9149334BCFE3}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CharacterInstance\Attachment">
+				<UniqueIdentifier>{100E9A88-02DA-41D7-82C2-C36F34405B3E}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CharacterInstance\SkeletonAnim">
+				<UniqueIdentifier>{8EEA4CAB-9D7A-42E3-908F-9E3369288808}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CharacterInstance">
+				<UniqueIdentifier>{E20DCB22-5730-409B-B9DE-BEAFA1B1C23C}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CharacterInstance\PoseModifier">
+				<UniqueIdentifier>{2C25A439-87A3-4BF2-8F8D-C51DF7695491}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CharacterManager\AnimLoader">
+				<UniqueIdentifier>{4EA2B8F6-0FDA-41E9-AA1E-6BA612089485}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CharacterManager\ModelRig">
+				<UniqueIdentifier>{EAF29E53-73AE-47B8-94D1-CC1473CF6FD7}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CharacterInstance\Command">
+				<UniqueIdentifier>{40B00057-F84E-44C5-B78F-68BADD1D18C9}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Uber Files">
+				<UniqueIdentifier>{1A8E5137-C0CF-4A7A-8E7E-EE0B26E0BD8E}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Vertex">
+				<UniqueIdentifier>{B22B929B-A524-41A0-AD18-BB3A4E4472E6}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CharacterInstance\SkeletonPhysics">
+				<UniqueIdentifier>{56E4D6B7-190E-4AB9-A71A-34F8B90A250E}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CharacterInstance\FacialAnimation">
+				<UniqueIdentifier>{EFFDE920-79F5-4176-AAEB-ECA195487E41}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CharacterInstance\Skeleton">
+				<UniqueIdentifier>{1B738718-899D-4C23-81AD-654BFFFEF2DA}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Common">
+				<UniqueIdentifier>{D13BC5B6-8B2B-49E1-8F29-777DB17CC563}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Memory">
+				<UniqueIdentifier>{4789F232-83B3-461F-858B-641A1BEF19A3}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Serialization">
+				<UniqueIdentifier>{1ADB0C1D-BE31-40BF-9FA0-665A823707A0}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="_WAF_">
+				<UniqueIdentifier>{88F32D28-D9A2-467A-82CE-4D592F9E94FE}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CharacterInstance\SkeletonPose">
+				<UniqueIdentifier>{7E139232-8103-4B90-9EB9-8E07467C64A9}</UniqueIdentifier>
+			</Filter>
+	</ItemGroup>
+</Project>

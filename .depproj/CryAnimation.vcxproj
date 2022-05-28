@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="[GameZero] Debug|Win32">
+			<Configuration>[GameZero] Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameZero] Debug|x64">
+			<Configuration>[GameZero] Debug</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameZero] Profile|Win32">
+			<Configuration>[GameZero] Profile</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameZero] Profile|x64">
+			<Configuration>[GameZero] Profile</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameZero] Performance|Win32">
+			<Configuration>[GameZero] Performance</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameZero] Performance|x64">
+			<Configuration>[GameZero] Performance</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameZero] Release|Win32">
+			<Configuration>[GameZero] Release</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameZero] Release|x64">
+			<Configuration>[GameZero] Release</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Debug|Win32">
+			<Configuration>[GameSDK] Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Debug|x64">
+			<Configuration>[GameSDK] Debug</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Profile|Win32">
+			<Configuration>[GameSDK] Profile</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Profile|x64">
+			<Configuration>[GameSDK] Profile</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Performance|Win32">
+			<Configuration>[GameSDK] Performance</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Performance|x64">
+			<Configuration>[GameSDK] Performance</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Release|Win32">
+			<Configuration>[GameSDK] Release</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="[GameSDK] Release|x64">
+			<Configuration>[GameSDK] Release</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{77AABA44-AD16-437D-A531-D59E9F7E679A}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<ProjectName>CryAnimation</ProjectName>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Debug|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\.depproj</OutDir>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Debug|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\.depproj</OutDir>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Profile|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\.depproj</OutDir>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Profile|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\.depproj</OutDir>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Performance|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\.depproj</OutDir>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Performance|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\.depproj</OutDir>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Release|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\.depproj</OutDir>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Release|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\.depproj</OutDir>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\.depproj</OutDir>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\.depproj</OutDir>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\.depproj</OutDir>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\.depproj</OutDir>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\.depproj</OutDir>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\.depproj</OutDir>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\.depproj</OutDir>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\.depproj</OutDir>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings">
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameZero] Debug|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameZero] Debug|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameZero] Profile|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameZero] Profile|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameZero] Performance|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameZero] Performance|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameZero] Release|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameZero] Release|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
+		<Import Project="$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props" Condition="exists('$(MSBuildProjectDirectory)\$(MSBuildProjectName).vcxproj.default.props')"/>
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Debug|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_DEBUG;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;_MT;_DLL;_USRDLL;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</IncludePath>
+		<NMakeOutput>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86\CryAnimation.dll</NMakeOutput>
+		<ExecutablePath>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86\CryAnimation.dll</ExecutablePath>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Debug|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_DEBUG;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;_MT;_DLL;_USRDLL;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</IncludePath>
+		<NMakeOutput>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64\CryAnimation.dll</NMakeOutput>
+		<ExecutablePath>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64\CryAnimation.dll</ExecutablePath>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Profile|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_PROFILE;PROFILE;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;_MT;_DLL;_USRDLL;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</IncludePath>
+		<NMakeOutput>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86\CryAnimation.dll</NMakeOutput>
+		<ExecutablePath>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86\CryAnimation.dll</ExecutablePath>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Profile|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_PROFILE;PROFILE;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;_MT;_DLL;_USRDLL;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</IncludePath>
+		<NMakeOutput>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64\CryAnimation.dll</NMakeOutput>
+		<ExecutablePath>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64\CryAnimation.dll</ExecutablePath>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Performance|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;_MT;_DLL;_USRDLL;PURE_CLIENT;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</IncludePath>
+		<NMakeOutput>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_performance\CryAnimation.dll</NMakeOutput>
+		<ExecutablePath>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_performance\CryAnimation.dll</ExecutablePath>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_performance</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Performance|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;_MT;_DLL;_USRDLL;PURE_CLIENT;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</IncludePath>
+		<NMakeOutput>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_performance\CryAnimation.dll</NMakeOutput>
+		<ExecutablePath>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_performance\CryAnimation.dll</ExecutablePath>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_performance</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Release|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_RELEASE;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;_MT;_DLL;_USRDLL;PURE_CLIENT;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</IncludePath>
+		<NMakeOutput>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_release\CryAnimation.dll</NMakeOutput>
+		<ExecutablePath>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_release\CryAnimation.dll</ExecutablePath>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_release</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Release|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_RELEASE;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;_MT;_DLL;_USRDLL;PURE_CLIENT;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</IncludePath>
+		<NMakeOutput>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_release\CryAnimation.dll</NMakeOutput>
+		<ExecutablePath>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_release\CryAnimation.dll</ExecutablePath>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_release</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_DEBUG;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;_MT;_DLL;_USRDLL;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</IncludePath>
+		<NMakeOutput>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86\CryAnimation.dll</NMakeOutput>
+		<ExecutablePath>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86\CryAnimation.dll</ExecutablePath>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_DEBUG;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;_MT;_DLL;_USRDLL;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</IncludePath>
+		<NMakeOutput>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64\CryAnimation.dll</NMakeOutput>
+		<ExecutablePath>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64\CryAnimation.dll</ExecutablePath>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_PROFILE;PROFILE;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;_MT;_DLL;_USRDLL;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</IncludePath>
+		<NMakeOutput>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86\CryAnimation.dll</NMakeOutput>
+		<ExecutablePath>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86\CryAnimation.dll</ExecutablePath>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_PROFILE;PROFILE;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;_MT;_DLL;_USRDLL;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</IncludePath>
+		<NMakeOutput>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64\CryAnimation.dll</NMakeOutput>
+		<ExecutablePath>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64\CryAnimation.dll</ExecutablePath>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;_MT;_DLL;_USRDLL;PURE_CLIENT;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</IncludePath>
+		<NMakeOutput>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_performance\CryAnimation.dll</NMakeOutput>
+		<ExecutablePath>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_performance\CryAnimation.dll</ExecutablePath>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_performance</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;_MT;_DLL;_USRDLL;PURE_CLIENT;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</IncludePath>
+		<NMakeOutput>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_performance\CryAnimation.dll</NMakeOutput>
+		<ExecutablePath>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_performance\CryAnimation.dll</ExecutablePath>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_performance</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_RELEASE;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;_MT;_DLL;_USRDLL;PURE_CLIENT;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</IncludePath>
+		<NMakeOutput>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_release\CryAnimation.dll</NMakeOutput>
+		<ExecutablePath>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_release\CryAnimation.dll</ExecutablePath>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_release</OutDir>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
+		<NMakeBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryAnimation</NMakeCleanCommandLine>
+		<NMakeIncludeSearchPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_RELEASE;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;_MT;_DLL;_USRDLL;PURE_CLIENT;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+		<IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</IncludePath>
+		<NMakeOutput>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_release\CryAnimation.dll</NMakeOutput>
+		<ExecutablePath>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_release\CryAnimation.dll</ExecutablePath>
+		<OutDir>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_release</OutDir>
+	</PropertyGroup>
+	<ItemGroup>
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAnimation\CryAnimation_character_instance_uber_0.cpp' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAnimation\CryAnimation_character_instance_uber_1.cpp' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAnimation\CryAnimation_character_instance_uber_2.cpp' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAnimation\CryAnimation_character_instance_uber_3.cpp' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAnimation\CryAnimation_character_manager_uber.cpp' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAnimation\CryAnimation_uber_0.cpp' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AnimEventList.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AnimEventList.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AnimEventLoader.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AnimEventLoader.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AnimationBase.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AnimationBase.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AnimationManager.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AnimationManager.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentBase.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentBase.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentBone.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentBone.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentFace.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentFace.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentManager.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentManager.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentMerged.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentMerged.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentMerger.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentMerger.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentPRow.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentPRow.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentProxy.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentProxy.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentSkin.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentSkin.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentVCloth.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\AttachmentVCloth.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\CharacterInstance.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\CharacterInstance.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\CharacterInstanceProcessing.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\CharacterInstanceProcessing.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\CharacterInstance_Render.cpp' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\CharacterManager.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\CharacterManager.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Command_Buffer.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Command_Buffer.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Command_Commands.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Command_Commands.h' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Controller.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ControllerDefragHeap.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ControllerDefragHeap.h' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ControllerOpt.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ControllerPQ.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ControllerPQ.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ControllerPQLog.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ControllerPQLog.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ControllerTCB.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ControllerTCB.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\CryModEffMorph.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\CryModEffMorph.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\DrawHelper.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\DrawHelper.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\EyeMovementFaceAnim.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\EyeMovementFaceAnim.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceAnimSequence.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceAnimSequence.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceAnimation.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceAnimation.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceChannelKeyCleanup.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceChannelKeyCleanup.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceChannelSmoothing.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceChannelSmoothing.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceEffector.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceEffector.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceEffectorLibrary.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceEffectorLibrary.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceJoystick.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceJoystick.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceState.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FaceState.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FacialInstance.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FacialInstance.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FacialModel.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\FacialModel.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\LipSync.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\FacialAnimation\LipSync.h' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\GlobalAnimationHeader.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\GlobalAnimationHeaderAIM.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\GlobalAnimationHeaderAIM.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\GlobalAnimationHeaderCAF.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\GlobalAnimationHeaderCAF.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\GlobalAnimationHeaderLMG.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\GlobalAnimationHeaderLMG.h' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Helper.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\LoaderCGA.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\LoaderCGA.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\LoaderCHR.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\LoaderCHR.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\LoaderDBA.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\LoaderDBA.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\LoaderSKIN.cpp' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\LoaderTCB.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\LoaderTCB.h' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\AlignedAllocator.h' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\IAllocator.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\Memory.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\Memory.h' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\MultiBuffer.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\PolymorphicAllocator.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\PolymorphicAllocator.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\Pool.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\Pool.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\PoolAllocator.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Memory\PoolAllocator.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Model.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Model.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ModelAnimationSet.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ModelAnimationSet.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ModelMesh.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ModelMesh.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ModelMesh_DebugPC.cpp' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ModelSkin.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ModelSkin.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ParamLoader.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ParamLoader.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ParametricSampler.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\ParametricSampler.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PathExpansion.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PathExpansion.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\DirectionalBlender.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\DirectionalBlender.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\FeetLock.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\FeetLock.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\LimbIk.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\LimbIk.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\OperatorQueue.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\OperatorQueue.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseAlignerChain.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseAlignerChain.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseBlenderAim.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseBlenderAim.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseBlenderLook.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseBlenderLook.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseMatching.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseMatching.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseModifier.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseModifier.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseModifierDesc.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseModifierDesc.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseModifierHelper.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\PoseModifierHelper.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\Recoil.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\PoseModifier\Recoil.h' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\QuatQuantization.h' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Serialization\SerializationCommon.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Skeleton.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Skeleton.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonAnim.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonAnim.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonAnim_BlendMan.cpp' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonAnim_Commands.cpp' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonAnim_Locator.cpp' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonAnim_Params.cpp' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonAnim_Queue.cpp' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonEffectManager.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonEffectManager.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonPhysics.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonPhysics.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonPhysics_Jobs.cpp' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonPose.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonPose.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonPose_Debug.cpp' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SkeletonPose_Process.cpp' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SocketSimulation.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\SocketSimulation.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\TransitionQueue.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\TransitionQueue.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Vertex\VertexAnimation.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Vertex\VertexAnimation.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Vertex\VertexCommand.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Vertex\VertexCommand.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Vertex\VertexCommandBuffer.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Vertex\VertexCommandBuffer.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Vertex\VertexData.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\Vertex\VertexData.h' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\cryanimation.waf_files' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\cvars.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\cvars.h' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\resource.h' />
+		<ClCompile Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\stdafx.cpp' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\stdafx.h' />
+		<ClInclude Include='c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAnimation\wscript' />
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<Import Project="$(MSBuildProjectDirectory)\..\..\_WAF_\msbuild\waf_build.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

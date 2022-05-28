@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\freetype\cry_ftmodule.h">
+				<Filter>Configuration</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\freetype\cry_ftoption.h">
+				<Filter>Configuration</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\freetype\freetype.waf_files">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\freetype\wscript">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\freetype\src\autofit\autofit.c">
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\freetype\src\base\ftbase.c">
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\freetype\src\base\ftbbox.c">
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\freetype\src\base\ftbitmap.c">
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\freetype\src\base\ftglyph.c">
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\freetype\src\base\ftinit.c">
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\freetype\src\base\ftmm.c">
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\freetype\src\base\ftsystem.c">
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\freetype\src\base\ftwinfnt.c">
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\freetype\src\cache\ftcache.c">
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\freetype\src\psaux\psaux.c">
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\freetype\src\pshinter\pshinter.c">
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\freetype\src\raster\raster.c">
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\freetype\src\sfnt\sfnt.c">
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\freetype\src\smooth\smooth.c">
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\freetype\src\truetype\truetype.c">
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\freetype\src\winfonts\winfnt.c">
+			</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+			<Filter Include="_WAF_">
+				<UniqueIdentifier>{88F32D28-D9A2-467A-82CE-4D592F9E94FE}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Configuration">
+				<UniqueIdentifier>{254F6425-27B4-4BC2-A004-8E30704EDB39}</UniqueIdentifier>
+			</Filter>
+	</ItemGroup>
+</Project>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\oculus\oculus.waf_files">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\oculus\wscript">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\3rdParty\TinyXml\tinyxml2.cpp">
+				<Filter>TinyXml</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\3rdParty\TinyXml\tinyxml2.h">
+				<Filter>TinyXml</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\GL\CAPI_GLE.cpp">
+				<Filter>GL</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\GL\CAPI_GLE.h">
+				<Filter>GL</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\GL\CAPI_GLE_GL.h">
+				<Filter>GL</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Alg.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Alg.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Allocator.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Allocator.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Array.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Atomic.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Atomic.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_CRC32.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_CRC32.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Callbacks.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Callbacks.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_CallbacksInternal.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Color.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Compiler.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_ContainerAllocator.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_DebugHelp.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_DebugHelp.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Delegates.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Deque.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_File.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_File.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_FileFILE.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Hash.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_JSON.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_JSON.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_KeyCodes.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_List.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Lockless.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Lockless.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Log.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Log.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_NewOverride.inl">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Nullptr.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Rand.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Rand.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_RefCount.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_RefCount.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_SharedMemory.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_SharedMemory.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Std.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Std.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_String.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_String.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_StringHash.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_String_FormatUtil.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_String_PathUtil.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_SysFile.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_SysFile.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_System.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_System.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Threads.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_ThreadsPthread.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_ThreadsWinAPI.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Timer.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Timer.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Types.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_UTF8Util.cpp">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_UTF8Util.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_Win32_IncludeWindows.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_mach_exc_OSX.c">
+				<Filter>LibOVRKernel</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Kernel\OVR_mach_exc_OSX.h">
+				<Filter>LibOVRKernel</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Util\Util_Direct3D.cpp">
+				<Filter>Util</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Util\Util_Direct3D.h">
+				<Filter>Util</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Util\Util_GL_Blitter.cpp">
+				<Filter>Util</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Util\Util_GL_Blitter.h">
+				<Filter>Util</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Util\Util_GetSystemSpecs.cpp">
+				<Filter>Util</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Util\Util_ImageWindow.cpp">
+				<Filter>Util</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Util\Util_ImageWindow.h">
+				<Filter>Util</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Util\Util_LongPollThread.cpp">
+				<Filter>Util</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Util\Util_LongPollThread.h">
+				<Filter>Util</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Util\Util_SystemGUI.cpp">
+				<Filter>Util</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Util\Util_SystemGUI.h">
+				<Filter>Util</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Util\Util_SystemInfo.cpp">
+				<Filter>Util</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Util\Util_SystemInfo.h">
+				<Filter>Util</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Util\Util_Watchdog.cpp">
+				<Filter>Util</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVRKernel\Src\Util\Util_Watchdog.h">
+				<Filter>Util</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVR\Include\Extras\OVR_CAPI_Util.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVR\Include\Extras\OVR_Math.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVR\Include\Extras\OVR_StereoProjection.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVR\Include\OVR_CAPI.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVR\Include\OVR_CAPI_Audio.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVR\Include\OVR_CAPI_D3D.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVR\Include\OVR_CAPI_GL.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVR\Include\OVR_CAPI_Keys.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVR\Include\OVR_ErrorCode.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVR\Include\OVR_Version.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVR\Src\OVR_CAPIShim.c">
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVR\Src\OVR_CAPI_Util.cpp">
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVR\Src\OVR_StereoProjection.cpp">
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVR\Src\Resources\Windows\LibOVR.rc">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVR\Src\Resources\Windows\Oculus.ico">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\LibOVR\Src\Resources\Windows\resource.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\Logging\include\Logging_Library.h">
+				<Filter>Logging</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\Logging\include\Logging_OutputPlugins.h">
+				<Filter>Logging</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\Logging\include\Logging_Tools.h">
+				<Filter>Logging</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\Logging\src\Logging_Library.cpp">
+				<Filter>Logging</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\Logging\src\Logging_OutputPlugins.cpp">
+				<Filter>Logging</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OculusSDK\Logging\src\internal\Logging_Tools.cpp">
+				<Filter>Logging</Filter>
+			</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+			<Filter Include="LibOVRKernel">
+				<UniqueIdentifier>{8808D041-687B-4F9F-82C4-6D82895AF9C3}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Logging">
+				<UniqueIdentifier>{8DB7DF66-AB1D-4AB5-B1DC-947ACDB5FAE4}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="_WAF_">
+				<UniqueIdentifier>{88F32D28-D9A2-467A-82CE-4D592F9E94FE}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Util">
+				<UniqueIdentifier>{23E8A4B4-F7CC-4898-AF12-B4E6E48852BB}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="TinyXml">
+				<UniqueIdentifier>{7618A196-32FD-4CBD-8B45-A34AC20A0134}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="GL">
+				<UniqueIdentifier>{AD709392-37C6-40D6-B8FE-79884D91449B}</UniqueIdentifier>
+			</Filter>
+	</ItemGroup>
+</Project>

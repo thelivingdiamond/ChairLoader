@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Widgets">
+      <UniqueIdentifier>{3cc316b5-4bce-42a7-9099-c43d797973dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widgets\PropertyTree">
+      <UniqueIdentifier>{1e5b3958-7889-44d2-87ea-c79aa6b21ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widgets\PropertyTree\PropertyRows">
+      <UniqueIdentifier>{32d48272-173e-4280-aa8d-fa4bc21f4694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editors">
+      <UniqueIdentifier>{79aee039-cb8f-48e0-bf05-b84514e053d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32">
+      <UniqueIdentifier>{231c973c-6b98-4ac6-80c7-270afd096315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{81ffd3c7-9131-43ef-bc71-debdd7488bec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decorators">
+      <UniqueIdentifier>{cb62956c-8302-424a-95a4-584e767b2404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{25f63a12-801b-4aac-8345-c6917267a5ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{7714a1c4-8d45-4a99-b2ce-4deacf63497f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_Enums.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBox.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckComboBox.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassMenu.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorRect.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboBox.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Entry.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="HLine.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuBar.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupMenu.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="RadioButton.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="RadioButtonBox.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Slider.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Tabs.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Tooltip.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewport2D.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyDrawContext.h">
+      <Filter>Widgets\PropertyTree</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyIArchive.h">
+      <Filter>Widgets\PropertyTree</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyOArchive.h">
+      <Filter>Widgets\PropertyTree</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyRow.h">
+      <Filter>Widgets\PropertyTree</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyRowField.h">
+      <Filter>Widgets\PropertyTree</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyTree.h">
+      <Filter>Widgets\PropertyTree</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyTreeModel.h">
+      <Filter>Widgets\PropertyTree</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyTreeOperator.h">
+      <Filter>Widgets\PropertyTree</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeImpl.h">
+      <Filter>Widgets\PropertyTree</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyRowBitVector.h">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorChooser.h">
+      <Filter>Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorChooserDialog.h">
+      <Filter>Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorRamp.h">
+      <Filter>Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorDialog.h">
+      <Filter>Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="HotkeyButton.h">
+      <Filter>Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="HotkeyDialog.h">
+      <Filter>Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyEditor.h">
+      <Filter>Editors</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\Drawing.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\Handle.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\MemoryDC.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\MessageLoop.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\Rectangle.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\Types.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="API.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Clipboard.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstStringList.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcludeClipRectVisitor.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDialog.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Files.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Icon.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyPress.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeCast.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Unicode.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Vect2.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorators.h">
+      <Filter>Decorators</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSelector.h">
+      <Filter>Decorators</Filter>
+    </ClInclude>
+    <ClInclude Include="SliderDecorator.h">
+      <Filter>Decorators</Filter>
+    </ClInclude>
+    <ClInclude Include="_WidgetWindow.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="_WidgetWithWindow.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="HotkeyContext.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Widget.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Proxy.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="HBox.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="HSplitter.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrolledWindow.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Splitter.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitterImpl.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="VBox.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="VSplitter.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Win32\Window32.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="gdiplusUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyRowBool.h">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyRowContainer.h">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyRowPointer.h">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyRowString.h">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyRowStringListValue.h">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyRowNumeric.h">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyRowObject.h">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Button.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckBox.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckComboBox.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorRect.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboBox.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Entry.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="HLine.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuBar.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupMenu.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="RadioButton.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="RadioButtonBox.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Slider.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Tabs.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Tooltip.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewport2D.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyDrawContext.cpp">
+      <Filter>Widgets\PropertyTree</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyIArchive.cpp">
+      <Filter>Widgets\PropertyTree</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyOArchive.cpp">
+      <Filter>Widgets\PropertyTree</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyRowField.cpp">
+      <Filter>Widgets\PropertyTree</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyRowIcon.cpp">
+      <Filter>Widgets\PropertyTree</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyTree.cpp">
+      <Filter>Widgets\PropertyTree</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyTreeModel.cpp">
+      <Filter>Widgets\PropertyTree</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyTreeOperator.cpp">
+      <Filter>Widgets\PropertyTree</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeImpl.cpp">
+      <Filter>Widgets\PropertyTree</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyRow.cpp">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyRowBitVector.cpp">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyRowColor.cpp">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyRowDecorators.cpp">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyRowFileSelector.cpp">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyRowHotkey.cpp">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyRowSlider.cpp">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorChooser.cpp">
+      <Filter>Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorChooserDialog.cpp">
+      <Filter>Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorRamp.cpp">
+      <Filter>Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorDialog.cpp">
+      <Filter>Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="HotkeyButton.cpp">
+      <Filter>Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="HotkeyDialog.cpp">
+      <Filter>Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyEditor.cpp">
+      <Filter>Editors</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\Drawing.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\MemoryDC.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\MessageLoop.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Clipboard.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstStringList.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="FileDialog.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Files.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Icon.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyPress.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Unicode.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect2.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSelector.cpp">
+      <Filter>Decorators</Filter>
+    </ClCompile>
+    <ClCompile Include="SliderDecorator.cpp">
+      <Filter>Decorators</Filter>
+    </ClCompile>
+    <ClCompile Include="_WidgetWindow.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="_WidgetWithWindow.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="HotkeyContext.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Proxy.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrolledWindow.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Splitter.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="Win32\Window32.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyRowBool.cpp">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyRowContainer.cpp">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyRowPointer.cpp">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyRowString.cpp">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyRowStringListValue.cpp">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyRowNumeric.cpp">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyRowObject.cpp">
+      <Filter>Widgets\PropertyTree\PropertyRows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="labels.txt" />
+    <None Include="..\LICENSE.txt" />
+  </ItemGroup>
+</Project>

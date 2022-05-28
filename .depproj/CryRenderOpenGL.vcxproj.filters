@@ -1,0 +1,1573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryRenderOpenGL\CryGpuParticles_uber.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryRenderOpenGL\CryRenderer_render_elements_uber_0.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryRenderOpenGL\CryRenderer_render_elements_uber_1.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryRenderOpenGL\CryRenderer_textures_uber.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryRenderOpenGL\CryRenderer_uber_0.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryRenderOpenGL\CryRenderer_uber_1.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryRenderOpenGL\CryRenderer_uber_2.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryRenderOpenGL\CryRenderer_uber_3.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryRenderOpenGL\CryRenderer_uber_4.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryRenderOpenGL\CryRenderer_uber_5.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryRenderOpenGL\CryRenderer_uber_6.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\CommonRender.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\CommonRender.h">
+				<Filter>Common_h</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\CryDeviceWrapper.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\CryNameR.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\DeferredRenderUtils.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\DeferredRenderUtils.h">
+				<Filter>Common_h</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Defs.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\DevBuffer.h">
+				<Filter>DeviceManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\FencedBuffer.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\FencedBuffer.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\IColorGradingControllerInt.h">
+				<Filter>Common_h</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\ISmartGlassContext.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Include_HLSL_CPP_Shared.h">
+				<Filter>Common</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\IntroMovieRenderer.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\IntroMovieRenderer.h">
+				<Filter>Common</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\LightVolumeBuffer.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\LightVolumeBuffer.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\LockFreeAddVector.h">
+				<Filter>Common_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\MatrixStack.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\OcclQuery.h">
+				<Filter>Common_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\ParticleBuffer.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\ParticleBuffer.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\PostProcess\PostEffects.cpp">
+				<Filter>Common\PostProcess</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\PostProcess\PostEffects.h">
+				<Filter>Common\PostProcess</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\PostProcess\PostProcess.cpp">
+				<Filter>Common\PostProcess</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\PostProcess\PostProcess.h">
+				<Filter>Common\PostProcess</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\PostProcess\PostProcessUtils.cpp">
+				<Filter>Common\PostProcess</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\PostProcess\PostProcessUtils.h">
+				<Filter>Common\PostProcess</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\AbstractMeshElement.cpp">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\AbstractMeshElement.h">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREBeam.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREBeam.h">
+				<Filter>Common\RendElements_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREBreakableGlass.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREClientPoly.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREClientPoly.h">
+				<Filter>Common\RendElements_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CRECloud.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CRECloud.h">
+				<Filter>Common\RendElements_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREDeferredShading.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREDeferredShading.h">
+				<Filter>Common\RendElements_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREFarTreeSprites.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREFogVolume.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREGameEffect.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREGeomCache.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREHDRProcess.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREHDRProcess.h">
+				<Filter>Common\RendElements_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREImposter.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CRELensOptics.h">
+				<Filter>Common\RendElements_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CRELightPropagationVolume.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREMesh.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREMeshImpl.h">
+				<Filter>Common\RendElements_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREOclusionQuery.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREParticle.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREPostProcess.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREPrismObject.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CRESky.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREVolumeObject.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREWaterOcean.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CREWaterVolume.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CameraOrbs.cpp">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\CameraOrbs.h">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\ChromaticRing.cpp">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\ChromaticRing.h">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\FlareSoftOcclusionQuery.cpp">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\FlareSoftOcclusionQuery.h">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\Ghost.cpp">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\Ghost.h">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\Glow.cpp">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\Glow.h">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\ImageSpaceShafts.cpp">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\ImageSpaceShafts.h">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\Interpolator.h">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\IrisShafts.cpp">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\IrisShafts.h">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\MeshUtil.cpp">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\MeshUtil.h">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\OpticsElement.cpp">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\OpticsElement.h">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\OpticsFactory.cpp">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\OpticsFactory.h">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\OpticsGroup.cpp">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\OpticsGroup.h">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\OpticsPredef.hpp">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\OpticsProxy.cpp">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\OpticsProxy.h">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\OpticsReference.cpp">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\OpticsReference.h">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\RendElement.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\RootOpticsElement.cpp">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\RootOpticsElement.h">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\Stars.h">
+				<Filter>Common\RendElements_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\Streaks.cpp">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\Streaks.h">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\Timeline.h">
+				<Filter>Common\RendElements\LensOptics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\Utils\PolygonMath2D.cpp">
+				<Filter>Common\RendElements\Utils</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\Utils\PolygonMath2D.h">
+				<Filter>Common\RendElements\Utils</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendElements\Utils\SpatialHashGrid.h">
+				<Filter>Common\RendElements\Utils</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RenderAuxGeom.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RenderAuxGeom.h">
+				<Filter>Common_h</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RenderFrameProfiler.h">
+				<Filter>Common_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RenderItemDrawer.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RenderItemDrawer.h">
+				<Filter>Common_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RenderMesh.cpp">
+				<Filter>Common\RenderMesh</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RenderMesh.h">
+				<Filter>Common\RenderMesh</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RenderMesh_Render.cpp">
+				<Filter>Common\RenderMesh</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RenderMesh_SetMesh.cpp">
+				<Filter>Common\RenderMesh</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RenderPipeline.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RenderPipeline.h">
+				<Filter>Common_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RenderThread.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RenderThread.h">
+				<Filter>Common_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RenderView.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RenderView.h">
+				<Filter>Common_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Renderer.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Renderer.h">
+				<Filter>Common_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendererCVars.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\RendererCVars.h">
+				<Filter>Common_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Renderer_Jobs.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\ResFile.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\ResFile.h">
+				<Filter>Common_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\ResFileLookupDataMan.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\ResFileLookupDataMan.h">
+				<Filter>Common</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\ResFile_info.h">
+				<Filter>Common_h</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\ReverseDepth.h">
+				<Filter>Common_h</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\CShader.h">
+				<Filter>Common\Shaders</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\CShaderBin.h">
+				<Filter>Common\Shaders</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\Parser.cpp">
+				<Filter>Common\Shaders</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\Parser.h">
+				<Filter>Common\Shaders</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\ParserBin.cpp">
+				<Filter>Common\Shaders</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\ParserBin.h">
+				<Filter>Common\Shaders</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\RemoteCompiler.cpp">
+				<Filter>Common\Shaders</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\RemoteCompiler.h">
+				<Filter>Common\Shaders</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\Shader.h">
+				<Filter>Common\Shaders</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\ShaderAllocator.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\ShaderCache.cpp">
+				<Filter>Common\Shaders</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\ShaderCache.h">
+				<Filter>Common\Shaders</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\ShaderComponents.cpp">
+				<Filter>Common\Shaders</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\ShaderComponents.h">
+				<Filter>Common\Shaders</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\ShaderCore.cpp">
+				<Filter>Common\Shaders</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\ShaderFXParseBin.cpp">
+				<Filter>Common\Shaders</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\ShaderParse.cpp">
+				<Filter>Common\Shaders</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\ShaderResources.cpp">
+				<Filter>Common\Shaders</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\ShaderResources.h">
+				<Filter>Common\Shaders</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\ShaderScript.cpp">
+				<Filter>Common\Shaders</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\ShaderSerialize.cpp">
+				<Filter>Common\Shaders</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\ShaderSerialize.h">
+				<Filter>Common\Shaders</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shaders\ShaderTemplate.cpp">
+				<Filter>Common\Shaders</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\ShadowUtils.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\ShadowUtils.h">
+				<Filter>Common_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shadow_Renderer.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Shadow_Renderer.h">
+				<Filter>Common_h</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\SmartGlassContext.h">
+				<Filter>Common</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\TextMessages.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\TextMessages.h">
+				<Filter>Common</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\DynTexture.cpp">
+				<Filter>Common\Textures</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\ITextureStreamer.cpp">
+				<Filter>Common\Textures</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\ITextureStreamer.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\Image\CImage.cpp">
+				<Filter>Common\Textures\Image</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\Image\CImage.h">
+				<Filter>Common\Textures\Image\Image_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\Image\DDSImage.cpp">
+				<Filter>Common\Textures\Image</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\Image\DDSImage.h">
+				<Filter>Common\Textures\Image\Image_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\Image\JpgImage.cpp">
+				<Filter>Common\Textures\Image</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\Image\TgaImage.cpp">
+				<Filter>Common\Textures\Image</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\PlanningTextureStreamer.cpp">
+				<Filter>Common\Textures</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\PlanningTextureStreamer.h">
+				<Filter>Common\Textures</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\PlanningTextureStreamer_Jobs.cpp">
+				<Filter>Common\Textures</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\PowerOf2BlockPacker.cpp">
+				<Filter>Common\Textures</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\PowerOf2BlockPacker.h">
+				<Filter>Common\Textures</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\StatoscopeTextureStreaming.cpp">
+				<Filter>Common\Textures</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\StatoscopeTextureStreaming.h">
+				<Filter>Common\Textures</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\Texture.cpp">
+				<Filter>Common\Textures</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\Texture.h">
+				<Filter>Common\Textures</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\TextureArrayAlloc.h">
+				<Filter>Common\Textures</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\TextureCompiler.cpp">
+				<Filter>Common\Textures</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\TextureCompiler.h">
+				<Filter>Common\Textures</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\TextureHelpers.cpp">
+				<Filter>Common\Textures</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\TextureHelpers.h">
+				<Filter>Common\Textures</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\TextureManager.cpp">
+				<Filter>Common\Textures</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\TextureManager.h">
+				<Filter>Common\Textures</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\TextureStreamPool.h">
+				<Filter>Common\Textures</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\Textures\TextureStreaming.cpp">
+				<Filter>Common\Textures</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\WaterUtils.cpp">
+				<Filter>Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\Common\WaterUtils.h">
+				<Filter>Common_h</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\StdAfx.cpp">
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\StdAfx.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\BenchmarkCustom\BenchmarkRendererSensor.cpp">
+				<Filter>Source Files\Benchmark Customization</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\BenchmarkCustom\BenchmarkRendererSensor.h">
+				<Filter>Source Files\Benchmark Customization</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\CRELensOpticsD3D.cpp">
+				<Filter>Common\RendElements</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\CompiledRenderObject.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\CompiledRenderObject.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DAmbientOcclusion.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DColorGradingController.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DColorGradingController.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DDebug.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DDebug.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DDeferredPasses.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DDeferredRender.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DDeferredShading.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DDeferredShading.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DFXPipeline.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DFont.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DHDRRender.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DHWShader.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DHWShader.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DHWShaderCompiling.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DLightPropagationVolume.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DLightPropagationVolume.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DLog.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DMemReplayDevice.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DMemReplayDevice.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DMeshBaker.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DOcclQuery.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DOculus.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DOculus.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DOpenVR.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DOpenVR.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DOsvr.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DOsvr.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DPostProcess.cpp">
+				<Filter>Source Files\D3DPostProcess</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DPostProcess.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DREBreakableGlass.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DREBreakableGlassBuffer.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DREBreakableGlassBuffer.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DRECloud.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DREImposter.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DRendPipeline.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DRendPipeline_Jobs.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DRenderAuxGeom.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DRenderAuxGeom.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DRenderRE.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DRenderThread.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DShaders.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DShadows.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DSprites.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DStereo.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DStereo.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DSystem.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DTexture.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DTextureStreamPool.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DTexturesStreaming.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DTiledShading.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DTiledShading.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DVolumetricClouds.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DVolumetricClouds.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DVolumetricFog.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3DVolumetricFog.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3D_SVO.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\D3D_SVO.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\CryDXGL.cpp">
+				<Filter>DXGL</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\CryDXGL.hpp">
+				<Filter>DXGL</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Definitions\CryDXGLGuid.hpp">
+				<Filter>DXGL\Definitions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Definitions\CryDXGLLegacy.hpp">
+				<Filter>DXGL\Definitions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Definitions\CryDXGLMisc.hpp">
+				<Filter>DXGL\Definitions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Definitions\DXGL_D3D11.h">
+				<Filter>DXGL\Definitions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Definitions\DXGL_D3D11Shader.h">
+				<Filter>DXGL\Definitions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Definitions\DXGL_D3DCommon.h">
+				<Filter>DXGL\Definitions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Definitions\DXGL_D3DCompiler.h">
+				<Filter>DXGL\Definitions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Definitions\DXGL_D3DX11.h">
+				<Filter>DXGL\Definitions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Definitions\DXGL_D3DX11tex.h">
+				<Filter>DXGL\Definitions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Definitions\DXGL_DXGIFormat.h">
+				<Filter>DXGL\Definitions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Definitions\DXGL_ID3D11Device.h">
+				<Filter>DXGL\Definitions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Definitions\DXGL_ID3D11DeviceContext.h">
+				<Filter>DXGL\Definitions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Definitions\DXGL_IDXGIFactory1.h">
+				<Filter>DXGL\Definitions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Definitions\DXGL_IDXGISwapChain.h">
+				<Filter>DXGL\Definitions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Definitions\DXGL_dxgi.h">
+				<Filter>DXGL\Definitions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Definitions\DXGL_dxgitype.h">
+				<Filter>DXGL\Definitions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Definitions\ICryDXGLUnknown.hpp">
+				<Filter>DXGL\Definitions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\AppleGPUInfoUtils.h">
+				<Filter>DXGL\Implementation</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\AppleGPUInfoUtils.mm">
+				<Filter>Mac</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\GLCommon.hpp">
+				<Filter>DXGL\Implementation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\GLContext.cpp">
+				<Filter>DXGL\Implementation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\GLContext.hpp">
+				<Filter>DXGL\Implementation</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\GLCryPlatform.hpp">
+				<Filter>DXGL\Implementation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\GLDevice.cpp">
+				<Filter>DXGL\Implementation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\GLDevice.hpp">
+				<Filter>DXGL\Implementation</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\GLFeatures.hpp">
+				<Filter>DXGL\Implementation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\GLFormat.cpp">
+				<Filter>DXGL\Implementation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\GLFormat.hpp">
+				<Filter>DXGL\Implementation</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\GLInstrument.hpp">
+				<Filter>DXGL\Implementation</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\GLPlatform.hpp">
+				<Filter>DXGL\Implementation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\GLResource.cpp">
+				<Filter>DXGL\Implementation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\GLResource.hpp">
+				<Filter>DXGL\Implementation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\GLShader.cpp">
+				<Filter>DXGL\Implementation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\GLShader.hpp">
+				<Filter>DXGL\Implementation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\GLState.cpp">
+				<Filter>DXGL\Implementation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\GLState.hpp">
+				<Filter>DXGL\Implementation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\GLView.cpp">
+				<Filter>DXGL\Implementation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Implementation\GLView.hpp">
+				<Filter>DXGL\Implementation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLBase.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLBase.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLBlendState.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLBlendState.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLBlob.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLBlob.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLBuffer.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLBuffer.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLDepthStencilState.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLDepthStencilState.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLDepthStencilView.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLDepthStencilView.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLDevice.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLDevice.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLDeviceChild.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLDeviceChild.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLDeviceContext.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLDeviceContext.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLGIAdapter.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLGIAdapter.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLGIFactory.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLGIFactory.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLGIObject.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLGIObject.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLGIOutput.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLGIOutput.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLInputLayout.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLInputLayout.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLQuery.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLQuery.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLRasterizerState.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLRasterizerState.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLRenderTargetView.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLRenderTargetView.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLResource.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLResource.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLSamplerState.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLSamplerState.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLShader.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLShader.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLShaderReflection.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLShaderReflection.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLShaderResourceView.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLShaderResourceView.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLSwapChain.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLSwapChain.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLSwitchToRef.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLSwitchToRef.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLTexture1D.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLTexture1D.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLTexture2D.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLTexture2D.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLTexture3D.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLTexture3D.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLTextureBase.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLTextureBase.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLUnorderedAccessView.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLUnorderedAccessView.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLView.cpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\CCryDXGLView.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Interfaces\DXEmulation.hpp">
+				<Filter>DXGL\Interfaces</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Specification\glad_gl.c">
+				<Filter>DXGL\Specification</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Specification\glad_gl.h">
+				<Filter>DXGL\Specification</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Specification\glad_wgl.c">
+				<Filter>DXGL\Specification</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DXGL\Specification\glad_wgl.h">
+				<Filter>DXGL\Specification</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DevBuffer.cpp">
+				<Filter>DeviceManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DeviceInfo.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DeviceInfo.inl">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DeviceManager\DeviceManager.cpp">
+				<Filter>DeviceManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DeviceManager\DeviceManager.h">
+				<Filter>DeviceManager</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DeviceManager\DeviceManagerInline.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DeviceManager\DeviceManager_D3D11.inl">
+				<Filter>DeviceManager</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DeviceManager\DeviceManager_D3D11_NVAPI.h">
+				<Filter>DeviceManager</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DeviceManager\DeviceManager_D3D11_NVAPI.inl">
+				<Filter>DeviceManager</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DeviceManager\DeviceManager_D3D12.inl">
+				<Filter>DeviceManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DeviceManager\DeviceWrapper12.cpp">
+				<Filter>DeviceManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DeviceManager\DeviceWrapper12.h">
+				<Filter>DeviceManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DeviceManager\DeviceWrapper12_D3D11.cpp">
+				<Filter>DeviceManager</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DeviceManager\DeviceWrapper12_D3D12.cpp">
+				<Filter>DeviceManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DeviceManager\TempDynBuffer.h">
+				<Filter>DeviceManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DriverD3D.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\DriverD3D.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GPUTimer.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GPUTimer.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\GpuBitonicSort.cpp">
+				<Filter>Source Files\Gpu</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\GpuBitonicSort.h">
+				<Filter>Header Files\Gpu</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\GpuComputeBackend.cpp">
+				<Filter>Source Files\Gpu</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\GpuComputeBackend.h">
+				<Filter>Header Files\Gpu</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\GpuMergeSort.cpp">
+				<Filter>Source Files\Gpu</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\CREGpuParticle.cpp">
+				<Filter>Source Files\Gpu\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\CREGpuParticle.h">
+				<Filter>Header Files\Gpu\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleComponentRuntime.cpp">
+				<Filter>Source Files\Gpu\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleComponentRuntime.h">
+				<Filter>Header Files\Gpu\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleContainer.cpp">
+				<Filter>Source Files\Gpu\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleContainer.h">
+				<Filter>Header Files\Gpu\Particles</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureBase.h">
+				<Filter>Header Files\Gpu\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureCollision.cpp">
+				<Filter>Source Files\Gpu\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureCollision.h">
+				<Filter>Header Files\Gpu\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureColor.cpp">
+				<Filter>Source Files\Gpu\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureColor.h">
+				<Filter>Header Files\Gpu\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureFactory.cpp">
+				<Filter>Source Files\Gpu\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureFactory.h">
+				<Filter>Header Files\Gpu\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureField.cpp">
+				<Filter>Source Files\Gpu\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureField.h">
+				<Filter>Header Files\Gpu\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureFluidDynamics.cpp">
+				<Filter>Source Files\Gpu\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureFluidDynamics.h">
+				<Filter>Header Files\Gpu\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureLifeTime.cpp">
+				<Filter>Source Files\Gpu\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureLifeTime.h">
+				<Filter>Header Files\Gpu\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureLocation.cpp">
+				<Filter>Source Files\Gpu\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureLocation.h">
+				<Filter>Header Files\Gpu\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureMotion.cpp">
+				<Filter>Source Files\Gpu\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureMotion.h">
+				<Filter>Header Files\Gpu\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureRender.cpp">
+				<Filter>Source Files\Gpu\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureRender.h">
+				<Filter>Header Files\Gpu\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureSpawn.cpp">
+				<Filter>Source Files\Gpu\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureSpawn.h">
+				<Filter>Header Files\Gpu\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureVelocity.cpp">
+				<Filter>Source Files\Gpu\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleFeatureVelocity.h">
+				<Filter>Header Files\Gpu\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleManager.cpp">
+				<Filter>Source Files\Gpu\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Particles\GpuParticleManager.h">
+				<Filter>Header Files\Gpu\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Physics\GpuPhysicsParticleFluid.cpp">
+				<Filter>Source Files\Gpu\Physics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\Gpu\Physics\GpuPhysicsParticleFluid.h">
+				<Filter>Header Files\Gpu\Physics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\AutoExposure.cpp">
+				<Filter>GraphicsPipeline</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\AutoExposure.h">
+				<Filter>GraphicsPipeline</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\Bloom.cpp">
+				<Filter>GraphicsPipeline</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\Bloom.h">
+				<Filter>GraphicsPipeline</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\Common\FullscreenPass.cpp">
+				<Filter>GraphicsPipeline\Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\Common\FullscreenPass.h">
+				<Filter>GraphicsPipeline\Common</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\Common\GraphicsPipeline.h">
+				<Filter>GraphicsPipeline\Common</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\Common\GraphicsPipelineStage.h">
+				<Filter>GraphicsPipeline\Common</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\Common\GraphicsPipelineStateSet.cpp">
+				<Filter>GraphicsPipeline\Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\Common\GraphicsPipelineStateSet.h">
+				<Filter>GraphicsPipeline\Common</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\Common\PrimitiveRenderPass.cpp">
+				<Filter>GraphicsPipeline\Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\Common\PrimitiveRenderPass.h">
+				<Filter>GraphicsPipeline\Common</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\Common\SceneRenderPass.cpp">
+				<Filter>GraphicsPipeline\Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\Common\SceneRenderPass.h">
+				<Filter>GraphicsPipeline\Common</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\Common\UtilityPasses.cpp">
+				<Filter>GraphicsPipeline\Common</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\Common\UtilityPasses.h">
+				<Filter>GraphicsPipeline\Common</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\Common\VolumeRenderPass.h">
+				<Filter>GraphicsPipeline\Common</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\DepthOfField.cpp">
+				<Filter>GraphicsPipeline</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\DepthOfField.h">
+				<Filter>GraphicsPipeline</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\HeightMapAO.cpp">
+				<Filter>GraphicsPipeline</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\HeightMapAO.h">
+				<Filter>GraphicsPipeline</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\MotionBlur.cpp">
+				<Filter>GraphicsPipeline</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\MotionBlur.h">
+				<Filter>GraphicsPipeline</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\PostAA.cpp">
+				<Filter>GraphicsPipeline</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\PostAA.h">
+				<Filter>GraphicsPipeline</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\SceneForward.cpp">
+				<Filter>GraphicsPipeline</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\SceneForward.h">
+				<Filter>GraphicsPipeline</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\SceneGBuffer.cpp">
+				<Filter>GraphicsPipeline</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\SceneGBuffer.h">
+				<Filter>GraphicsPipeline</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\ScreenSpaceObscurance.cpp">
+				<Filter>GraphicsPipeline</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\ScreenSpaceObscurance.h">
+				<Filter>GraphicsPipeline</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\ScreenSpaceReflections.cpp">
+				<Filter>GraphicsPipeline</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\ScreenSpaceReflections.h">
+				<Filter>GraphicsPipeline</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\ScreenSpaceSSS.cpp">
+				<Filter>GraphicsPipeline</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\ScreenSpaceSSS.h">
+				<Filter>GraphicsPipeline</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\ShadowMap.cpp">
+				<Filter>GraphicsPipeline</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\ShadowMap.h">
+				<Filter>GraphicsPipeline</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\StandardGraphicsPipeline.cpp">
+				<Filter>GraphicsPipeline</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\StandardGraphicsPipeline.h">
+				<Filter>GraphicsPipeline</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\SunShafts.cpp">
+				<Filter>GraphicsPipeline</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\SunShafts.h">
+				<Filter>GraphicsPipeline</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\ToneMapping.cpp">
+				<Filter>GraphicsPipeline</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\GraphicsPipeline\ToneMapping.h">
+				<Filter>GraphicsPipeline</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\NullD3D11Device.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\PipelineProfiler.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\PipelineProfiler.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\PostProcessDOF.cpp">
+				<Filter>Source Files\D3DPostProcess</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\PostProcessFilters.cpp">
+				<Filter>Source Files\D3DPostProcess</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\PostProcessGame.cpp">
+				<Filter>Source Files\D3DPostProcess</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\PostProcessHud3D.cpp">
+				<Filter>Source Files\D3DPostProcess</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\PostProcessMisc.cpp">
+				<Filter>Source Files\D3DPostProcess</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\PostProcessMotionBlur.cpp">
+				<Filter>Source Files\D3DPostProcess</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\PostProcessRain.cpp">
+				<Filter>Source Files\D3DPostProcess</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\PostProcessRenderModes.cpp">
+				<Filter>Source Files\D3DPostProcess</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\PostProcessSnow.cpp">
+				<Filter>Source Files\D3DPostProcess</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\PostProcessSunShafts.cpp">
+				<Filter>Source Files\D3DPostProcess</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\PostProcessWater.cpp">
+				<Filter>Source Files\D3DPostProcess</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\ResourceCompilerHelpers.cpp">
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\ShadowTextureGroupManager.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\SmartGlassContext.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\SmartGlassManager.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\SmartGlassManager.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\StatoscopeRenderStats.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\StatoscopeRenderStats.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\core_renderer.waf_files">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\mesh_baker.waf_files">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\opengl_loader_gl.waf_files">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\opengl_loader_wgl.waf_files">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\opengl_renderer.waf_files">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\resource.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\RenderDll\XRenderD3D9\wscript">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+			<Filter Include="DXGL\Specification">
+				<UniqueIdentifier>{B3A2176C-7DCD-4050-AB2A-CA3E0EFBFC6D}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Common\Shaders">
+				<UniqueIdentifier>{CF5759E1-28A9-480B-B1E9-BF36E5436C01}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Source Files\Gpu\Particles">
+				<UniqueIdentifier>{20ABA445-6179-468D-BEA7-617FCA4D34A6}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Source Files\Gpu">
+				<UniqueIdentifier>{E89C1A1A-FC63-486D-9A60-22539A861EBE}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Common\RendElements\LensOptics">
+				<UniqueIdentifier>{49588AC7-1D3B-44D4-A1C6-DC10D9F4AA57}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Header Files">
+				<UniqueIdentifier>{1680C80B-FF1E-4A4D-9817-CC12254F2E40}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Common\Textures">
+				<UniqueIdentifier>{9484D3B0-1CD9-4AF5-92F0-698DFB0B3BAB}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Common\RendElements_h">
+				<UniqueIdentifier>{065C9585-9B09-4FE2-AACB-15772E49FBB4}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Header Files\Gpu\Particles">
+				<UniqueIdentifier>{31133C0B-1F5F-4B73-BA40-7BC1498772E0}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="DXGL\Interfaces">
+				<UniqueIdentifier>{BC8BFF96-395D-4B0D-A895-EA9F1CFD1FB2}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Mac">
+				<UniqueIdentifier>{1748C064-4A50-4908-94D3-E170723CCC5C}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Common\RenderMesh">
+				<UniqueIdentifier>{799F89CA-DCB3-47C3-8116-E10228E81C70}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Header Files\Gpu">
+				<UniqueIdentifier>{3E48EB4B-9C72-4ED9-BAE4-C9E6A537EEB7}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="GraphicsPipeline">
+				<UniqueIdentifier>{D54AF574-777E-4C4C-965D-0E8651A6C866}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="_WAF_">
+				<UniqueIdentifier>{88F32D28-D9A2-467A-82CE-4D592F9E94FE}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Header Files\Gpu\Physics">
+				<UniqueIdentifier>{FAACB247-C403-4A34-B588-B5DE52A8BCAE}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="DXGL\Definitions">
+				<UniqueIdentifier>{B8E256FA-49F7-46DC-B79F-E33FB3282C49}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Uber Files">
+				<UniqueIdentifier>{1A8E5137-C0CF-4A7A-8E7E-EE0B26E0BD8E}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Source Files\Benchmark Customization">
+				<UniqueIdentifier>{38F7368D-A90C-43ED-AA2A-829E58608394}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="DXGL\Implementation">
+				<UniqueIdentifier>{902CAE7A-8A6A-4394-8D6B-0C6CB4A4759C}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Common">
+				<UniqueIdentifier>{D13BC5B6-8B2B-49E1-8F29-777DB17CC563}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Common\Textures\Image">
+				<UniqueIdentifier>{A1EE2ADA-8FFE-44A9-B182-51F2C8AC32A3}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="GraphicsPipeline\Common">
+				<UniqueIdentifier>{9657E72E-B12F-4B5E-96E7-FBDD730372DF}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Common\RendElements">
+				<UniqueIdentifier>{D4753C1A-39C4-4311-821E-927DBB4792FD}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Common\RendElements\Utils">
+				<UniqueIdentifier>{1355066C-F745-4BA3-95EF-58D637A05FDE}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="DeviceManager">
+				<UniqueIdentifier>{945C3D0B-C732-4B30-AE4B-BE5FA1C77289}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Common_h">
+				<UniqueIdentifier>{D46B3296-DF0F-4879-B1BF-B7FBFFDAC484}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Common\Textures\Image\Image_h">
+				<UniqueIdentifier>{0273C098-D05E-4E8C-8BDC-E354BB3EEA8F}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Source Files\Gpu\Physics">
+				<UniqueIdentifier>{E1534966-8818-40C0-9107-3AAE9143D8E3}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Common\PostProcess">
+				<UniqueIdentifier>{09C755DA-E982-4713-8A4C-189D08C1B43F}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="DXGL">
+				<UniqueIdentifier>{CF8AECEB-930A-4A1B-8001-5C82A55C9A79}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Source Files\D3DPostProcess">
+				<UniqueIdentifier>{A9BAE206-D92C-4D30-8191-5753E0117161}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Source Files">
+				<UniqueIdentifier>{BA03E055-4FA2-4CE3-8A1C-D348547D379C}</UniqueIdentifier>
+			</Filter>
+	</ItemGroup>
+</Project>

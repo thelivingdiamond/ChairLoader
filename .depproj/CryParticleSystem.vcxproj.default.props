@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0"
+	xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Debug|Win32'">
+		<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86\CryParticleSystem.lib</WAF_TargetFile>
+    <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
+    <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Debug|x64'">
+		<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64\CryParticleSystem.lib</WAF_TargetFile>
+    <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
+    <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Profile|Win32'">
+		<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86\CryParticleSystem.lib</WAF_TargetFile>
+    <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
+    <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Profile|x64'">
+		<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64\CryParticleSystem.lib</WAF_TargetFile>
+    <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
+    <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Performance|Win32'">
+		<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_performance\CryParticleSystem.lib</WAF_TargetFile>
+    <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
+    <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Performance|x64'">
+		<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_performance\CryParticleSystem.lib</WAF_TargetFile>
+    <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
+    <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Release|Win32'">
+		<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_release\CryParticleSystem.lib</WAF_TargetFile>
+    <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
+    <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Release|x64'">
+		<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_release\CryParticleSystem.lib</WAF_TargetFile>
+    <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
+    <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
+		<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86\CryParticleSystem.lib</WAF_TargetFile>
+    <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
+    <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
+		<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64\CryParticleSystem.lib</WAF_TargetFile>
+    <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
+    <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
+		<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86\CryParticleSystem.lib</WAF_TargetFile>
+    <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
+    <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
+		<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64\CryParticleSystem.lib</WAF_TargetFile>
+    <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
+    <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
+		<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_performance\CryParticleSystem.lib</WAF_TargetFile>
+    <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
+    <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
+		<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_performance\CryParticleSystem.lib</WAF_TargetFile>
+    <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
+    <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
+		<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_release\CryParticleSystem.lib</WAF_TargetFile>
+    <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
+    <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
+		<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_release\CryParticleSystem.lib</WAF_TargetFile>
+    <TargetPath Condition="'$(WAF_TargetFile)' != ''">$(WAF_TargetFile)</TargetPath>
+    <LocalDebuggerCommand Condition="'$(LocalDebuggerCommand)'==''">$(TargetPath)</LocalDebuggerCommand>
+  </PropertyGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Debug|Win32'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_TargetSpec>gamezero</WAF_TargetSpec>
+			<WAF_TargetConfig>win_x86_debug</WAF_TargetConfig>
+			<WAF_TargetName>CryParticleSystem</WAF_TargetName>
+			<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86\CryParticleSystem.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_DEBUG;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER</WAF_PreprocessorDefinitions>
+			<WAF_CompilerOptions_C>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Od /Ob0 /Oy- /RTC1 /GS /bigobj </WAF_CompilerOptions_C>
+			<WAF_CompilerOptions_CXX>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Od /Ob0 /Oy- /RTC1 /GS /bigobj </WAF_CompilerOptions_CXX>
+			<WAF_LinkerOptions>/MACHINE:X86 /NOLOGO /LARGEADDRESSAWARE /INCREMENTAL</WAF_LinkerOptions>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Debug|Win32'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Debug|x64'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_TargetSpec>gamezero</WAF_TargetSpec>
+			<WAF_TargetConfig>win_x64_debug</WAF_TargetConfig>
+			<WAF_TargetName>CryParticleSystem</WAF_TargetName>
+			<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64\CryParticleSystem.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_DEBUG;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER</WAF_PreprocessorDefinitions>
+			<WAF_CompilerOptions_C>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Od /Ob0 /Oy- /RTC1 /GS /bigobj </WAF_CompilerOptions_C>
+			<WAF_CompilerOptions_CXX>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Od /Ob0 /Oy- /RTC1 /GS /bigobj </WAF_CompilerOptions_CXX>
+			<WAF_LinkerOptions>/MACHINE:X64 /NOLOGO /LARGEADDRESSAWARE /INCREMENTAL</WAF_LinkerOptions>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Debug|x64'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Profile|Win32'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_TargetSpec>gamezero</WAF_TargetSpec>
+			<WAF_TargetConfig>win_x86_profile</WAF_TargetConfig>
+			<WAF_TargetName>CryParticleSystem</WAF_TargetName>
+			<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86\CryParticleSystem.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_PROFILE;PROFILE;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER</WAF_PreprocessorDefinitions>
+			<WAF_CompilerOptions_C>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy- /GS- </WAF_CompilerOptions_C>
+			<WAF_CompilerOptions_CXX>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy- /GS- </WAF_CompilerOptions_CXX>
+			<WAF_LinkerOptions>/MACHINE:X86 /NOLOGO /LARGEADDRESSAWARE /INCREMENTAL</WAF_LinkerOptions>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Profile|Win32'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Profile|x64'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_TargetSpec>gamezero</WAF_TargetSpec>
+			<WAF_TargetConfig>win_x64_profile</WAF_TargetConfig>
+			<WAF_TargetName>CryParticleSystem</WAF_TargetName>
+			<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64\CryParticleSystem.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_PROFILE;PROFILE;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER</WAF_PreprocessorDefinitions>
+			<WAF_CompilerOptions_C>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy- /GS- </WAF_CompilerOptions_C>
+			<WAF_CompilerOptions_CXX>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy- /GS- </WAF_CompilerOptions_CXX>
+			<WAF_LinkerOptions>/MACHINE:X64 /NOLOGO /LARGEADDRESSAWARE /INCREMENTAL</WAF_LinkerOptions>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Profile|x64'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Performance|Win32'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_TargetSpec>gamezero</WAF_TargetSpec>
+			<WAF_TargetConfig>win_x86_performance</WAF_TargetConfig>
+			<WAF_TargetName>CryParticleSystem</WAF_TargetName>
+			<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_performance\CryParticleSystem.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;PURE_CLIENT;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER</WAF_PreprocessorDefinitions>
+			<WAF_CompilerOptions_C>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_C>
+			<WAF_CompilerOptions_CXX>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_CXX>
+			<WAF_LinkerOptions>/MACHINE:X86 /NOLOGO /LARGEADDRESSAWARE /INCREMENTAL</WAF_LinkerOptions>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Performance|Win32'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Performance|x64'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_TargetSpec>gamezero</WAF_TargetSpec>
+			<WAF_TargetConfig>win_x64_performance</WAF_TargetConfig>
+			<WAF_TargetName>CryParticleSystem</WAF_TargetName>
+			<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_performance\CryParticleSystem.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;PURE_CLIENT;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER</WAF_PreprocessorDefinitions>
+			<WAF_CompilerOptions_C>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_C>
+			<WAF_CompilerOptions_CXX>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_CXX>
+			<WAF_LinkerOptions>/MACHINE:X64 /NOLOGO /LARGEADDRESSAWARE /INCREMENTAL</WAF_LinkerOptions>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Performance|x64'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Release|Win32'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_TargetSpec>gamezero</WAF_TargetSpec>
+			<WAF_TargetConfig>win_x86_release</WAF_TargetConfig>
+			<WAF_TargetName>CryParticleSystem</WAF_TargetName>
+			<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_release\CryParticleSystem.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_RELEASE;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;PURE_CLIENT;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER</WAF_PreprocessorDefinitions>
+			<WAF_CompilerOptions_C>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_C>
+			<WAF_CompilerOptions_CXX>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_CXX>
+			<WAF_LinkerOptions>/MACHINE:X86 /NOLOGO /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /INCREMENTAL:NO</WAF_LinkerOptions>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Release|Win32'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Release|x64'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_TargetSpec>gamezero</WAF_TargetSpec>
+			<WAF_TargetConfig>win_x64_release</WAF_TargetConfig>
+			<WAF_TargetName>CryParticleSystem</WAF_TargetName>
+			<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_release\CryParticleSystem.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_RELEASE;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;PURE_CLIENT;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER</WAF_PreprocessorDefinitions>
+			<WAF_CompilerOptions_C>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_C>
+			<WAF_CompilerOptions_CXX>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_CXX>
+			<WAF_LinkerOptions>/MACHINE:X64 /NOLOGO /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /INCREMENTAL:NO</WAF_LinkerOptions>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Release|x64'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
+			<WAF_TargetConfig>win_x86_debug</WAF_TargetConfig>
+			<WAF_TargetName>CryParticleSystem</WAF_TargetName>
+			<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86\CryParticleSystem.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_DEBUG;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER</WAF_PreprocessorDefinitions>
+			<WAF_CompilerOptions_C>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Od /Ob0 /Oy- /RTC1 /GS /bigobj </WAF_CompilerOptions_C>
+			<WAF_CompilerOptions_CXX>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Od /Ob0 /Oy- /RTC1 /GS /bigobj </WAF_CompilerOptions_CXX>
+			<WAF_LinkerOptions>/MACHINE:X86 /NOLOGO /LARGEADDRESSAWARE /INCREMENTAL</WAF_LinkerOptions>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
+			<WAF_TargetConfig>win_x64_debug</WAF_TargetConfig>
+			<WAF_TargetName>CryParticleSystem</WAF_TargetName>
+			<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64\CryParticleSystem.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_DEBUG;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER</WAF_PreprocessorDefinitions>
+			<WAF_CompilerOptions_C>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Od /Ob0 /Oy- /RTC1 /GS /bigobj </WAF_CompilerOptions_C>
+			<WAF_CompilerOptions_CXX>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Od /Ob0 /Oy- /RTC1 /GS /bigobj </WAF_CompilerOptions_CXX>
+			<WAF_LinkerOptions>/MACHINE:X64 /NOLOGO /LARGEADDRESSAWARE /INCREMENTAL</WAF_LinkerOptions>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
+			<WAF_TargetConfig>win_x86_profile</WAF_TargetConfig>
+			<WAF_TargetName>CryParticleSystem</WAF_TargetName>
+			<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86\CryParticleSystem.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_PROFILE;PROFILE;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER</WAF_PreprocessorDefinitions>
+			<WAF_CompilerOptions_C>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy- /GS- </WAF_CompilerOptions_C>
+			<WAF_CompilerOptions_CXX>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy- /GS- </WAF_CompilerOptions_CXX>
+			<WAF_LinkerOptions>/MACHINE:X86 /NOLOGO /LARGEADDRESSAWARE /INCREMENTAL</WAF_LinkerOptions>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
+			<WAF_TargetConfig>win_x64_profile</WAF_TargetConfig>
+			<WAF_TargetName>CryParticleSystem</WAF_TargetName>
+			<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64\CryParticleSystem.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_PROFILE;PROFILE;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER</WAF_PreprocessorDefinitions>
+			<WAF_CompilerOptions_C>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy- /GS- </WAF_CompilerOptions_C>
+			<WAF_CompilerOptions_CXX>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy- /GS- </WAF_CompilerOptions_CXX>
+			<WAF_LinkerOptions>/MACHINE:X64 /NOLOGO /LARGEADDRESSAWARE /INCREMENTAL</WAF_LinkerOptions>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
+			<WAF_TargetConfig>win_x86_performance</WAF_TargetConfig>
+			<WAF_TargetName>CryParticleSystem</WAF_TargetName>
+			<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_performance\CryParticleSystem.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;PURE_CLIENT;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER</WAF_PreprocessorDefinitions>
+			<WAF_CompilerOptions_C>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_C>
+			<WAF_CompilerOptions_CXX>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_CXX>
+			<WAF_LinkerOptions>/MACHINE:X86 /NOLOGO /LARGEADDRESSAWARE /INCREMENTAL</WAF_LinkerOptions>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
+			<WAF_TargetConfig>win_x64_performance</WAF_TargetConfig>
+			<WAF_TargetName>CryParticleSystem</WAF_TargetName>
+			<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_performance\CryParticleSystem.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\GPA\include;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_RELEASE;PERFORMANCE_BUILD;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;PURE_CLIENT;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER</WAF_PreprocessorDefinitions>
+			<WAF_CompilerOptions_C>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_C>
+			<WAF_CompilerOptions_CXX>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_CXX>
+			<WAF_LinkerOptions>/MACHINE:X64 /NOLOGO /LARGEADDRESSAWARE /INCREMENTAL</WAF_LinkerOptions>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
+			<WAF_TargetConfig>win_x86_release</WAF_TargetConfig>
+			<WAF_TargetName>CryParticleSystem</WAF_TargetName>
+			<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x86_release\CryParticleSystem.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_RELEASE;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;PURE_CLIENT;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER</WAF_PreprocessorDefinitions>
+			<WAF_CompilerOptions_C>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_C>
+			<WAF_CompilerOptions_CXX>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_CXX>
+			<WAF_LinkerOptions>/MACHINE:X86 /NOLOGO /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /INCREMENTAL:NO</WAF_LinkerOptions>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_TargetSpec>gamesdk</WAF_TargetSpec>
+			<WAF_TargetConfig>win_x64_release</WAF_TargetConfig>
+			<WAF_TargetName>CryParticleSystem</WAF_TargetName>
+			<WAF_TargetFile>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\bin\win_x64_release\CryParticleSystem.lib </WAF_TargetFile>
+			<WAF_IncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAction;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\boost;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Libs\yasli;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryCommon;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\Brofiler;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\OpenVR\headers</WAF_IncludeDirectories>
+			<WAF_PreprocessorDefinitions>_WIN32;_WIN64;CODE_BASE_FOLDER=&quot;c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/&quot;;_RELEASE;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;PURE_CLIENT;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER</WAF_PreprocessorDefinitions>
+			<WAF_CompilerOptions_C>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_C>
+			<WAF_CompilerOptions_CXX>/nologo /W3 /WX /MP /Gy /GF /Gm- /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Gd /Ox /Ob2 /Ot /Oi /Oy /GS- </WAF_CompilerOptions_CXX>
+			<WAF_LinkerOptions>/MACHINE:X64 /NOLOGO /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /INCREMENTAL:NO</WAF_LinkerOptions>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=CryParticleSystem</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup />
+	<ItemGroup />
+</Project>

@@ -1,6 +1,5 @@
 // dllmain.cpp : Defines the entry point for the DLL application.
-#include "pch.h"
-#include <string>
+#include "StdAfx.h"
 #include "mem.h"
 #include "preyFunctions.h"
 #include "proc.h"
@@ -8,7 +7,9 @@
 #include "preyFunctions.h"
 #include "ChairloaderUtils.h"
 #include "ChairloaderGui.h"
+#include <Windows.h>
 // #include "ArkEntityArchetypeLibrary.h
+namespace ip = boost::interprocess;
 
 #if _WIN32 || _WIN64
 #if _WIN64
@@ -17,7 +18,8 @@
 #define ENV32BIT
 #endif
 #endif
-#define SAFE_RELEASE(p)      { if(p) { (p)->Release(); (p)=NULL; } }
+#define SAFE_RELEASE(p)      { if(p) { (p)->Release(); (p)=NULL; } 
+
 
 // #include "pugixml.hpp"
 // D3X HOOK DEFINITIONS
@@ -69,11 +71,17 @@ DWORD WINAPI ChairloaderThread(HMODULE hModule) {
 
     gui = new ChairloaderGui(chairloader);
 
+    ip::managed_shared_memory segment(ip::create_only, "ChairloaderBase", 65536);
+    std::pair<ChairloaderUtils*, ChairloaderGui*>* instance = segment.construct<std::pair<ChairloaderUtils*, ChairloaderGui*>>("EnvInstance")(chairloader, gui);
+
+
+
+    //TODO: figure out config loading for the chairloader DLL
     std::ifstream ifile;
     char buf[MAX_PATH];
     GetModuleFileNameA(hModule, buf, MAX_PATH);
     std::string workingDir = buf;
-    workingDir.erase(workingDir.find("ChairLoader.dll"));
+    // workingDir.erase(workingDir.find("ChairLoader.dll"));
     
     printf("path = %s\n", buf);
     printf("newpath = %s\n", workingDir.c_str());
@@ -197,6 +205,7 @@ DWORD WINAPI ChairloaderThread(HMODULE hModule) {
     FreeLibraryAndExitThread(hModule, 0);
 }
 
+
 LRESULT CALLBACK hWndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
 	ImGuiIO& io = ImGui::GetIO();
@@ -220,9 +229,12 @@ LRESULT CALLBACK hWndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 		ImGui_ImplWin32_WndProcHandler(hWnd, uMsg, wParam, lParam);
 		return true;
 	}
+    
 
 	return CallWindowProc(OriginalWndProcHandler, hWnd, uMsg, wParam, lParam);
 }
+
+// Load a config file name chairloaderconfig.xml.
 
 HRESULT GetDeviceAndCtxFromSwapchain(IDXGISwapChain* pSwapChain, ID3D11Device** ppDevice, ID3D11DeviceContext** ppContext)
 {
@@ -408,8 +420,8 @@ public:
         this->draw();
     };
 };
-
-
+//_DEBUG;_WINDOWS;_USRDLL
+//_DEBUG;PREYTESTTRAINER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)
 DWORD WINAPI GUIThread(HMODULE hModule) {
     AllocConsole();
     FILE* f;
@@ -418,7 +430,11 @@ DWORD WINAPI GUIThread(HMODULE hModule) {
         // wait for chairloader to not be fucking dead
     }
     // gui object initialized
-    
+    // Open Shared Memory 
+    ip::managed_shared_memory segment(ip::open_only, "ChairloaderBase");
+    // Get the environment object
+	std::pair<std::pair<ChairloaderUtils*, ChairloaderGui*>*, ip::managed_shared_memory::size_type> res = segment.find<std::pair<ChairloaderUtils*, ChairloaderGui*>> ("EnvInstance");
+
     // begin gui hooking
     GetPresent();
     if (!g_PresentHooked) {

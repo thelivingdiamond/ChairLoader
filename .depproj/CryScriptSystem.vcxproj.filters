@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryScriptSystem\CryScriptSystem_uber_0.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\BucketAllocator.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\CryScriptSystem.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\FunctionHandler.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\FunctionHandler.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger.rc">
+				<Filter>Resource Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebuggerResource.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\AboutWnd.h">
+				<Filter>LuaDebugger</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\Coverage.cpp">
+				<Filter>LuaDebugger</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\Coverage.h">
+				<Filter>LuaDebugger</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\FileTree.cpp">
+				<Filter>LuaDebugger</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\FileTree.h">
+				<Filter>LuaDebugger</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\GoToFuncWnd.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\GoToWnd.h">
+				<Filter>LuaDebugger</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\LUADBG.cpp">
+				<Filter>LuaDebugger</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\LUADBG.h">
+				<Filter>LuaDebugger</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\LUADBG.ico">
+				<Filter>Resource Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyBrowseFolder.h">
+				<Filter>LuaDebugger</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyCaptionWindow.h">
+				<Filter>LuaDebugger</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyCoolEdit.h">
+				<Filter>LuaDebugger</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyFileEnum.h">
+				<Filter>LuaDebugger</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyImageList.h">
+				<Filter>LuaDebugger</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyMain.h">
+				<Filter>LuaDebugger</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyRegistry.h">
+				<Filter>LuaDebugger</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinySplitter.h">
+				<Filter>LuaDebugger</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyStatusBar.h">
+				<Filter>LuaDebugger</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyTreeList.h">
+				<Filter>LuaDebugger</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\_TinyWindow.h">
+				<Filter>LuaDebugger</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\res\TreeView.bmp">
+				<Filter>Resource Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\res\toolbar1.bmp">
+				<Filter>Resource Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaDebugger\small.ico">
+				<Filter>Resource Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaRemoteDebug\LuaRemoteDebug.cpp">
+				<Filter>LuaRemoteDebug</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaRemoteDebug\LuaRemoteDebug.h">
+				<Filter>LuaRemoteDebug</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\LuaRemoteDebug\SerializationHelper.h">
+				<Filter>LuaRemoteDebug</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Movie.cpp">
+				<Filter>ScriptBindings</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Movie.h">
+				<Filter>ScriptBindings</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Particle.cpp">
+				<Filter>ScriptBindings</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Particle.h">
+				<Filter>ScriptBindings</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Physics.cpp">
+				<Filter>ScriptBindings</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Physics.h">
+				<Filter>ScriptBindings</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Script.cpp">
+				<Filter>ScriptBindings</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Script.h">
+				<Filter>ScriptBindings</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Sound.cpp">
+				<Filter>ScriptBindings</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_Sound.h">
+				<Filter>ScriptBindings</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_System.cpp">
+				<Filter>ScriptBindings</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBind_System.h">
+				<Filter>ScriptBindings</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBinding.cpp">
+				<Filter>ScriptBindings</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptBindings\ScriptBinding.h">
+				<Filter>ScriptBindings</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptBindings\SurfaceTypes.cpp">
+				<Filter>ScriptBindings</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptBindings\SurfaceTypes.h">
+				<Filter>ScriptBindings</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptSystem.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptSystem.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptTable.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptTable.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptTimerMgr.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\ScriptTimerMgr.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\StackGuard.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\StdAfx.cpp">
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\StdAfx.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\cryscriptsystem.waf_files">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\resource.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\vectorlib.c">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryScriptSystem\wscript">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+			<Filter Include="ScriptBindings">
+				<UniqueIdentifier>{A97956CC-7C15-4245-97DA-5D6243AF7130}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="_WAF_">
+				<UniqueIdentifier>{88F32D28-D9A2-467A-82CE-4D592F9E94FE}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Resource Files">
+				<UniqueIdentifier>{FA3635CE-6C7C-4DE5-9DEB-60602507503F}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Uber Files">
+				<UniqueIdentifier>{1A8E5137-C0CF-4A7A-8E7E-EE0B26E0BD8E}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="LuaRemoteDebug">
+				<UniqueIdentifier>{48575DB6-D1E6-4E04-B8FA-986E36742137}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Source Files">
+				<UniqueIdentifier>{BA03E055-4FA2-4CE3-8A1C-D348547D379C}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="LuaDebugger">
+				<UniqueIdentifier>{7EAE110C-C374-42AD-A46F-FCA567F9F8CB}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Header Files">
+				<UniqueIdentifier>{1680C80B-FF1E-4A4D-9817-CC12254F2E40}</UniqueIdentifier>
+			</Filter>
+	</ItemGroup>
+</Project>

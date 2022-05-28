@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{1af2d004-85f8-43cb-abea-91edf32c7083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="archives">
+      <UniqueIdentifier>{336f1c74-1f75-40b2-9133-36567dd00e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="archives\Binary">
+      <UniqueIdentifier>{3123fd99-8781-4aa7-ad49-b542c7ffe959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="archives\Text">
+      <UniqueIdentifier>{96b73098-e7f8-4e89-9672-aa12e0ef533f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl">
+      <UniqueIdentifier>{58c85fb4-8718-4036-8381-500b4329dfef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="archives\JSON">
+      <UniqueIdentifier>{b197661a-58b5-472b-aa61-814b30f3d5cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Assert.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryWriter.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="StringList.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="BinArchive.cpp">
+      <Filter>archives\Binary</Filter>
+    </ClCompile>
+    <ClCompile Include="TextIArchive.cpp">
+      <Filter>archives\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="TextOArchive.cpp">
+      <Filter>archives\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="ClassFactory.cpp" />
+    <ClCompile Include="Enum.cpp" />
+    <ClCompile Include="MemoryReader.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONIArchive.cpp">
+      <Filter>archives\JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONOArchive.cpp">
+      <Filter>archives\JSON</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Assert.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="BitVector.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="BitVectorImpl.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryReader.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryWriter.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Pointers.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="PointersImpl.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="StringList.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="BinArchive.h">
+      <Filter>archives\Binary</Filter>
+    </ClInclude>
+    <ClInclude Include="TextIArchive.h">
+      <Filter>archives\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="TextOArchive.h">
+      <Filter>archives\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="STL.h">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="STLImpl.h">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Archive.h" />
+    <ClInclude Include="Helpers.h" />
+    <ClInclude Include="Serializer.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="TypeID.h" />
+    <ClInclude Include="ClassFactory.h" />
+    <ClInclude Include="ClassFactoryBase.h" />
+    <ClInclude Include="Enum.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="SerializerImpl.h" />
+    <ClInclude Include="ConfigLocal.h" />
+    <ClInclude Include="Token.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="JSONIArchive.h">
+      <Filter>archives\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONOArchive.h">
+      <Filter>archives\JSON</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\LICENSE.txt" />
+  </ItemGroup>
+</Project>

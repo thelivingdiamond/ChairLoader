@@ -174,10 +174,12 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;PREYTESTTRAINER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;PREYTESTTRAINER_EXPORTS;_USRDLL;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CRY_INCLUDE_WINDOWS_VIA_MFC_OR_ATL_INCLUDES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>StdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\Users\theli\source\repos\chairloader\ChairLoader\yasli-master;C:\Users\theli\source\repos\chairloader\ChairLoader\CryEngine\CryCommon;C:\Users\theli\source\repos\chairloader\ChairLoader\CryEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp14</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -230,10 +232,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\imgui-1.87\backends\imgui_impl_dx11.h" />
-    <ClInclude Include="..\imgui-1.87\backends\imgui_impl_win32.h" />
-    <ClInclude Include="..\imgui-1.87\imgui.h" />
-    <ClInclude Include="..\imgui-1.87\misc\cpp\imgui_stdlib.h" />
     <ClInclude Include="ArkAbilityLibrary.h" />
     <ClInclude Include="ArkBasicTypes.h" />
     <ClInclude Include="ArkEntityArchetypeLibrary.h" />
@@ -241,26 +239,18 @@
     <ClInclude Include="ChairloaderGui.h" />
     <ClInclude Include="ChairloaderUtils.h" />
     <ClInclude Include="ArkEnums.h" />
+    <ClInclude Include="CryengineSourceTest.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="mem.h" />
-    <ClInclude Include="pch.h" />
+    <ClInclude Include="StdAfx.h" />
     <ClInclude Include="preyFunctions.h" />
     <ClInclude Include="preyDllObjects.h" />
     <ClInclude Include="proc.h" />
-    <ClInclude Include="pugiconfig.hpp" />
-    <ClInclude Include="pugixml.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\imgui-1.87\backends\imgui_impl_dx11.cpp" />
-    <ClCompile Include="..\imgui-1.87\backends\imgui_impl_win32.cpp" />
-    <ClCompile Include="..\imgui-1.87\imgui.cpp" />
-    <ClCompile Include="..\imgui-1.87\imgui_demo.cpp" />
-    <ClCompile Include="..\imgui-1.87\imgui_draw.cpp" />
-    <ClCompile Include="..\imgui-1.87\imgui_tables.cpp" />
-    <ClCompile Include="..\imgui-1.87\imgui_widgets.cpp" />
-    <ClCompile Include="..\imgui-1.87\misc\cpp\imgui_stdlib.cpp" />
     <ClCompile Include="ChairloaderGui.cpp" />
     <ClCompile Include="ChairloaderUtils.cpp" />
+    <ClCompile Include="CryengineSourceTest.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="mem.cpp" />
     <ClCompile Include="pch.cpp">
@@ -274,7 +264,6 @@
     <ClCompile Include="preyFunctions.cpp" />
     <ClCompile Include="PreyDllObjects.cpp" />
     <ClCompile Include="proc.cpp" />
-    <ClCompile Include="pugixml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="codeArchive.txt" />
@@ -285,6 +274,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
+    <None Include="cpp.hint" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

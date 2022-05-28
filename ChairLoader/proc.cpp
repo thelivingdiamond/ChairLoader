@@ -1,4 +1,4 @@
-#include "pch.h"
+#include "StdAfx.h"
 #include "proc.h"
 #include <iostream>
 

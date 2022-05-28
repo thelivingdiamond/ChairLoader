@@ -1,0 +1,688 @@
+:source-highlighter: pygments
+:icons: font
+:toc: right
+:toclevels: 4
+
+== yasli - C++ serialization ==
+
+=== Motivation ===
+
+Serialization is an important tool of software development. Unfortunately 
+standard C++ library provides very scarce means for serialization, such as
+standard I/O-streams. 
+
+yasli was born as a tool for data-driven game development. It allowed
+programmer to rapidly define data structures and expose their content to game
+designers.
+
+With the time it gather number of properties that make it valueable outside
+of initial domain:
+
+- Concise and easy to define serialization procedures
+- Abstract archives decouple user serialization code from specific format
+implementation
+- Multiple formats supported:
+	* JSON
+	* BinArchive - compact hash-based binary stream
+	* QPropertyTree - a flexible UI for interctive editing of the serialized data
+- Decent performance
+- Ability to change format with time
+
+=== Installation ===
+
+==== Supported compilers ====
+
+yasli (except for QPropertyTree) is known to work on following platforms:
+
+- Windows, MSVC 2005-2013 (x86/x64)
+- Linux, x86/x64, clang/gcc
+- various Android versions, clang/gcc (arm)
+- iOS, XCode (arm, arm64)
+- OS X, XCode x86/x64
+- Emscripten (C++ to JavaScript compiler)
+
+yasli is written in portable C++ and compiling it on a new platform is
+relatively straightforward.
+
+QPropertyTree requires Qt5 to work and compiles on following platforms:
+
+- Windows, MSVC 2005-2013 (x86/x64)
+- Linux, x86/x64, clang/gcc
+- OS X, x86/x64
+
+==== Downloading source code ====
+
+yasli source code is available on bitbucket:
+https://bitbucket.org/admix/yasli
+
+Source code is stored using http://mercurial.selenic.com/[Mercurial] version
+control system. You can obtain it using
+http://tortoisehg.bitbucket.org/[TortoiseHg] - wonderful GUI client for
+Mercurial, available for Windows, Mac OS X and Linux.
+
+Alternatively you can obtain source code using command line:
+[source,bash]
+----
+hg clone https://admix@bitbucket.org/admix/yasli
+----
+
+==== Adding yasli to your project ====
+yasli is using http://cmake.org[CMake] for its project files. CMake is a
+project files generator that support variety of different platforms.
+
+===== CMake =====
+If your project happens to use CMake as well adding yasli to project should
+be quite straightforward:
+[source,cmake]
+----
+add_subdirectory(yasli/yasli)
+target_link_libraries(my_application yasli)
+
+add_subdirectory(yasli/QPropertyTree)
+target_link_libraries(my_qt_application QPropertyTree)
+----
+
+===== Visual Studio =====
+If you are using Visual Studio you can include yasli to your project by referencing
+yasli/yasli.vcxproj (or yasli/yasli.vcproj for older versions).
+
+===== Including source files directly =====
+
+Alternatively, for core functionality you can include source files from
+yasli folder into your project. To QPropertyTree you can include files from 
+QPropertyTree folder.
+
+=== Usage ===
+
+yasli structured in a moduler way, and often different features require
+different headers. If you feel like adding same headers in your code starts
+beign repetitive, you may create own Serialization.h-header with commonly used
+features, for example:
+
+[source,cpp]
+----
+#include <yasli/Archive.h>
+#include <yasli/STL.h>
+#include <yasli/Enum.h>
+#include <yasli/ClassFactory.h>
+----
+
+Rest of the section will describe each of those in details.
+
+==== Serialization method ====
+
+The easiest way to get started with yasli is to add serialize() method to your types.
+For example:
+
+[source,cpp]
+----
+#include <yasli/Archive.h>
+
+struct MyType
+{
+	int field_a;
+	float field_b;
+	bool field_c;
+
+	void serialize(yasli::Archive& ar)
+	{
+		ar(field_a, "field_a", "Field A");
+		ar(field_b, "field_b", "Field B");
+		ar(field_c, "field_c", "Field C");
+	}
+};
+----
+
+Same approach works for nested structures/class instances, normally each nested
+structure would receive each own "block", depending on the archive type. For
+example, for JSON that would be a new level of dictionary/map.
+
+NOTE: You may wonder why third why third parameter is needed: this defines a
+label, a human readable text for the data element that can be used with
+<<QPropertyTree>>. If you have no plans of editing your data through UI it can
+be omitted.
+
+==== STL containers and strings ====
+
+yasli supports serialization of following STL types out of the box:
+
+- std::string
+- std::wstring
+- std::vector
+- std::list
+- std::map
+- std::pair
+
+To be able to serialize one of these, you will need to include one more header:
+[source,cpp]
+----
+#include <yasli/STL.h>
+----
+
+Now you can serialize instances of these types in the same way as standard
+types. Containers can contain both primitive types, structures, or even other
+containers.
+
+==== Enumerations ====
+
+yasli is able to serialize variables of enumeration types, but requires user to
+register names for specific enumeration values. 
+
+After 
+
+Example of enum registration:
+
+[source,cpp]
+----
+// header
+enum Shape
+{
+	SHAPE_CIRCLE,
+	SHAPE_ROUND_RECTANGLE,
+	SHAPE_RECTANGLE
+};
+
+class MyClass
+{
+public:
+	enum NestedEnum
+	{
+		NESTED_VALUE1,
+		NESTED_VALUE2
+	};
+};
+
+// implementation file
+#include <yasli/Enum.h>
+
+YASLI_ENUM_BEGIN(Shape, "Shape")
+YASLI_ENUM(SHAPE_CIRCLE, "circle", "Circle")
+YASLI_ENUM(SHAPE_ROUND_RECTANGLE, "round_rectangle", "Round Rectangle")
+YASLI_ENUM(SHAPE_RECTANGLE, "shape_rectangle", "Rectangle")
+YASLI_ENUM_END()
+
+YASLI_ENUM_BEGIN_NESTED(MyClass, NestedEnum, "Nested Enumeration")
+YASLI_ENUM(MyClass::NESTED_VALUE1, "nested_value1", "Nested Value 1")
+YASLI_ENUM(MyClass::NESTED_VALUE2, "nested_value2", "Nested Value 2")
+YASLI_ENUM_END()
+----
+
+WARNING: To prevent double registration YASLI_ENUM_* macros should be placed 
+within implementation file, instead of keeping them in the header.
+
+==== Polymorphic types ====
+yasli has notion of polymorphic types, such types can be serialized by
+serializing smart pointers pointing to the base type. Example of such pointer
+is provided in yasli/Pointers.h, you can follow it to implement serialization
+of your own pointers.
+
+To be deserialized propertly each derived type should be registered in
+yasli::ClassFactory:
+
+[source,cpp]
+----
+#include <yasli/Pointers.h>
+#include <yasli/ClassFactory.h>
+
+#include <string>
+#include <stdio.h>
+
+
+struct IAction
+{
+	virtual ~IAction() {}
+	virtual void serialize(yasli::Archive& ar) = 0;
+	virtual void execute() {}
+};
+
+struct MessageAction : IAction
+{
+	std::string text;
+
+	void serialize(yasli::Archive& ar)
+	{
+		ar(text, "text", "Text");
+	}
+};
+YASLI_CLASS_NAME(IAction, MessageAction, "message", "Message")
+
+struct ActionUser
+{
+	yasli::SharedPtr<IAction> action;
+
+	void serialize(yasli::Archive& ar)
+	{
+		ar(action, "action", "Action");
+	}
+};
+----
+
+==== Non-intrusive serialization ====
+It is often usefull to be able to serialize types without modifying them, this
+could happen for number of reasons, for example:
+
+- When using types from Standard Template Library types
+- When using third party code
+- When extra dependencies are not desirable in type definitions
+
+For such cases yasli provides additional serialize function, this one is global overloaded function:
+
+[source,cpp]
+----
+bool serialize(yasli::Archive& ar, UserType& instance, const char* name, const char* label);
+----
+UserType should be replaced with a type, that you want to be serialized.
+
+Such external serialize function is different from serialize method in number of ways:
+
+- It doesn't add additional level of nesting. In practice that means that you
+would serialize only one object or field and use supplied name and label. This
+object however can implement serialzation for the user type.
+- Function returns bool, it tells whatever the value was read from the archive. Usually
+this is just a return value of nested ar() call.
+
+Here is a simple example for a little wrapper that wraps integer.
+
+[source,cpp]
+----
+struct MyId
+{
+	int value;
+};
+
+bool serialize(yasli::Archive& ar, MyId& id, const char* name, const char* label)
+{
+	return ar(id.value, name, label);
+};
+----
+Note that you don't need to call this function directly, you can call serialization in a usual way:
+
+[source,cpp]
+----
+struct MyType
+{
+	MyId id;
+	void serialize(yasli::Archive& ar)
+	{
+		ar(id, "id", "Id");
+	}
+}
+----
+Consistent way of calling serialization gives you flexibility to change the
+serialization logic of a specific type without breaking its users.
+
+Here is another example, where you would serialize a structure with nested fields:
+
+[source,cpp]
+----
+struct Vector3
+{
+	float x, y, z;
+};
+
+// possibly, in other header:
+bool serialize(yasli::Archive&, Vector3& v, const char* name, const char* label);
+
+// implementation
+struct Vector3Serializer
+{
+	Vector3& v;
+	Vector3Serializer(Vector3& v) : v(v) {}
+
+	bool serialize(yasli::Archive& ar)
+	{
+		ar(v.x, "x", "X");
+		ar(v.y, "y", "Y");
+		ar(v.z, "z", "Z");
+	}
+};
+
+bool serialize(yasli::Archive&, Vector3& v, const char* name, const char* label)
+{
+	Vector3Serializer serializer(v);
+	return ar(serializer, name, label);
+}
+
+----
+
+WARNING: Note that due to
+http://en.wikipedia.org/wiki/Argument-dependent_name_lookup[Argument Dependent
+name Lookup] (or Koenig-lookup) global serialize function has to be placed into
+the same namespace as serialized type.
+
+==== Conversion and versioning ====
+Although yasli doesn't provide direct support for versioning of the data it
+provides tools that allows you to implement it easily on top of existing
+functionality.
+
+===== Conversion based on field names =====
+First proposed technique to maintain multiple versions of data
+relies on naming of the fields, and ability to check if specific field
+was read. A brief example:
+
+[source,cpp]
+----
+struct EternalType
+{
+	// version 1 used one string to store a reference
+	// std::string reference;
+
+	// version 2 switched to a vector of strings
+	// std::vector<std::string> references;
+
+	// version 3 switch to an array of structures
+	struct Reference
+	{
+		bool import = false;
+		string filename;
+
+		void serialize(yasli::Archive& ar)
+		{
+			ar(filename, "filename");
+			ar(preload, "preload");
+		}
+	};
+	std::vector<Reference> imports;
+
+	void serialize(yasli::Archive& ar)
+	{
+		if(!ar(imports, "imports"))
+		{
+			// "references" were not loaded, let's try to read old formats
+			string reference_v1;
+			vector<string> references_v2;
+
+			if (ar(references_v2, "references"))
+			{
+				imports.clear();
+				imports.resize(references_v2.size());
+				for (size_t i = 0; i < references_v2.size(); ++i)
+				{
+					imports[i].filename = references_v2[i];
+					imports[i].preload = false;
+				}
+			}
+			else if (ar(reference_v1, "reference"))
+			{
+				imports.clear();
+				Reference r;
+				r.filename = reference_v1;
+				imports.push_back(r);
+			}
+		}
+	}
+};
+----
+NOTE: Ability to serialize/deserialize variables created on the stack makes
+it possible to do a variety of data conversions on the fly.
+
+===== Explicit versioning =====
+
+Below is a similar example that uses explicit versioning to perform data
+conversion.
+
+[source,cpp]
+----
+struct EternalType
+{
+	enum { ACTUAL_VERSION = 3 };
+
+	// version 1 used one string to store a reference
+	// std::string reference;
+
+	// version 2 switched to a vector of strings
+	// std::vector<std::string> references;
+
+	// version 3 switch to an array of structures
+	struct Reference
+	{
+		bool preload = false;
+		string filename;
+
+		void serialize(yasli::Archive& ar)
+		{
+			ar(filename, "filename");
+			ar(preload, "preload");
+		}
+	};
+	std::vector<Reference> imports;
+
+	void serialize(yasli::Archive& ar)
+	{
+		int version = ACTUAL_VERSION;
+		if (!ar(version, "version"))
+			version = 0;
+
+		switch(version) 
+		{
+		case 0:
+		{
+			// handle missing/broke data
+			break;
+		}
+		case 1:
+		{
+			string reference;
+			ar(reference, "reference");
+			imports.clear();
+			Reference r;
+			r.filename = reference;
+			imports.push_back(r);
+			break;
+		}
+		case 2:
+		{
+			vector<string> references;
+			imports.resize(references.size());
+			for (size_t i = 0; i < references.size(); ++i)
+			{
+				imports[i].filename = references[i];
+				imports[i].preload = false;
+			}
+			break;
+		}
+		case ACTUAL_VERSION:
+		{
+			ar(imports, "imports");
+			break;
+		}
+		default:
+		{
+			// handle unsupported version
+			break;
+		}
+		};
+	}
+};
+----
+As you see with minimal effort you get full control over data loading and
+conversion process.
+
+=== QPropertyTree ===
+
+QPropertyTree is a powerful property grid. Among its features:
+
+* Easy creation of properties through serialization.
+* Enumerations presented as drop-down menus
+* Editing of containers and polymorphic types
+* Drag & drop
+* Copy & paste
+* Automatic undo
+* Can be extended to have custom UI for specific user types.
+* Value decorators provide annotations to data fields, like:
+	- Ranges for numbers
+	- Filetered file selection
+	- Unit conversion, i.e. edit radians as degrees or quaternions as euler
+	  angles.
+* Additional control characters provide basic control over layout and
+  attributes of the properties, such as:
+	- Inlining of properties
+	- Control of property alignment and width
+	- Read-only properties
+	- Hidden properties (allows to transfer additional data during copy&paste
+	  or drag&drop).
+
+==== Basic usage ====
+
+QProprtyTree is a regular Qt widget. Usually such widget is instantiated on
+heap through "new" call.
+
+The only way to populate QPropertyTree is by attached serializable object.
+
+[source,cpp]
+----
+#include <QPropertyTree/QPropertyTree.h>
+#include <yasli/Serializer.h>
+
+struct MyType
+{
+	bool testOption = false;
+
+	void serialize(yasli::Archive& ar)
+	{
+		ar(testOption, "testOption", "Test Option");
+	}
+};
+
+MyType instance;
+
+QPropertyTree* propertyTree = new QPropertyTree(this);
+propertyTree->attach(yasli::Serializer(instance));
+
+----
+
+Such property tree should display one checkbox label "Test Option".
+
+WARNING: Note that tree stores reference to attached object and user of the
+QPropertyTree is responsible for maintaining its lifetime and calling
+QPropertyTree::detach() in case attached object seizes to exist.
+
+QPropertyTree uses third argument to Archive::operator() call to specify
+label, text that appears next to the value.
+
+How does the tree update apply changes to attached instance? It calls
+serialization each time user changes data. It does it twice: once to read
+fields of instance from properties, and then it writes properties back.
+At may appear wasteful at first, but in practice this procedure is quite fast.
+You can serialize hundreads of thousands of properties and still have
+interactive update speeds. Such approach gimes some interesting qualities to
+the PropertyTree:
+
+* Set of serialized parameters can be changed dynamically, i.e. serialize
+  function can contain conditions that would present only relevant
+  parameters. 
+* As QPropertyTree stores only to top-level reference to attached object there
+  are no limitations to lifetime of individual fieldsl. They can be constructed
+  on the stack and this opens door for all kind of conversion and
+  data transformations in a concise and localized faschion.
+* Validation and clamping of values can be peformed during serialization and
+  user will be able to observe it in interactive way.
+
+Below is description of main QPropertyTree methods:
+
+==== QPropertyTree methods ====
+
+attach(yasli::Serializer&)::
+	Used to populate tree with properties of serializable object.
+
+detach()::
+	Disconnects object from the tree and clears properties.
+	
+revert()::
+	Updates property tree by writing fields of attached object over again.
+	You can use this function once attached object changed and you want to 
+	update content of the tree to reflect the changes.
+
+apply()::
+	Force to read fields of object from properties. May be used to rollback
+	state of attached object to the last property tree state.
+
+setExpandLevels(int levels)::
+	Specifies how deep tree should be expanded by default. To take effect
+	this function should be called _before call to attach()_.
+
+==== Decorators (annotations) ====
+
+yasli provides following decorators that can be used to annotate your data
+for QPropertyTree.
+
+===== Range =====
+Provides a range for numbers and makes them behave like sliders:
+[source,cpp]
+----
+#include <yasli/decorators/Range.h>
+
+ar(yasli::Range(floatValue, 0.0f, 100.0f), "floatValue", "Float Value");
+----
+
+===== BitFlags =====
+Display individual bits of an integer as checkboxes. Names for individual
+bits are registered the same way as <<Enumerations>>.
+[source,cpp]
+----
+#include <yasli/decorators/BitFlags.h>
+
+enum AxisMask
+{
+	X_AXIS_BIT = 1 << 0,
+	Y_AXIS_BIT = 1 << 1,
+	Z_AXIS_BIT = 1 << 2
+};
+
+YASLI_ENUM_BEGIN(AxisMask, "Axis Mask")
+YASLI_ENUM(X_AXIS_BIT, "x", "X Axis")
+YASLI_ENUM(Y_AXIS_BIT, "y", "Y Axis")
+YASLI_ENUM(Z_AXIS_BIT, "z", "Z Axis")
+YASLI_ENUM_END()
+
+int axisMask = X_AXIS_BIT | Y_AXIS_BIT;
+ar(yasli::BitFlags<AxisMask>(axisMask), "axisMask", "Axis Mask");
+----
+
+==== Control characters (layout) ====
+PropertyTree supports some simple layout control, this is implemented through
+special characters that that can be embedded into the label. Sounds scary? It
+is quite practilal though. Some simple example:
+[source,cpp]
+----
+ar(value, "value", "!<Value");
+----
+
+This value will appear as read-only and expanded field. See below for
+descriptions of specific control characters.
+
+inline (^)::
+	Used to bring multiple children properties on one line.
+	For example, often it is useful to have X,Y and Z components of the vector to
+	appear next to each other, rather than each on a separate line. It can be
+	serialized in a following way then:
+[source,cpp]
+----
+struct Vector3
+{
+	float x, y, z;
+
+	void serialize(Archive& ar)
+	{
+		ar(x, "x", "^X");
+		ar(y, "y", "^Y");
+		ar(z, "z", "^Z");
+	}
+};
+----
+
+read-only (!)::
+Read only fields can not be changed by the user. 
+
+expand (<)::
+Value of expanded field will occupy the all available space. Useful for
+parameters that are known to have longer text than most of other parameters,
+i.e. file paths, or long text fields.
+
+contract (>)::
+Value field is contracted to minimal size. Useful for limiting parameters
+size, when serializing tables of data.
+
+==== Editing multiple objects at the same time ====
+
+:v: vim:tw=78:

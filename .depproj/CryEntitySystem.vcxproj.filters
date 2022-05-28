@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryEntitySystem\CryEntitySystem_proxy_uber.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryEntitySystem\CryEntitySystem_uber_0.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryEntitySystem\CryEntitySystem_uber_1.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\AffineParts.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\AffineParts.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\Area.cpp">
+				<Filter>AreaManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\Area.h">
+				<Filter>AreaManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\AreaGrid.cpp">
+				<Filter>AreaManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\AreaGrid.h">
+				<Filter>AreaManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\AreaManager.cpp">
+				<Filter>AreaManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\AreaManager.h">
+				<Filter>AreaManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\AreaProxy.cpp">
+				<Filter>Proxy\Area</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\AreaProxy.h">
+				<Filter>Proxy\Area</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\AreaSolid.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\AreaSolid.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\AreaUtil.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\BSPTree3D.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\BSPTree3D.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\BreakableManager.cpp">
+				<Filter>BreakableManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\BreakableManager.h">
+				<Filter>BreakableManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\BreakablePlane.cpp">
+				<Filter>BreakableManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\BreakablePlane.h">
+				<Filter>BreakableManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\CameraProxy.cpp">
+				<Filter>Proxy\CameraProxy</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\CameraProxy.h">
+				<Filter>Proxy\CameraProxy</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\CharacterBoneAttachmentManager.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\CharacterBoneAttachmentManager.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\ClipVolumeProxy.cpp">
+				<Filter>Proxy\ClipVolume</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\ClipVolumeProxy.h">
+				<Filter>Proxy\ClipVolume</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\ComponentEventDistributer.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\ComponentEventDistributer.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\CryEntityDLL.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\DynamicResponseProxy.cpp">
+				<Filter>Proxy\DynamicResponse</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\DynamicResponseProxy.h">
+				<Filter>Proxy\DynamicResponse</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\Entity.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\Entity.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityArchetype.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityArchetype.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityAttributesProxy.cpp">
+				<Filter>Proxy\Attributes</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityAttributesProxy.h">
+				<Filter>Proxy\Attributes</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityAudioProxy.cpp">
+				<Filter>Proxy\Audio</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityAudioProxy.h">
+				<Filter>Proxy\Audio</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityCVars.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityCVars.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityClass.cpp">
+				<Filter>EntityClass</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityClass.h">
+				<Filter>EntityClass</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityClassRegistry.cpp">
+				<Filter>EntityClass</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityClassRegistry.h">
+				<Filter>EntityClass</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityIt.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityLayer.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityLayer.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityLoadManager.cpp">
+				<Filter>Loading</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityLoadManager.h">
+				<Filter>Loading</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityNodeProxy.cpp">
+				<Filter>Proxy\TrackView</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityNodeProxy.h">
+				<Filter>Proxy\TrackView</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityObject.cpp">
+				<Filter>Proxy\Render</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityObject.h">
+				<Filter>Proxy\Render</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityPool.cpp">
+				<Filter>Pool</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityPool.h">
+				<Filter>Pool</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityPoolCommon.h">
+				<Filter>Pool</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityPoolDefinition.cpp">
+				<Filter>Pool</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityPoolDefinition.h">
+				<Filter>Pool</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityPoolManager.cpp">
+				<Filter>Pool</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityPoolManager.h">
+				<Filter>Pool</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityPoolSignature.cpp">
+				<Filter>Pool</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityPoolSignature.h">
+				<Filter>Pool</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityScript.cpp">
+				<Filter>Proxy\Script</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityScript.h">
+				<Filter>Proxy\Script</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntitySystem.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntitySystem.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityTimeoutList.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\EntityTimeoutList.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\FlowGraphProxy.cpp">
+				<Filter>Proxy\FlowGraph</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\FlowGraphProxy.h">
+				<Filter>Proxy\FlowGraph</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\GeomCacheAttachmentManager.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\GeomCacheAttachmentManager.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\PartitionGrid.cpp">
+				<Filter>PartitionGrid</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\PartitionGrid.h">
+				<Filter>PartitionGrid</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\PhysicsEventListener.cpp">
+				<Filter>Proxy\Physics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\PhysicsEventListener.h">
+				<Filter>Proxy\Physics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\PhysicsProxy.cpp">
+				<Filter>Proxy\Physics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\PhysicsProxy.h">
+				<Filter>Proxy\Physics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\ProximityTriggerSystem.cpp">
+				<Filter>PartitionGrid</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\ProximityTriggerSystem.h">
+				<Filter>PartitionGrid</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\RadixSort.cpp">
+				<Filter>PartitionGrid</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\RadixSort.h">
+				<Filter>PartitionGrid</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\RenderProxy.cpp">
+				<Filter>Proxy\Render</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\RenderProxy.h">
+				<Filter>Proxy\Render</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\RopeProxy.cpp">
+				<Filter>Proxy\Physics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\RopeProxy.h">
+				<Filter>Proxy\Physics</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\SaltBufferArray.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\SaltHandle.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\ScriptBind_Entity.cpp">
+				<Filter>Proxy\Script</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\ScriptBind_Entity.h">
+				<Filter>Proxy\Script</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\ScriptProperties.cpp">
+				<Filter>Proxy\Script</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\ScriptProperties.h">
+				<Filter>Proxy\Script</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\ScriptProxy.cpp">
+				<Filter>Proxy\Script</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\ScriptProxy.h">
+				<Filter>Proxy\Script</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\SubstitutionProxy.cpp">
+				<Filter>Proxy\SubstitutionProxy</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\SubstitutionProxy.h">
+				<Filter>Proxy\SubstitutionProxy</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\TriggerProxy.cpp">
+				<Filter>Proxy\TriggerProxy</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\TriggerProxy.h">
+				<Filter>Proxy\TriggerProxy</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\cryentitysystem.waf_files">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\resource.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\stdafx.cpp">
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\stdafx.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryEntitySystem\wscript">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+			<Filter Include="Proxy\Physics">
+				<UniqueIdentifier>{6FA2743E-5003-4E52-9005-0CB44AAA572B}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Loading">
+				<UniqueIdentifier>{16BFBF9C-4627-42CF-9CBA-4134EC53C504}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Proxy\TriggerProxy">
+				<UniqueIdentifier>{A8EDEFAF-0795-4A80-BF9D-748273C61D03}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="BreakableManager">
+				<UniqueIdentifier>{A52BC1F3-21E7-44F6-B0F0-15E0D6F0DCAB}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Proxy\Audio">
+				<UniqueIdentifier>{C935F347-2AA2-4C67-B80E-D2857C77BFEA}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Proxy\SubstitutionProxy">
+				<UniqueIdentifier>{1A2D1F93-113C-4922-BA98-8117EB04850D}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Proxy\Attributes">
+				<UniqueIdentifier>{DEDD7288-0374-41B1-9CDD-3C9EA1861119}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Proxy\ClipVolume">
+				<UniqueIdentifier>{ED3BFF3B-735C-4A15-94F2-4B390D7D9C4B}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Proxy\FlowGraph">
+				<UniqueIdentifier>{2803FC50-7E3A-40CF-A581-4C7077E4004C}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Proxy">
+				<UniqueIdentifier>{F56EC2AB-97D6-4483-AD90-F6394E3F341F}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Pool">
+				<UniqueIdentifier>{DEF36B72-6EFE-4529-B13B-A240DD331A12}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="_WAF_">
+				<UniqueIdentifier>{88F32D28-D9A2-467A-82CE-4D592F9E94FE}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="PartitionGrid">
+				<UniqueIdentifier>{4D81883B-5A0A-4A43-93E4-F135A2075665}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Uber Files">
+				<UniqueIdentifier>{1A8E5137-C0CF-4A7A-8E7E-EE0B26E0BD8E}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Proxy\CameraProxy">
+				<UniqueIdentifier>{FB7F47C2-685E-47B5-BD82-BF9DC4D55400}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Proxy\TrackView">
+				<UniqueIdentifier>{16E13C1C-B8FA-492A-BC21-54D506C17BFB}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Proxy\DynamicResponse">
+				<UniqueIdentifier>{0B765B68-44F3-40E5-883B-58B506E0E27A}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="AreaManager">
+				<UniqueIdentifier>{44F3C6BF-07BF-48ED-8443-753B49AE8C1C}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="EntityClass">
+				<UniqueIdentifier>{CEB98659-B094-4073-BD03-6CFA4F3E3A84}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Proxy\Render">
+				<UniqueIdentifier>{D4ECF7D1-7F39-4AEC-96CB-A6D5B928FEDF}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Proxy\Script">
+				<UniqueIdentifier>{0C9F3D0C-9682-4FC2-87B2-A5F79737F5C5}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Proxy\Area">
+				<UniqueIdentifier>{44D0DE3C-4066-49AE-962D-CB6CC89C573A}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Source Files">
+				<UniqueIdentifier>{BA03E055-4FA2-4CE3-8A1C-D348547D379C}</UniqueIdentifier>
+			</Filter>
+	</ItemGroup>
+</Project>

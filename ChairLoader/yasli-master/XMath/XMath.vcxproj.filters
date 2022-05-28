@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="XerrHand">
+      <UniqueIdentifier>{0f4dd070-f011-49f6-8d2a-dd912411d9ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XErrHand\BSUFunctions.cpp">
+      <Filter>XerrHand</Filter>
+    </ClCompile>
+    <ClCompile Include="XErrHand\CrashHandler.cpp">
+      <Filter>XerrHand</Filter>
+    </ClCompile>
+    <ClCompile Include="XErrHand\DiagAssert.cpp">
+      <Filter>XerrHand</Filter>
+    </ClCompile>
+    <ClCompile Include="XErrHand\GetLoadedModules.cpp">
+      <Filter>XerrHand</Filter>
+    </ClCompile>
+    <ClCompile Include="XErrHand\IsNT.cpp">
+      <Filter>XerrHand</Filter>
+    </ClCompile>
+    <ClCompile Include="XErrHand\NT4ProcessInfo.cpp">
+      <Filter>XerrHand</Filter>
+    </ClCompile>
+    <ClCompile Include="XErrHand\TLHELPProcessInfo.cpp">
+      <Filter>XerrHand</Filter>
+    </ClCompile>
+    <ClCompile Include="XErrHand\XERRHAND.CPP">
+      <Filter>XerrHand</Filter>
+    </ClCompile>
+    <ClCompile Include="Colors.cpp" />
+    <ClCompile Include="ComboListColor.cpp" />
+    <ClCompile Include="Profiler.cpp" />
+    <ClCompile Include="Range.cpp" />
+    <ClCompile Include="Rectf.cpp" />
+    <ClCompile Include="Recti.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="XClock.cpp" />
+    <ClCompile Include="XMath.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="XErrHand\BugslayerUtil.h">
+      <Filter>XerrHand</Filter>
+    </ClInclude>
+    <ClInclude Include="XErrHand\CrashHandler.h">
+      <Filter>XerrHand</Filter>
+    </ClInclude>
+    <ClInclude Include="XErrHand\CriticalSection.h">
+      <Filter>XerrHand</Filter>
+    </ClInclude>
+    <ClInclude Include="XErrHand\DiagAssert.h">
+      <Filter>XerrHand</Filter>
+    </ClInclude>
+    <ClInclude Include="XErrHand\Internal.h">
+      <Filter>XerrHand</Filter>
+    </ClInclude>
+    <ClInclude Include="XErrHand\MemDumperValidator.h">
+      <Filter>XerrHand</Filter>
+    </ClInclude>
+    <ClInclude Include="XErrHand\MSJDBG.h">
+      <Filter>XerrHand</Filter>
+    </ClInclude>
+    <ClInclude Include="XErrHand\PCH.h">
+      <Filter>XerrHand</Filter>
+    </ClInclude>
+    <ClInclude Include="XErrHand\PSAPI.H">
+      <Filter>XerrHand</Filter>
+    </ClInclude>
+    <ClInclude Include="XErrHand\SymbolEngine.h">
+      <Filter>XerrHand</Filter>
+    </ClInclude>
+    <ClInclude Include="XErrHand\WarningsOff.h">
+      <Filter>XerrHand</Filter>
+    </ClInclude>
+    <ClInclude Include="XErrHand\WarningsOn.h">
+      <Filter>XerrHand</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h" />
+    <ClInclude Include="ComboListColor.h" />
+    <ClInclude Include="exception.h" />
+    <ClInclude Include="fastMath.h" />
+    <ClInclude Include="MinMax.h" />
+    <ClInclude Include="MTSection.h" />
+    <ClInclude Include="Profiler.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="Range.h" />
+    <ClInclude Include="Rectf.h" />
+    <ClInclude Include="Recti.h" />
+    <ClInclude Include="round.h" />
+    <ClInclude Include="SafeMath.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Streams.h" />
+    <ClInclude Include="XClock.h" />
+    <ClInclude Include="xmath.h" />
+    <ClInclude Include="XMathLib.h" />
+  </ItemGroup>
+</Project>

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "pch.h"
+#include "StdAfx.h"
 class ArchetypeLibrary {
 public:
 	struct ArkGameplayArchitecutre{

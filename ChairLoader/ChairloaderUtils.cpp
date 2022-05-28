@@ -1,4 +1,4 @@
-#include "pch.h"
+#include "StdAfx.h"
 #include "ChairloaderUtils.h"
 SEntitySpawnParams* ChairloaderUtils::
 CreateEntitySpawnParameters(char* name, Vec3_tpl<float>* pos, Quat_tpl<float>* rot, SEntitySpawnParams* params) {
@@ -337,7 +337,9 @@ IEntity* ChairloaderUtils::NpcSpawnHelper::spawnNpcFromArchetype(uint64_t archet
 }
 
 std::vector<IEntity*> ChairloaderUtils::NpcSpawnHelper::spawnNpcFromArchetype(uint64_t archetypeId, EntityType type,
-	uint32_t spawnCount) {}
+	uint32_t spawnCount) {
+	return std::vector<IEntity*>{};
+}
 
 ChairloaderUtils::ChairloaderUtils(uintptr_t moduleBase) {
 	internalPreyFunctions = new preyFunctions(moduleBase);

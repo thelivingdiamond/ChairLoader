@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryGameZero\CryGameZero_uber_Editor.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryGameZero\CryGameZero_uber_Game.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryGameZero\CryGameZero_uber_Player.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\GameZero.cpp">
+				<Filter>DLL</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\StdAfx.cpp">
+				<Filter>DLL</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\StdAfx.h">
+				<Filter>DLL</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\editor\EditorGame.cpp">
+				<Filter>Editor</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\editor\EditorGame.h">
+				<Filter>Editor</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\entities\GeomEntity.cpp">
+				<Filter>Entities</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\entities\GeomEntity.h">
+				<Filter>Entities</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\flownodes\FlowBaseNode.h">
+				<Filter>Flownodes</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\flownodes\FlowGameEntityNode.cpp">
+				<Filter>Flownodes</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\flownodes\FlowGameEntityNode.h">
+				<Filter>Flownodes</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\game\Game.cpp">
+				<Filter>Game</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\game\Game.h">
+				<Filter>Game</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\game\GameFactory.cpp">
+				<Filter>Game</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\game\GameFactory.h">
+				<Filter>Game</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\game\GameRules.cpp">
+				<Filter>Game</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\game\GameRules.h">
+				<Filter>Game</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\gamezero.waf_files">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\player\Player.cpp">
+				<Filter>Player</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\player\Player.h">
+				<Filter>Player</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\player\extensions\ISimpleExtension.h">
+				<Filter>Player\Extensions</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\player\extensions\InputExtension.cpp">
+				<Filter>Player\Extensions</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\player\extensions\InputExtension.h">
+				<Filter>Player\Extensions</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\player\extensions\MovementExtension.cpp">
+				<Filter>Player\Extensions</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\player\extensions\MovementExtension.h">
+				<Filter>Player\Extensions</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\player\extensions\ViewExtension.cpp">
+				<Filter>Player\Extensions</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\player\extensions\ViewExtension.h">
+				<Filter>Player\Extensions</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\startup\GameStartup.cpp">
+				<Filter>Startup</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\startup\GameStartup.h">
+				<Filter>Startup</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\GameZero\GameDll\wscript">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+			<Filter Include="Player\Extensions">
+				<UniqueIdentifier>{9678E372-9DCF-4063-B13F-3F318FBB26EE}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="_WAF_">
+				<UniqueIdentifier>{88F32D28-D9A2-467A-82CE-4D592F9E94FE}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Player">
+				<UniqueIdentifier>{636DA1D3-5E80-4B00-AAE0-FCD8333F9234}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Uber Files">
+				<UniqueIdentifier>{1A8E5137-C0CF-4A7A-8E7E-EE0B26E0BD8E}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Startup">
+				<UniqueIdentifier>{13E68596-4C25-48AA-B48F-7EA263BAD4E5}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="DLL">
+				<UniqueIdentifier>{5884E40D-5963-40BE-9406-F2711AD9E39A}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Entities">
+				<UniqueIdentifier>{EA995898-864F-40EA-9091-06539758C905}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Game">
+				<UniqueIdentifier>{63D72051-E901-4069-B8AA-1B32AA0C43BB}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Editor">
+				<UniqueIdentifier>{344A7F42-7FB7-4561-8EF9-6EB7BCE95257}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Flownodes">
+				<UniqueIdentifier>{FCC55770-EE67-4CE7-99FF-8758DB606237}</UniqueIdentifier>
+			</Filter>
+	</ItemGroup>
+</Project>

@@ -1,4 +1,4 @@
-#include "pch.h"
+#include "StdAfx.h"
 #include "mem.h"
 // Apply a patch to a region of memory
 void mem::PatchEx(BYTE* dst, BYTE* src, unsigned int size, HANDLE hProcess) {

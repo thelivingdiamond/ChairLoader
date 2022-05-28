@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAISystem\CryAISystem_ai_object_uber.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAISystem\CryAISystem_helpers_uber.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAISystem\CryAISystem_navigation_uber_0.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAISystem\CryAISystem_navigation_uber_1.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAISystem\CryAISystem_uber_0.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAISystem\CryAISystem_uber_1.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAISystem\CryAISystem_uber_2.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAISystem\CryAISystem_uber_3.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAISystem\CryAISystem_uber_4.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAISystem\CryAISystem_uber_6.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIActions.cpp">
+				<Filter>Actions</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIActions.h">
+				<Filter>Actions</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIActor.cpp">
+				<Filter>AIObject</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIActor.h">
+				<Filter>AIObject</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIBubblesSystem\AIBubblesSystem.cpp">
+				<Filter>Helpers\Debug\AIBubblesSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIBubblesSystem\AIBubblesSystem.h">
+				<Filter>Helpers\Debug\AIBubblesSystem</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIBubblesSystem\IAIBubblesSystem.h">
+				<Filter>Helpers\Debug\AIBubblesSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AICollision.cpp">
+				<Filter>Helpers</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AICollision.h">
+				<Filter>Helpers</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIConsoleVariables.cpp">
+				<Filter>System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIConsoleVariables.h">
+				<Filter>System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIDbgRecorder.cpp">
+				<Filter>Helpers\Debug</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIDbgRecorder.h">
+				<Filter>Helpers\Debug</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIDebugDrawHelpers.cpp">
+				<Filter>Helpers\Debug</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIDebugDrawHelpers.h">
+				<Filter>Helpers\Debug</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIDynHideObjectManager.cpp">
+				<Filter>HideObjects</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIDynHideObjectManager.h">
+				<Filter>HideObjects</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIFlyingVehicle.cpp">
+				<Filter>AIObject</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIFlyingVehicle.h">
+				<Filter>AIObject</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIGroup.cpp">
+				<Filter>AIObject\Coordination</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIGroup.h">
+				<Filter>AIObject\Coordination</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIHash.h">
+				<Filter>Helpers</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIHideObject.cpp">
+				<Filter>HideObjects</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIHideObject.h">
+				<Filter>HideObjects</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AILightManager.cpp">
+				<Filter>AILightManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AILightManager.h">
+				<Filter>AILightManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AILog.cpp">
+				<Filter>Helpers\Debug</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AILog.h">
+				<Filter>Helpers\Debug</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIMemStats.cpp">
+				<Filter>Helpers\Debug</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIObject.cpp">
+				<Filter>AIObject</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIObject.h">
+				<Filter>AIObject</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIObjectIterators.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIObjectManager.cpp">
+				<Filter>AIObject\AIObjectManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIObjectManager.h">
+				<Filter>AIObject\AIObjectManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIPIDController.cpp">
+				<Filter>Helpers\PID</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIPIDController.h">
+				<Filter>Helpers\PID</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIPlayer.cpp">
+				<Filter>AIObject</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIPlayer.h">
+				<Filter>AIObject</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIQuadTree.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIQuadTree.inl">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIRadialOcclusion.cpp">
+				<Filter>Navigation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIRadialOcclusion.h">
+				<Filter>Navigation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIRecorder.cpp">
+				<Filter>Helpers\Debug</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIRecorder.h">
+				<Filter>Helpers\Debug</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AISignal.cpp">
+				<Filter>System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AISignal.h">
+				<Filter>System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AISignalCRCs.cpp">
+				<Filter>System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AISignalCRCs.h">
+				<Filter>System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIVehicle.cpp">
+				<Filter>AIObject</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AIVehicle.h">
+				<Filter>AIObject</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AStarOpenList.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AStarSolver.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\ActorLookUp.h">
+				<Filter>AIObject</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Adapters.cpp">
+				<Filter>AIObject</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Adapters.h">
+				<Filter>AIObject</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AllNodesContainer.cpp">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AllNodesContainer.h">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AutoTypeStructs.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\AutoTypeStructs_info.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BehaviorTree\BehaviorTreeGraft.cpp">
+				<Filter>Behavior Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BehaviorTree\BehaviorTreeGraft.h">
+				<Filter>Behavior Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BehaviorTree\BehaviorTreeManager.cpp">
+				<Filter>Behavior Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BehaviorTree\BehaviorTreeManager.h">
+				<Filter>Behavior Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BehaviorTree\BehaviorTreeMetaExtensions.cpp">
+				<Filter>Behavior Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BehaviorTree\BehaviorTreeMetaExtensions.h">
+				<Filter>Behavior Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BehaviorTree\BehaviorTreeNodeRegistration.cpp">
+				<Filter>Behavior Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BehaviorTree\BehaviorTreeNodeRegistration.h">
+				<Filter>Behavior Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BehaviorTree\BehaviorTreeNodes_AI.cpp">
+				<Filter>Behavior Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BehaviorTree\BehaviorTreeNodes_AI.h">
+				<Filter>Behavior Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BehaviorTree\BehaviorTreeNodes_Core.cpp">
+				<Filter>Behavior Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BehaviorTree\BehaviorTreeNodes_Core.h">
+				<Filter>Behavior Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BehaviorTree\BehaviorTreeNodes_Helicopter.cpp">
+				<Filter>Behavior Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BehaviorTree\BehaviorTreeNodes_Helicopter.h">
+				<Filter>Behavior Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BehaviorTree\ExecutionStackFileLogger.cpp">
+				<Filter>Behavior Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BehaviorTree\ExecutionStackFileLogger.h">
+				<Filter>Behavior Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BehaviorTree\TreeVisualizer.cpp">
+				<Filter>Behavior Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BehaviorTree\TreeVisualizer.h">
+				<Filter>Behavior Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BlackBoard.cpp">
+				<Filter>AIObject\Coordination</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\BlackBoard.h">
+				<Filter>AIObject\Coordination</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CAISystem.cpp">
+				<Filter>System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CAISystem.h">
+				<Filter>System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CAISystemPhys.cpp">
+				<Filter>System</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CAISystemUpdate.cpp">
+				<Filter>System</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CTriangulator.cpp">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CTriangulator.h">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CalculationStopper.cpp">
+				<Filter>Helpers\CalculationStopper</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CalculationStopper.h">
+				<Filter>Helpers\CalculationStopper</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CentralInterestManager.cpp">
+				<Filter>InterestSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CentralInterestManager.h">
+				<Filter>InterestSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\ClusterDetector.cpp">
+				<Filter>ClusterDetector</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\ClusterDetector.h">
+				<Filter>ClusterDetector</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\ClusterRequest.cpp">
+				<Filter>ClusterDetector</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CodeCoverageGUI.cpp">
+				<Filter>Helpers\CodeCoverage</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CodeCoverageGUI.h">
+				<Filter>Helpers\CodeCoverage</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CodeCoverageManager.cpp">
+				<Filter>Helpers\CodeCoverage</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CodeCoverageManager.h">
+				<Filter>Helpers\CodeCoverage</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CodeCoverageTracker.cpp">
+				<Filter>Helpers\CodeCoverage</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CodeCoverageTracker.h">
+				<Filter>Helpers\CodeCoverage</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CollisionAvoidance\CollisionAvoidanceSystem.cpp">
+				<Filter>Collision Avoidance</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CollisionAvoidance\CollisionAvoidanceSystem.h">
+				<Filter>Collision Avoidance</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Communication\Communication.h">
+				<Filter>Communication System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Communication\CommunicationChannel.cpp">
+				<Filter>Communication System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Communication\CommunicationChannel.h">
+				<Filter>Communication System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Communication\CommunicationChannelManager.cpp">
+				<Filter>Communication System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Communication\CommunicationChannelManager.h">
+				<Filter>Communication System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Communication\CommunicationManager.cpp">
+				<Filter>Communication System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Communication\CommunicationManager.h">
+				<Filter>Communication System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Communication\CommunicationPlayer.cpp">
+				<Filter>Communication System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Communication\CommunicationPlayer.h">
+				<Filter>Communication System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Communication\CommunicationTestManager.cpp">
+				<Filter>Communication System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Communication\CommunicationTestManager.h">
+				<Filter>Communication System</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Configuration.h">
+				<Filter>System</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Cover\Cover.h">
+				<Filter>Cover System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Cover\CoverPath.cpp">
+				<Filter>Cover System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Cover\CoverPath.h">
+				<Filter>Cover System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Cover\CoverSampler.cpp">
+				<Filter>Cover System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Cover\CoverSampler.h">
+				<Filter>Cover System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Cover\CoverScorer.cpp">
+				<Filter>Cover System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Cover\CoverScorer.h">
+				<Filter>Cover System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Cover\CoverSurface.cpp">
+				<Filter>Cover System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Cover\CoverSurface.h">
+				<Filter>Cover System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Cover\CoverSystem.cpp">
+				<Filter>Cover System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Cover\CoverSystem.h">
+				<Filter>Cover System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Cover\CoverUser.cpp">
+				<Filter>Cover System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Cover\CoverUser.h">
+				<Filter>Cover System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Cover\DynamicCoverManager.cpp">
+				<Filter>Cover System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Cover\DynamicCoverManager.h">
+				<Filter>Cover System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Cover\EntityCoverSampler.cpp">
+				<Filter>Cover System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Cover\EntityCoverSampler.h">
+				<Filter>Cover System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CryAISystem.cpp">
+				<Filter>Lib</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\CryAISystem.h">
+				<Filter>Lib</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\DebugDraw.cpp">
+				<Filter>Helpers\Debug</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\DebugDrawContext.h">
+				<Filter>Helpers\Debug</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\EnterLeaveUpdateGoalOp.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Environment.cpp">
+				<Filter>System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Environment.h">
+				<Filter>System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Factions\FactionMap.cpp">
+				<Filter>Factions</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Factions\FactionMap.h">
+				<Filter>Factions</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\FireCommand.cpp">
+				<Filter>Deprecated</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\FireCommand.h">
+				<Filter>Deprecated</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\FlightNavRegion2.cpp">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\FlightNavRegion2.h">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\FlowNodes\AIFlowBaseNode.cpp">
+				<Filter>FlowNodes</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\FlowNodes\AIFlowBaseNode.h">
+				<Filter>FlowNodes</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\FlyHelpers_Debug.h">
+				<Filter>Game Specific</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\FlyHelpers_Path.cpp">
+				<Filter>Game Specific</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\FlyHelpers_Path.h">
+				<Filter>Game Specific</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\FlyHelpers_PathFollower.cpp">
+				<Filter>Game Specific</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\FlyHelpers_PathFollower.h">
+				<Filter>Game Specific</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\FlyHelpers_PathFollowerHelpers.h">
+				<Filter>Game Specific</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\FlyHelpers_PathLocation.h">
+				<Filter>Game Specific</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\FlyHelpers_Tactical.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\FlyHelpers_TacticalPointLanguageExtender.cpp">
+				<Filter>Game Specific</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\FlyHelpers_TacticalPointLanguageExtender.h">
+				<Filter>Game Specific</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Formation.cpp">
+				<Filter>AIObject\Coordination</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Formation.h">
+				<Filter>AIObject\Coordination</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Free2DNavRegion.cpp">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Free2DNavRegion.h">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GameSpecific\GoalOp_Crysis2.cpp">
+				<Filter>Game Specific</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GameSpecific\GoalOp_Crysis2.h">
+				<Filter>Game Specific</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GameSpecific\GoalOp_G02.cpp">
+				<Filter>Game Specific</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GameSpecific\GoalOp_G02.h">
+				<Filter>Game Specific</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GameSpecific\GoalOp_G04.cpp">
+				<Filter>Game Specific</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GameSpecific\GoalOp_G04.h">
+				<Filter>Game Specific</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GenericAStarSolver.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GlobalPerceptionScaleHandler.cpp">
+				<Filter>Perception</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GlobalPerceptionScaleHandler.h">
+				<Filter>Perception</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GoalOp.cpp">
+				<Filter>Goals</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GoalOp.h">
+				<Filter>Goals</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GoalOpFactory.cpp">
+				<Filter>Goals</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GoalOpFactory.h">
+				<Filter>Goals</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GoalOpStick.cpp">
+				<Filter>Goals</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GoalOpStick.h">
+				<Filter>Goals</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GoalOpTrace.cpp">
+				<Filter>Goals</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GoalOpTrace.h">
+				<Filter>Goals</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GoalOps\ShootOp.cpp">
+				<Filter>Goals\GoalOps</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GoalOps\ShootOp.h">
+				<Filter>Goals\GoalOps</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GoalOps\TeleportOp.cpp">
+				<Filter>Goals\GoalOps</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GoalOps\TeleportOp.h">
+				<Filter>Goals\GoalOps</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GoalPipe.cpp">
+				<Filter>Goals</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GoalPipe.h">
+				<Filter>Goals</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GoalPipeXMLReader.cpp">
+				<Filter>Goals</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GoalPipeXMLReader.h">
+				<Filter>Goals</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Graph.cpp">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Graph.h">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GraphLinkManager.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GraphNodeManager.cpp">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GraphNodeManager.h">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GraphStructures.cpp">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GraphStructures.h">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\GraphUtility.cpp">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Group\Group.cpp">
+				<Filter>Group</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Group\Group.h">
+				<Filter>Group</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Group\GroupManager.cpp">
+				<Filter>Group</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Group\GroupManager.h">
+				<Filter>Group</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\HashSpace.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\HideSpot.cpp">
+				<Filter>HideObjects</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\HideSpot.h">
+				<Filter>HideObjects</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Leader.cpp">
+				<Filter>AIObject\Coordination</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Leader.h">
+				<Filter>AIObject\Coordination</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\LeaderAction.cpp">
+				<Filter>AIObject\Coordination</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\LeaderAction.h">
+				<Filter>AIObject\Coordination</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\MNMPathfinder.cpp">
+				<Filter>Navigation\PathFinding</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\MNMPathfinder.h">
+				<Filter>Navigation\PathFinding</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Mannequin\MannequinGoalOp.cpp">
+				<Filter>Mannequin</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Mannequin\MannequinGoalOp.h">
+				<Filter>Mannequin</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\MissLocationSensor.cpp">
+				<Filter>Helpers</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\MissLocationSensor.h">
+				<Filter>Helpers</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MoveOp.cpp">
+				<Filter>Movement\GoalOps</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MoveOp.h">
+				<Filter>Movement\GoalOps</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementActor.cpp">
+				<Filter>Movement\System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementActor.h">
+				<Filter>Movement\System</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementBlock_DefaultEmpty.h">
+				<Filter>Movement\Blocks</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementBlock_FollowPath.cpp">
+				<Filter>Movement\Blocks</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementBlock_FollowPath.h">
+				<Filter>Movement\Blocks</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementBlock_HarshStop.cpp">
+				<Filter>Movement\Blocks</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementBlock_HarshStop.h">
+				<Filter>Movement\Blocks</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementBlock_InstallAgentInCover.h">
+				<Filter>Movement\Blocks</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementBlock_SetupPipeUserCoverInformation.cpp">
+				<Filter>Movement\Blocks</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementBlock_SetupPipeUserCoverInformation.h">
+				<Filter>Movement\Blocks</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementBlock_TurnTowardsPosition.cpp">
+				<Filter>Movement\Blocks</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementBlock_TurnTowardsPosition.h">
+				<Filter>Movement\Blocks</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementBlock_UninstallAgentFromCover.h">
+				<Filter>Movement\Blocks</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementBlock_UseExactPositioning.cpp">
+				<Filter>Movement\Blocks</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementBlock_UseExactPositioning.h">
+				<Filter>Movement\Blocks</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementBlock_UseExactPositioningBase.cpp">
+				<Filter>Movement\Blocks</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementBlock_UseExactPositioningBase.h">
+				<Filter>Movement\Blocks</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementBlock_UseSmartObject.cpp">
+				<Filter>Movement\Blocks</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementBlock_UseSmartObject.h">
+				<Filter>Movement\Blocks</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementHelpers.cpp">
+				<Filter>Movement\Helpers</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementHelpers.h">
+				<Filter>Movement\Helpers</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementPlan.cpp">
+				<Filter>Movement\System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementPlan.h">
+				<Filter>Movement\System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementPlanner.cpp">
+				<Filter>Movement\System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementPlanner.h">
+				<Filter>Movement\System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementSystem.cpp">
+				<Filter>Movement\System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementSystem.h">
+				<Filter>Movement\System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementSystemCreator.cpp">
+				<Filter>Movement\System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\MovementSystemCreator.h">
+				<Filter>Movement\System</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Movement\Readme.txt">
+				<Filter>Movement</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\NavPath.cpp">
+				<Filter>Navigation\PathFinding</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\NavPath.h">
+				<Filter>Navigation\PathFinding</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\NavRegion.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation.cpp">
+				<Filter>Navigation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation.h">
+				<Filter>Navigation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\CustomNavRegion.cpp">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\CustomNavRegion.h">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\BoundingVolume.cpp">
+				<Filter>Navigation\MNM</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\BoundingVolume.h">
+				<Filter>Navigation\MNM</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\CompactSpanGrid.cpp">
+				<Filter>Navigation\MNM</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\CompactSpanGrid.h">
+				<Filter>Navigation\MNM</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\DynamicSpanGrid.cpp">
+				<Filter>Navigation\MNM</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\DynamicSpanGrid.h">
+				<Filter>Navigation\MNM</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\FixedAABB.h">
+				<Filter>Navigation\MNM</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\FixedVec2.h">
+				<Filter>Navigation\MNM</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\FixedVec3.h">
+				<Filter>Navigation\MNM</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\HashComputer.h">
+				<Filter>Navigation\MNM</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\IslandConnections.cpp">
+				<Filter>Navigation\MNM</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\IslandConnections.h">
+				<Filter>Navigation\MNM</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\MNM.h">
+				<Filter>Navigation\MNM</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\MNMProfiler.h">
+				<Filter>Navigation\MNM</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\MNM_Type_info.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\MeshGrid.cpp">
+				<Filter>Navigation\MNM</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\MeshGrid.h">
+				<Filter>Navigation\MNM</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\OffGridLinks.cpp">
+				<Filter>Navigation\MNM</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\OffGridLinks.h">
+				<Filter>Navigation\MNM</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\OpenList.h">
+				<Filter>Navigation\MNM</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\Tile.cpp">
+				<Filter>Navigation\MNM</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\Tile.h">
+				<Filter>Navigation\MNM</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\TileGenerator.cpp">
+				<Filter>Navigation\MNM</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\TileGenerator.h">
+				<Filter>Navigation\MNM</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\TileGeneratorDraw.cpp">
+				<Filter>Navigation\MNM</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\Voxelizer.cpp">
+				<Filter>Navigation\MNM</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\MNM\Voxelizer.h">
+				<Filter>Navigation\MNM</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\NavigationSystem\IslandConnectionsManager.cpp">
+				<Filter>Navigation\NavigationSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\NavigationSystem\IslandConnectionsManager.h">
+				<Filter>Navigation\NavigationSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\NavigationSystem\NavigationSystem.cpp">
+				<Filter>Navigation\NavigationSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\NavigationSystem\NavigationSystem.h">
+				<Filter>Navigation\NavigationSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\NavigationSystem\OffMeshNavigationManager.cpp">
+				<Filter>Navigation\NavigationSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\NavigationSystem\OffMeshNavigationManager.h">
+				<Filter>Navigation\NavigationSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\NavigationSystem\VolumesManager.cpp">
+				<Filter>Navigation\NavigationSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\NavigationSystem\VolumesManager.h">
+				<Filter>Navigation\NavigationSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\NavigationSystem\WorldMonitor.cpp">
+				<Filter>Navigation\NavigationSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\NavigationSystem\WorldMonitor.h">
+				<Filter>Navigation\NavigationSystem</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Navigation\PathHolder.h">
+				<Filter>Navigation\PathFinding</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\NullAIDebugRenderer.h">
+				<Filter>Helpers\Debug</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\ObjectContainer.cpp">
+				<Filter>System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\ObjectContainer.h">
+				<Filter>System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PathFollower.cpp">
+				<Filter>Navigation\PathFinding</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PathFollower.h">
+				<Filter>Navigation\PathFinding</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PathMarker.cpp">
+				<Filter>Navigation\PathFinding</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PathMarker.h">
+				<Filter>Navigation\PathFinding</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PathObstacles.cpp">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PathObstacles.h">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PathfinderNavigationSystemUser.h">
+				<Filter>Navigation\PathFinding</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PerceptionManager.cpp">
+				<Filter>Perception</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PerceptionManager.h">
+				<Filter>Perception</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PersonalInterestManager.cpp">
+				<Filter>InterestSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PersonalInterestManager.h">
+				<Filter>InterestSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PersonalLog.cpp">
+				<Filter>AIObject</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PersonalLog.h">
+				<Filter>AIObject</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PipeManager.cpp">
+				<Filter>Goals</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PipeManager.h">
+				<Filter>Goals</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PipeUser.cpp">
+				<Filter>AIObject</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PipeUser.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PipeUserMovementActorAdapter.cpp">
+				<Filter>AIObject</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PipeUserMovementActorAdapter.h">
+				<Filter>AIObject</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PolygonSetOps\BiDirMap.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PolygonSetOps\LineSeg.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PolygonSetOps\Polygon2d.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PolygonSetOps\Utils.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PostureManager.cpp">
+				<Filter>AIObject</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PostureManager.h">
+				<Filter>AIObject</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Puppet.cpp">
+				<Filter>AIObject</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Puppet.h">
+				<Filter>AIObject</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PuppetPhys.cpp">
+				<Filter>AIObject</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\PuppetRateOfDeath.cpp">
+				<Filter>AIObject</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Reference.h">
+				<Filter>Helpers</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Reference.inl">
+				<Filter>Helpers</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\ScriptBind_AI.cpp">
+				<Filter>Scripting</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\ScriptBind_AI.h">
+				<Filter>Scripting</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\BlockyXml.cpp">
+				<Filter>Selection Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\BlockyXml.h">
+				<Filter>Selection Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\SelectionCondition.cpp">
+				<Filter>Selection Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\SelectionCondition.h">
+				<Filter>Selection Tree</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\SelectionContext.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\SelectionSignalVariables.cpp">
+				<Filter>Selection Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\SelectionSignalVariables.h">
+				<Filter>Selection Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\SelectionTranslator.cpp">
+				<Filter>Selection Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\SelectionTranslator.h">
+				<Filter>Selection Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\SelectionTree.cpp">
+				<Filter>Selection Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\SelectionTree.h">
+				<Filter>Selection Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\SelectionTreeDebugger.cpp">
+				<Filter>Selection Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\SelectionTreeDebugger.h">
+				<Filter>Selection Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\SelectionTreeManager.cpp">
+				<Filter>Selection Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\SelectionTreeManager.h">
+				<Filter>Selection Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\SelectionTreeNode.cpp">
+				<Filter>Selection Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\SelectionTreeNode.h">
+				<Filter>Selection Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\SelectionTreeTemplate.cpp">
+				<Filter>Selection Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\SelectionTreeTemplate.h">
+				<Filter>Selection Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\SelectionVariables.cpp">
+				<Filter>Selection Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SelectionTree\SelectionVariables.h">
+				<Filter>Selection Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Sequence\Sequence.cpp">
+				<Filter>Sequence</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Sequence\Sequence.h">
+				<Filter>Sequence</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Sequence\SequenceAgent.h">
+				<Filter>Sequence</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Sequence\SequenceFlowNodes.cpp">
+				<Filter>Sequence</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Sequence\SequenceFlowNodes.h">
+				<Filter>Sequence</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Sequence\SequenceManager.cpp">
+				<Filter>Sequence</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Sequence\SequenceManager.h">
+				<Filter>Sequence</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Shape.cpp">
+				<Filter>Helpers</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Shape.h">
+				<Filter>Helpers</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Shape2.cpp">
+				<Filter>Helpers</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Shape2.h">
+				<Filter>Helpers</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\ShapeContainer.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SmartObjects.cpp">
+				<Filter>SmartObjects</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SmartObjects.h">
+				<Filter>SmartObjects</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SmartPathFollower.cpp">
+				<Filter>Navigation\PathFinding</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\SmartPathFollower.h">
+				<Filter>Navigation\PathFinding</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\StatsManager.cpp">
+				<Filter>Helpers\Debug</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\StatsManager.h">
+				<Filter>Helpers\Debug</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\StdAfx.cpp">
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\StdAfx.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\TacticalPointSystem\TacticalPointQuery.cpp">
+				<Filter>Tactical Point System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\TacticalPointSystem\TacticalPointQuery.h">
+				<Filter>Tactical Point System</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\TacticalPointSystem\TacticalPointQueryEnum.h">
+				<Filter>Tactical Point System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\TacticalPointSystem\TacticalPointSystem.cpp">
+				<Filter>Tactical Point System</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\TacticalPointSystem\TacticalPointSystem.h">
+				<Filter>Tactical Point System</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\TargetSelection\TargetTrack.cpp">
+				<Filter>Perception\Target Selection</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\TargetSelection\TargetTrack.h">
+				<Filter>Perception\Target Selection</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\TargetSelection\TargetTrackCommon.cpp">
+				<Filter>Perception\Target Selection</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\TargetSelection\TargetTrackCommon.h">
+				<Filter>Perception\Target Selection</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\TargetSelection\TargetTrackGroup.cpp">
+				<Filter>Perception\Target Selection</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\TargetSelection\TargetTrackGroup.h">
+				<Filter>Perception\Target Selection</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\TargetSelection\TargetTrackManager.cpp">
+				<Filter>Perception\Target Selection</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\TargetSelection\TargetTrackManager.h">
+				<Filter>Perception\Target Selection</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\TargetSelection\TargetTrackModifiers.cpp">
+				<Filter>Perception\Target Selection</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\TargetSelection\TargetTrackModifiers.h">
+				<Filter>Perception\Target Selection</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\UnitAction.cpp">
+				<Filter>AIObject\Coordination</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\UnitAction.h">
+				<Filter>AIObject\Coordination</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\UnitImg.cpp">
+				<Filter>AIObject\Coordination</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\UnitImg.h">
+				<Filter>AIObject\Coordination</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\ValueHistory.h">
+				<Filter>Helpers\Debug</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\VertexList.cpp">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\VertexList.h">
+				<Filter>Navigation\DataStructs</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\VisionMap.cpp">
+				<Filter>Perception</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\VisionMap.h">
+				<Filter>Perception</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Walkability\FloorHeightCache.cpp">
+				<Filter>Walkability</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Walkability\FloorHeightCache.h">
+				<Filter>Walkability</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Walkability\WalkabilityCache.cpp">
+				<Filter>Walkability</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Walkability\WalkabilityCache.h">
+				<Filter>Walkability</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Walkability\WalkabilityCacheManager.cpp">
+				<Filter>Walkability</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\Walkability\WalkabilityCacheManager.h">
+				<Filter>Walkability</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\WorldOctree.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\XMLUtils.h">
+				<Filter>System</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\cryaisystem.waf_files">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\resource.h">
+				<Filter>System</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAISystem\wscript">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+			<Filter Include="Group">
+				<UniqueIdentifier>{03937134-CEDA-4907-8BE3-9A77EE3A48A0}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Lib">
+				<UniqueIdentifier>{043D23E5-4EDC-4360-A778-5AE212D1B806}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Game Specific">
+				<UniqueIdentifier>{AC4CA99F-BD04-465E-8268-6E80B92F287C}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Navigation\PathFinding">
+				<UniqueIdentifier>{FA7B56DC-5E75-45B4-A83D-D717D58F03C0}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Communication System">
+				<UniqueIdentifier>{5081D3CD-3AF1-462B-B3C4-0ECBB399A42B}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Walkability">
+				<UniqueIdentifier>{F54E7D8D-9D56-4446-9FFC-FE00063A65D5}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="System">
+				<UniqueIdentifier>{A45DA96D-0BF6-4759-B0F2-D27AF22BE28A}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Helpers\CalculationStopper">
+				<UniqueIdentifier>{9AC5BDEE-062B-4927-BCD9-53D063AEF612}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Factions">
+				<UniqueIdentifier>{89D4D046-BBEA-42DD-B79B-C8506A498C70}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="FlowNodes">
+				<UniqueIdentifier>{43C08967-405E-45AD-9DA0-88223ECA155E}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Movement">
+				<UniqueIdentifier>{4642E767-F925-4FA4-8AFA-DBC963F80B7A}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Navigation\MNM">
+				<UniqueIdentifier>{1C670760-C119-486C-82FA-FBD6C4B5474D}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Perception">
+				<UniqueIdentifier>{DA1691C2-8EB3-41E4-9A71-C17A7473E0CA}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Collision Avoidance">
+				<UniqueIdentifier>{47773736-864B-40D4-9BDE-7FC8431AABDF}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="AIObject\AIObjectManager">
+				<UniqueIdentifier>{D510CD0B-9163-4284-BE21-BB45D33980A4}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Movement\Helpers">
+				<UniqueIdentifier>{FCF6E142-B760-433F-BF75-5BED948BF0F6}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Goals">
+				<UniqueIdentifier>{D93302EA-BF22-4BF3-89DF-FABFE626A2D5}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Helpers\Debug">
+				<UniqueIdentifier>{D2F6FD83-D09D-49A9-BB71-78C7C8D65282}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Helpers\CodeCoverage">
+				<UniqueIdentifier>{DFA1B81D-C86F-4B28-A9DC-35D9DD5BF379}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Tactical Point System">
+				<UniqueIdentifier>{7B0232E8-3B5C-4EE8-9BE7-2BFC75C07B2A}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Behavior Tree">
+				<UniqueIdentifier>{65960F05-06F5-463F-A851-A8DE00E13354}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Cover System">
+				<UniqueIdentifier>{F0900C30-5E90-4A2D-904D-9118E136EFFE}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Goals\GoalOps">
+				<UniqueIdentifier>{98A0C1F0-E65B-4680-8B72-B8369A15C446}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Helpers\Debug\AIBubblesSystem">
+				<UniqueIdentifier>{C9F9242C-82A9-45BB-84E6-20B3E312CCDE}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Navigation\NavigationSystem">
+				<UniqueIdentifier>{A3FE4F72-28F6-40F9-A470-2F5380ABE1C6}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="SmartObjects">
+				<UniqueIdentifier>{E7AA1343-C7E0-4CAA-A52E-818442B84613}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="_WAF_">
+				<UniqueIdentifier>{88F32D28-D9A2-467A-82CE-4D592F9E94FE}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Mannequin">
+				<UniqueIdentifier>{96CF0F30-1E75-4E66-95C9-107FFAB945E5}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="AIObject">
+				<UniqueIdentifier>{E4DB19BB-2A61-4EBA-A00A-DAF25D947B73}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Deprecated">
+				<UniqueIdentifier>{0AC54CB1-0E74-44CF-B194-9826E8E32F7B}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Uber Files">
+				<UniqueIdentifier>{1A8E5137-C0CF-4A7A-8E7E-EE0B26E0BD8E}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="AILightManager">
+				<UniqueIdentifier>{18716554-DDDF-4297-9A19-6E6154D63930}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Movement\GoalOps">
+				<UniqueIdentifier>{CE3FEABD-5697-4D86-AAA5-AEEEAB5241EE}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="AIObject\Coordination">
+				<UniqueIdentifier>{944E01B5-5B04-44C0-9A55-F3AF8351683E}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Helpers\PID">
+				<UniqueIdentifier>{1BFB59EC-B4AC-4F3D-9FAE-6E3C0726218A}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Helpers">
+				<UniqueIdentifier>{58840CC8-1368-4AE1-85CB-61D83A4C974F}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Navigation">
+				<UniqueIdentifier>{846495F9-CEED-41AC-8F88-79F555936A7D}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Scripting">
+				<UniqueIdentifier>{66F1AED2-35AD-4252-A9A5-61E81CBBB43A}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Perception\Target Selection">
+				<UniqueIdentifier>{C991AC1A-EB92-445E-9686-FF23B94D521B}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="ClusterDetector">
+				<UniqueIdentifier>{AA112DBD-ACDF-4748-B791-4236D6C82C80}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Sequence">
+				<UniqueIdentifier>{3FF39D3A-CB32-4553-870A-64EF0CB321D5}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Movement\Blocks">
+				<UniqueIdentifier>{99FF08D8-0330-4325-BC02-E7D04B1F1BBD}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Selection Tree">
+				<UniqueIdentifier>{147EACA9-83C0-4484-BFA7-BF1A6E549F00}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Actions">
+				<UniqueIdentifier>{06DF3300-1C1D-4187-BDD8-1EA1F5B277AA}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="InterestSystem">
+				<UniqueIdentifier>{0CDBDCED-EC87-4D0B-AA4A-3C6F10005F6A}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Movement\System">
+				<UniqueIdentifier>{26D01FC4-A23D-4320-BCF8-FF2F66FA54D2}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Navigation\DataStructs">
+				<UniqueIdentifier>{D2378DCB-1D1B-4321-A68A-CF533CE6043B}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="HideObjects">
+				<UniqueIdentifier>{53DD4CE8-BA46-4424-AD40-5288CDA05E64}</UniqueIdentifier>
+			</Filter>
+	</ItemGroup>
+</Project>

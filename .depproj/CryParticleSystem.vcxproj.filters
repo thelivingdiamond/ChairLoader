@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryParticleSystem\ParticleFeatures_uber.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryParticleSystem\ParticleSystem_uber.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureAngles.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureAppearance.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureAudio.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureCollision.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureCollision.h">
+				<Filter>Features</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureColor.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureColor.h">
+				<Filter>Features</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureCommon.h">
+				<Filter>Features</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureCommonImpl.h">
+				<Filter>Features</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureField.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureFluidDynamics.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureLife.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureLightSource.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureLocation.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureMotion.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureRenderGpuSprites.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureRenderGpuSprites.h">
+				<Filter>Features</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureRenderMeshes.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureRenderRibbon.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureRenderSprites.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureSecondGen.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureSpawn.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\FeatureVelocity.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\Featurekill.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\Modifiers.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\ParamMod.h">
+				<Filter>Features</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\ParamModImpl.h">
+				<Filter>Features</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\ParamTraits.h">
+				<Filter>Features</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\ParamTraitsImpl.h">
+				<Filter>Features</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\Target.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\Target.h">
+				<Filter>Features</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\TargetImpl.h">
+				<Filter>Features</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\TimeSource.cpp">
+				<Filter>Features</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\TimeSource.h">
+				<Filter>Features</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\Features\TimeSourceImpl.h">
+				<Filter>Features</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleAttributes.cpp">
+				<Filter>ParticleSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleAttributes.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleCommon.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleComponent.cpp">
+				<Filter>ParticleSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleComponent.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleComponentImpl.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleComponentRuntime.cpp">
+				<Filter>ParticleSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleComponentRuntime.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleContainer.cpp">
+				<Filter>ParticleSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleContainer.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleContainerImpl.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleConvert.cpp">
+				<Filter>ParticleSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleDataTypes.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleDataTypesImpl.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleDebug.cpp">
+				<Filter>ParticleSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleDebug.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleEffect.cpp">
+				<Filter>ParticleSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleEffect.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleEmitter.cpp">
+				<Filter>ParticleSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleEmitter.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleFeature.cpp">
+				<Filter>ParticleSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleFeature.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleJobManager.cpp">
+				<Filter>ParticleSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleJobManager.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleMath.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleMathImpl.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleMathImplSSE.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleProfiler.cpp">
+				<Filter>ParticleSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleProfiler.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleProfilerImpl.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleRender.cpp">
+				<Filter>ParticleSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleRender.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleRenderImpl.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleSpline.cpp">
+				<Filter>ParticleSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleSpline.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleSplineImpl.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleSystem.cpp">
+				<Filter>ParticleSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleSystem.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleSystemUnit.cpp">
+				<Filter>ParticleSystem</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleUpdate.cpp">
+				<Filter>ParticleSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\ParticleUpdate.h">
+				<Filter>ParticleSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\StdAfx.cpp">
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\StdAfx.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\particlesystem.waf_files">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSystem\wscript">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+			<Filter Include="_WAF_">
+				<UniqueIdentifier>{88F32D28-D9A2-467A-82CE-4D592F9E94FE}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Uber Files">
+				<UniqueIdentifier>{1A8E5137-C0CF-4A7A-8E7E-EE0B26E0BD8E}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Features">
+				<UniqueIdentifier>{98F770B0-AF18-4A76-B421-BAC22B4B6805}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="ParticleSystem">
+				<UniqueIdentifier>{ADC15343-6528-4374-9FFD-FCB27F92E0F8}</UniqueIdentifier>
+			</Filter>
+	</ItemGroup>
+</Project>

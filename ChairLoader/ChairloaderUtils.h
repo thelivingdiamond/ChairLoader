@@ -2,7 +2,7 @@
 #include "ArkEntityArchetypeLibrary.h"
 #include "ArkEntityClassLibrary.h"
 #include "ArkAbilityLibrary.h"
-#include "pch.h"
+#include "StdAfx.h"
 
 #include "preyDllObjects.h"
 #include "preyFunctions.h"

@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CrySystem\CrySystem_uber_0.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CrySystem\CrySystem_uber_1.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CrySystem\CrySystem_uber_2.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CrySystem\CrySystem_uber_3.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CrySystem\CrySystem_uber_4.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CrySystem\CrySystem_uber_5.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CrySystem\CrySystem_uber_6.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CrySystem\CrySystem_uber_7.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CrySystem\CrySystem_uber_8.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CrySystem\CrySystem_uber_9.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\AVI_Reader.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\AVI_Reader.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\AsyncPakManager.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\AsyncPakManager.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\AutoDetectCPUTestSuit.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\AutoDetectCPUTestSuit.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\AutoDetectSpec.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\AutoDetectSpec.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\BootProfiler.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\BootProfiler.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\BudgetingSystem.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\BudgetingSystem.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CPUDetect.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CPUDetect.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ClientHandler.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ClientHandler.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CmdLine.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CmdLine.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CmdLineArg.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CmdLineArg.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CodeCoverage\CodeCheckpointMgr.cpp">
+				<Filter>CodeCoverage</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CodeCoverage\CodeCheckpointMgr.h">
+				<Filter>CodeCoverage</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CompressedFile.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ConsoleBatchFile.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ConsoleBatchFile.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ConsoleHelpGen.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ConsoleHelpGen.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CrashHandler.rc">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CryArchive.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CryArchive.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CryAsyncMemcpy.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CryDLMalloc.c">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CryMemoryManager.cpp">
+				<Filter>MemoryManager</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CryPak.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CryPak.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CryPakHandleCache.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CrySizerImpl.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CrySizerImpl.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CrySizerStats.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CrySizerStats.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CryThreadUtil_win32.h">
+				<Filter>Threading</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CryWaterMark.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CustomMemoryHeap.cpp">
+				<Filter>MemoryManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\CustomMemoryHeap.h">
+				<Filter>MemoryManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\DebugCallStack.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\DebugCallStack.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\DefragAllocator.cpp">
+				<Filter>MemoryManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\DefragAllocator.h">
+				<Filter>MemoryManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\DiskProfiler.cpp">
+				<Filter>Profiler</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\DiskProfiler.h">
+				<Filter>Profiler</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\DllMain.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\DownloadManager.cpp">
+				<Filter>HTTPDownloader</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\DownloadManager.h">
+				<Filter>HTTPDownloader</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\DxDiag.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ExcelExport.cpp">
+				<Filter>TestSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ExcelExport.h">
+				<Filter>TestSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ExtensionSystem\CryFactoryRegistryImpl.cpp">
+				<Filter>ExtensionSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ExtensionSystem\CryFactoryRegistryImpl.h">
+				<Filter>ExtensionSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ExtensionSystem\TestCases\TestExtensions.cpp">
+				<Filter>ExtensionSystem\TestCases</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ExtensionSystem\TestCases\TestExtensions.h">
+				<Filter>ExtensionSystem\TestCases</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\FileIOWrapper.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\FileIOWrapper.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\FrameProfileRender.cpp">
+				<Filter>Profiler</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\FrameProfileSystem.cpp">
+				<Filter>Profiler</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\FrameProfileSystem.h">
+				<Filter>Profiler</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\GeneralMemoryHeap.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\GeneralMemoryHeap.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\HMDCVars.cpp">
+				<Filter>VR</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\HMDCVars.h">
+				<Filter>VR</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\HMDManager.cpp">
+				<Filter>VR</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\HMDManager.h">
+				<Filter>VR</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\HTTPDownloader.cpp">
+				<Filter>HTTPDownloader</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\HTTPDownloader.h">
+				<Filter>HTTPDownloader</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\HandlerBase.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\HandlerBase.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\HardwareMouse.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\HardwareMouse.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\HotUpdate.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Huffman.cpp">
+				<Filter>HuffmanEncoding</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Huffman.h">
+				<Filter>HuffmanEncoding</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\IDebugCallStack.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\IDebugCallStack.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ImeManager.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ImeManager.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\JiraClient.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\JiraClient.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\JobManager\BlockingBackend\BlockingBackEnd.cpp">
+				<Filter>JobManager\BlockingBackend</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\JobManager\BlockingBackend\BlockingBackEnd.h">
+				<Filter>JobManager\BlockingBackend</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\JobManager\FallbackBackend\FallBackBackend.h">
+				<Filter>JobManager\FallbackBackend</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\JobManager\FallbackBackend\FallbackBackend.cpp">
+				<Filter>JobManager\FallbackBackend</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\JobManager\JobManager.cpp">
+				<Filter>JobManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\JobManager\JobManager.h">
+				<Filter>JobManager</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\JobManager\JobStructs.h">
+				<Filter>JobManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\JobManager\PCBackEnd\ThreadBackEnd.cpp">
+				<Filter>JobManager\ThreadBackEnd</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\JobManager\PCBackEnd\ThreadBackEnd.h">
+				<Filter>JobManager\ThreadBackEnd</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\LZ4Decompressor.cpp">
+				<Filter>LZ4Decompressor</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\LZ4Decompressor.h">
+				<Filter>LZ4Decompressor</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\LevelHeap.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\LoadingProfiler.cpp">
+				<Filter>Profiler</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\LoadingProfiler.h">
+				<Filter>Profiler</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\LocalizedStringManager.cpp">
+				<Filter>Localization</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\LocalizedStringManager.h">
+				<Filter>Localization</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Log.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Log.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MTSafeAllocator.cpp">
+				<Filter>MemoryManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MTSafeAllocator.h">
+				<Filter>MemoryManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MemReplay.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MemReplay.h">
+				<Filter>MemoryManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MemoryAddressRange.cpp">
+				<Filter>MemoryManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MemoryAddressRange.h">
+				<Filter>MemoryManager</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MemoryFragmentationProfiler.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MemoryManager.cpp">
+				<Filter>MemoryManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MemoryManager.h">
+				<Filter>MemoryManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MiniGUI\DrawContext.cpp">
+				<Filter>MiniGUI</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MiniGUI\DrawContext.h">
+				<Filter>MiniGUI</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MiniGUI\MiniButton.cpp">
+				<Filter>MiniGUI</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MiniGUI\MiniButton.h">
+				<Filter>MiniGUI</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MiniGUI\MiniGUI.cpp">
+				<Filter>MiniGUI</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MiniGUI\MiniGUI.h">
+				<Filter>MiniGUI</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MiniGUI\MiniInfoBox.cpp">
+				<Filter>MiniGUI</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MiniGUI\MiniInfoBox.h">
+				<Filter>MiniGUI</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MiniGUI\MiniMenu.cpp">
+				<Filter>MiniGUI</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MiniGUI\MiniMenu.h">
+				<Filter>MiniGUI</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MiniGUI\MiniTable.cpp">
+				<Filter>MiniGUI</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\MiniGUI\MiniTable.h">
+				<Filter>MiniGUI</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\NotificationNetwork.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\NotificationNetwork.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\NullImplementation\NULLAudioSystems.h">
+				<Filter>NullImplementation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\NullImplementation\NULLRenderAuxGeom.cpp">
+				<Filter>NullImplementation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\NullImplementation\NULLRenderAuxGeom.h">
+				<Filter>NullImplementation</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\NullImplementation\NullInput.h">
+				<Filter>NullImplementation</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\NullImplementation\NullLiveCreate.h">
+				<Filter>NullImplementation</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\NullImplementation\NullResponseSystem.h">
+				<Filter>NullImplementation</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Oculus\OculusConfig.h">
+				<Filter>VR\Oculus</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Oculus\OculusDevice.cpp">
+				<Filter>VR\Oculus</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Oculus\OculusDevice.h">
+				<Filter>VR\Oculus</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Oculus\OculusResources.cpp">
+				<Filter>VR\Oculus</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Oculus\OculusResources.h">
+				<Filter>VR\Oculus</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Oculus\OculusTouchController.cpp">
+				<Filter>VR\Oculus</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Oculus\OculusTouchController.h">
+				<Filter>VR\Oculus</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\OpenVR\OpenVRConfig.h">
+				<Filter>VR\OpenVR</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\OpenVR\OpenVRController.cpp">
+				<Filter>VR\OpenVR</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\OpenVR\OpenVRController.h">
+				<Filter>VR\OpenVR</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\OpenVR\OpenVRDevice.cpp">
+				<Filter>VR\OpenVR</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\OpenVR\OpenVRDevice.h">
+				<Filter>VR\OpenVR</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\OpenVR\OpenVRResources.cpp">
+				<Filter>VR\OpenVR</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\OpenVR\OpenVRResources.h">
+				<Filter>VR\OpenVR</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Osvr\OsvrDevice.cpp">
+				<Filter>VR\Osvr</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Osvr\OsvrDevice.h">
+				<Filter>VR\Osvr</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Osvr\OsvrResources.cpp">
+				<Filter>VR\Osvr</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Osvr\OsvrResources.h">
+				<Filter>VR\Osvr</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\OverloadSceneManager\OverloadSceneManager.cpp">
+				<Filter>OverloadSceneManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\OverloadSceneManager\OverloadSceneManager.h">
+				<Filter>OverloadSceneManager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\PageMappingHeap.cpp">
+				<Filter>MemoryManager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\PageMappingHeap.h">
+				<Filter>MemoryManager</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\PakVars.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\PerfHUD.cpp">
+				<Filter>Profiler</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\PerfHUD.h">
+				<Filter>Profiler</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\PhysRenderer.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\PhysRenderer.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\PlatformOS\PatternMatcher.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\PlatformOS\PlatformOS_PC.cpp">
+				<Filter>PlatformOS</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\PlatformOS\PlatformOS_PC.h">
+				<Filter>PlatformOS</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\PlatformOS\SaveReaderWriter_CryPak.cpp">
+				<Filter>PlatformOS</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\PlatformOS\SaveReaderWriter_CryPak.h">
+				<Filter>PlatformOS</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\PlatformOS\SaveReaderWriter_Memory.cpp">
+				<Filter>PlatformOS</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\PlatformOS\SaveReaderWriter_Memory.h">
+				<Filter>PlatformOS</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\PlatformOS\SaveReaderWriter_Steam.cpp">
+				<Filter>PlatformOS</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\PlatformOS\SaveReaderWriter_Steam.h">
+				<Filter>PlatformOS</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ProfileLogSystem.cpp">
+				<Filter>Profiler</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ProfileLogSystem.h">
+				<Filter>Profiler</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\RemoteCommand.cpp">
+				<Filter>Services</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\RemoteCommand.h">
+				<Filter>Services</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\RemoteCommandClient.cpp">
+				<Filter>Services</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\RemoteCommandHelpers.cpp">
+				<Filter>Services</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\RemoteCommandHelpers.h">
+				<Filter>Services</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\RemoteCommandServer.cpp">
+				<Filter>Services</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\RemoteConsole\RemoteConsole.cpp">
+				<Filter>RemoteConsole</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\RemoteConsole\RemoteConsole.h">
+				<Filter>RemoteConsole</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ResourceManager.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ResourceManager.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Sampler.cpp">
+				<Filter>Profiler</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Sampler.h">
+				<Filter>Profiler</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Serialization\ArchiveHost.cpp">
+				<Filter>Serialization</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Serialization\ArchiveHost.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Serialization\Test_ArchiveHost.cpp">
+				<Filter>Serialization</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Serialization\Token.h">
+				<Filter>Serialization</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Serialization\XmlIArchive.cpp">
+				<Filter>Serialization</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Serialization\XmlIArchive.h">
+				<Filter>Serialization</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Serialization\XmlOArchive.cpp">
+				<Filter>Serialization</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Serialization\XmlOArchive.h">
+				<Filter>Serialization</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ServerHandler.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ServerHandler.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ServerThrottle.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ServerThrottle.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ServiceNetwork.cpp">
+				<Filter>Services</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ServiceNetwork.h">
+				<Filter>Services</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\SimpleStringPool.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Statistics.cpp">
+				<Filter>TestSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Statistics.h">
+				<Filter>TestSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Statistics\LocalMemoryUsage.cpp">
+				<Filter>Statistics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Statistics\LocalMemoryUsage.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Statoscope.cpp">
+				<Filter>Statoscope</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Statoscope.h">
+				<Filter>Statoscope</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\StatoscopeStreamingIntervalGroup.cpp">
+				<Filter>Statoscope</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\StatoscopeStreamingIntervalGroup.h">
+				<Filter>Statoscope</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\StatoscopeTextureStreamingIntervalGroup.cpp">
+				<Filter>Statoscope</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\StatoscopeTextureStreamingIntervalGroup.h">
+				<Filter>Statoscope</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\StdAfx.cpp">
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\StdAfx.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\StreamEngine\StreamAsyncFileRequest.cpp">
+				<Filter>StreamEngine</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\StreamEngine\StreamAsyncFileRequest.h">
+				<Filter>StreamEngine</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\StreamEngine\StreamAsyncFileRequest_Jobs.cpp">
+				<Filter>StreamEngine</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\StreamEngine\StreamEngine.cpp">
+				<Filter>StreamEngine</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\StreamEngine\StreamEngine.h">
+				<Filter>StreamEngine</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\StreamEngine\StreamIOThread.cpp">
+				<Filter>StreamEngine</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\StreamEngine\StreamIOThread.h">
+				<Filter>StreamEngine</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\StreamEngine\StreamReadStream.cpp">
+				<Filter>StreamEngine</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\StreamEngine\StreamReadStream.h">
+				<Filter>StreamEngine</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Stroboscope\Stroboscope.cpp">
+				<Filter>Stroboscope</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Stroboscope\Stroboscope.h">
+				<Filter>Stroboscope</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\SyncLock.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\SyncLock.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\System.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\System.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\SystemCFG.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\SystemCFG.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\SystemEventDispatcher.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\SystemEventDispatcher.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\SystemInit.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\SystemInit.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\SystemRender.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\SystemScheduler.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\SystemScheduler.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\SystemThreading.cpp">
+				<Filter>Threading</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\SystemUtilsApple.h">
+				<Filter>Mac</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\SystemUtilsApple.mm">
+				<Filter>Mac</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\SystemWin32.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\TestSystemLegacy.cpp">
+				<Filter>TestSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\TestSystemLegacy.h">
+				<Filter>TestSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ThreadConfigManager.cpp">
+				<Filter>Threading</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ThreadConfigManager.h">
+				<Filter>Threading</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ThreadInfo.cpp">
+				<Filter>Threading</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ThreadInfo.h">
+				<Filter>Threading</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ThreadProfiler.cpp">
+				<Filter>Threading</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ThreadProfiler.h">
+				<Filter>Threading</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ThreadSampler.cpp">
+				<Filter>Threading</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ThreadSampler.h">
+				<Filter>Threading</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Timer.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Timer.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\UnitTestExcelReporter.cpp">
+				<Filter>TestSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\UnitTestExcelReporter.h">
+				<Filter>TestSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\UnitTestSystem.cpp">
+				<Filter>TestSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\UnitTestSystem.h">
+				<Filter>TestSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\UnixConsole.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\UnixConsole.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\Validator.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\VisRegTest.cpp">
+				<Filter>TestSystem</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\VisRegTest.h">
+				<Filter>TestSystem</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\WindowsConsole.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\WindowsConsole.h">
+				<Filter>Source Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\WindowsErrorReporting.cpp">
+				<Filter>Windows</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XConsole.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XConsole.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XConsoleVariable.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XConsoleVariable.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\ReadWriteXMLSink.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\ReadXMLSink.cpp">
+				<Filter>XML\XMLSink</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\SerializeXMLReader.cpp">
+				<Filter>XML</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\SerializeXMLReader.h">
+				<Filter>XML</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\SerializeXMLWriter.cpp">
+				<Filter>XML</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\SerializeXMLWriter.h">
+				<Filter>XML</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\WriteXMLSource.cpp">
+				<Filter>XML\XMLSink</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\XMLBinaryNode.cpp">
+				<Filter>XML</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\XMLBinaryNode.h">
+				<Filter>XML</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\XMLBinaryReader.cpp">
+				<Filter>XML</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\XMLBinaryReader.h">
+				<Filter>XML</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\XMLBinaryWriter.cpp">
+				<Filter>XML</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\XMLBinaryWriter.h">
+				<Filter>XML</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\XMLPatcher.cpp">
+				<Filter>XML</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\XMLPatcher.h">
+				<Filter>XML</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\XmlUtils.cpp">
+				<Filter>XML</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\XmlUtils.h">
+				<Filter>XML</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\xml.cpp">
+				<Filter>XML</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\xml.h">
+				<Filter>XML</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\XML\xml_string.h">
+				<Filter>XML</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZLibCompressor.cpp">
+				<Filter>ZLibCompressor</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZLibCompressor.h">
+				<Filter>ZLibCompressor</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZLibDecompressor.cpp">
+				<Filter>ZLibDecompressor</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZLibDecompressor.h">
+				<Filter>ZLibDecompressor</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipDir.h">
+				<Filter>ZipDir</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipDirCache.cpp">
+				<Filter>ZipDir</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipDirCache.h">
+				<Filter>ZipDir</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipDirCacheFactory.cpp">
+				<Filter>ZipDir</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipDirCacheFactory.h">
+				<Filter>ZipDir</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipDirCacheRW.cpp">
+				<Filter>ZipDir</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipDirCacheRW.h">
+				<Filter>ZipDir</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipDirFind.cpp">
+				<Filter>ZipDir</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipDirFind.h">
+				<Filter>ZipDir</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipDirFindRW.cpp">
+				<Filter>ZipDir</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipDirFindRW.h">
+				<Filter>ZipDir</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipDirList.cpp">
+				<Filter>ZipDir</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipDirList.h">
+				<Filter>ZipDir</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipDirStructures.cpp">
+				<Filter>ZipDir</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipDirStructures.h">
+				<Filter>ZipDir</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipDirTree.cpp">
+				<Filter>ZipDir</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipDirTree.h">
+				<Filter>ZipDir</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipEncrypt.cpp">
+				<Filter>ZipDir</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipEncrypt.h">
+				<Filter>ZipDir</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipFile.h">
+				<Filter>ZipDir</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipFileFormat.h">
+				<Filter>ZipDir</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\ZipFileFormat_info.h">
+				<Filter>ZipDir</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\crash_face.bmp">
+				<Filter>Resource Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\crysystem.waf_files">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\crysystem_win32.waf_files">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\platformos.waf_files">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\resource.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CrySystem\wscript">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+			<Filter Include="Statistics">
+				<UniqueIdentifier>{C33E404A-441C-4BA9-A48F-88AF3C68A1CA}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="VR\Oculus">
+				<UniqueIdentifier>{2212800B-B07F-4F10-ABE7-EDCAF947B894}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="NullImplementation">
+				<UniqueIdentifier>{AB9A1B8E-F8A2-4269-92D0-6D8F0AF3B961}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="MiniGUI">
+				<UniqueIdentifier>{42F5F9DE-8D6C-4B3B-9A1F-FF10CACB8300}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="JobManager\ThreadBackEnd">
+				<UniqueIdentifier>{A1013096-9672-4708-BDE9-FE31F249A4F7}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="ZLibDecompressor">
+				<UniqueIdentifier>{C335293B-4C59-4DEF-BDD0-DC2C4FD5276B}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="PlatformOS">
+				<UniqueIdentifier>{A8AA76DC-2FC6-4EC4-AA6E-FE119EED5CDC}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="JobManager\FallbackBackend">
+				<UniqueIdentifier>{64DCE18A-2D85-45D4-939A-9AD89B51955B}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Header Files">
+				<UniqueIdentifier>{1680C80B-FF1E-4A4D-9817-CC12254F2E40}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Stroboscope">
+				<UniqueIdentifier>{882CB4D9-8917-4076-93D8-B4DFF08ADBA5}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="ZLibCompressor">
+				<UniqueIdentifier>{D5B0607D-5D42-49B9-AF64-FF0D9336FA6F}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="HTTPDownloader">
+				<UniqueIdentifier>{256E0C07-A885-4532-89A7-46CBDC235680}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Localization">
+				<UniqueIdentifier>{36968633-1C93-455E-9874-41143CCDF427}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Resource Files">
+				<UniqueIdentifier>{FA3635CE-6C7C-4DE5-9DEB-60602507503F}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="JobManager">
+				<UniqueIdentifier>{D6625A00-3CA9-4117-9A42-94EF2332BEC8}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Mac">
+				<UniqueIdentifier>{1748C064-4A50-4908-94D3-E170723CCC5C}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="OverloadSceneManager">
+				<UniqueIdentifier>{50BC7CD1-DEBC-4CF8-828D-672404D568E3}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Services">
+				<UniqueIdentifier>{992A0F05-4238-4F1E-A5EF-51B7CF4AE6C4}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Serialization">
+				<UniqueIdentifier>{1ADB0C1D-BE31-40BF-9FA0-665A823707A0}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="VR\Osvr">
+				<UniqueIdentifier>{453B0E12-DC51-47A1-9317-670999211276}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="XML">
+				<UniqueIdentifier>{3501BB09-3D36-4810-B671-059B9CFED3F8}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="LZ4Decompressor">
+				<UniqueIdentifier>{D5D82D80-0897-4D05-A1C2-A1186E4A7D25}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Windows">
+				<UniqueIdentifier>{AEA23489-CE3A-49B6-806E-BB28E0CDA430}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="StreamEngine">
+				<UniqueIdentifier>{6688594E-C426-47F0-8543-B3AB5637396E}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Uber Files">
+				<UniqueIdentifier>{1A8E5137-C0CF-4A7A-8E7E-EE0B26E0BD8E}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Statoscope">
+				<UniqueIdentifier>{2E513673-721E-4D12-9CFE-A872D535BEC8}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Profiler">
+				<UniqueIdentifier>{65B4C742-4DD6-45C3-8EFA-73DA8396C90C}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Threading">
+				<UniqueIdentifier>{EA9B3825-1139-4683-BA13-803403B26CDC}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="VR">
+				<UniqueIdentifier>{EF8A9F75-1393-4ECA-B3E8-11C30EE3E756}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="XML\XMLSink">
+				<UniqueIdentifier>{ED4D1224-7C25-4886-9BA5-B7D42C97560D}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="ExtensionSystem\TestCases">
+				<UniqueIdentifier>{DC8F8B49-12A4-49AE-84D6-D361B9EE0224}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="JobManager\BlockingBackend">
+				<UniqueIdentifier>{15334C1B-2E61-476D-BC8D-FDCA503B1A1B}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="ExtensionSystem">
+				<UniqueIdentifier>{CE86B010-C73E-47D5-8EF7-D0B32162CFFC}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="TestSystem">
+				<UniqueIdentifier>{651B9459-76B0-4287-863E-8967060724A4}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="RemoteConsole">
+				<UniqueIdentifier>{37D2C9C6-E75B-455A-8139-BA7CD8E9FB1D}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="ZipDir">
+				<UniqueIdentifier>{81606C84-7135-4816-A279-7CFC33D182A5}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="VR\OpenVR">
+				<UniqueIdentifier>{35303C21-2DAE-407B-9CD2-B7609CEF0B43}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="MemoryManager">
+				<UniqueIdentifier>{22AD4707-C0B2-4159-B43B-2961304D905D}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CodeCoverage">
+				<UniqueIdentifier>{55A58A7A-53FE-4650-A75B-44EB3238D216}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="HuffmanEncoding">
+				<UniqueIdentifier>{1C9A4936-61B6-4249-8839-15F4BFDF0949}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Source Files">
+				<UniqueIdentifier>{BA03E055-4FA2-4CE3-8A1C-D348547D379C}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="_WAF_">
+				<UniqueIdentifier>{88F32D28-D9A2-467A-82CE-4D592F9E94FE}</UniqueIdentifier>
+			</Filter>
+	</ItemGroup>
+</Project>

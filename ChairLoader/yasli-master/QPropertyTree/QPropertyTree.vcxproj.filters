@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{47437405-8cc1-40c9-af80-30b998c38624}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{3fff8941-3e60-4325-8b56-86d797e7fb33}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PropertyRow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PropertyRow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PropertyRowContainer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PropertyRowContainer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PropertyRowNumber.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PropertyRowNumber.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PropertyRowPointer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PropertyRowPointer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PropertyRowString.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PropertyRowString.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PropertyRowStringListValue.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PropertyRowStringListValue.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PropertyTreeMenuHandler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PropertyTreeMenuHandler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PropertyTreeModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PropertyTreeModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QPropertyTree.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QPropertyTree.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp" />
+    <ClCompile Include="ConstStringList.cpp" />
+    <ClCompile Include="Icon.cpp" />
+    <ClCompile Include="PropertyDrawContext.cpp" />
+    <ClCompile Include="PropertyIArchive.cpp" />
+    <ClCompile Include="PropertyOArchive.cpp" />
+    <ClCompile Include="PropertyRow.cpp" />
+    <ClCompile Include="PropertyRowBool.cpp" />
+    <ClCompile Include="PropertyRowContainer.cpp" />
+    <ClCompile Include="PropertyRowField.cpp" />
+    <ClCompile Include="PropertyRowNumber.cpp" />
+    <ClCompile Include="PropertyRowObject.cpp" />
+    <ClCompile Include="PropertyRowPointer.cpp" />
+    <ClCompile Include="PropertyRowString.cpp" />
+    <ClCompile Include="PropertyRowStringListValue.cpp" />
+    <ClCompile Include="PropertyTreeModel.cpp" />
+    <ClCompile Include="PropertyTreeOperator.cpp" />
+    <ClCompile Include="QPropertyTree.cpp" />
+    <ClCompile Include="Unicode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Unicode.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="ConstStringList.h" />
+    <ClInclude Include="Factory.h" />
+    <ClInclude Include="Icon.h" />
+    <ClInclude Include="MathUtils.h" />
+    <ClInclude Include="PropertyDrawContext.h" />
+    <ClInclude Include="PropertyIArchive.h" />
+    <ClInclude Include="PropertyOArchive.h" />
+    <ClInclude Include="PropertyRowBool.h" />
+    <ClInclude Include="PropertyRowField.h" />
+    <ClInclude Include="PropertyRowImpl.h" />
+    <ClInclude Include="PropertyRowObject.h" />
+    <ClInclude Include="PropertyTreeOperator.h" />
+    <ClInclude Include="Serialization.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="PropertyRow.h" />
+    <CustomBuild Include="PropertyRowContainer.h" />
+    <CustomBuild Include="PropertyRowNumber.h" />
+    <CustomBuild Include="PropertyRowPointer.h" />
+    <CustomBuild Include="PropertyRowString.h" />
+    <CustomBuild Include="PropertyRowStringListValue.h" />
+    <CustomBuild Include="PropertyTreeMenuHandler.h" />
+    <CustomBuild Include="PropertyTreeModel.h" />
+    <CustomBuild Include="QPropertyTree.h" />
+  </ItemGroup>
+</Project>

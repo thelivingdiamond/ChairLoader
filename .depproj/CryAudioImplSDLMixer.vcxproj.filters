@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\CryAudioImplSDLMixer\CryAudioImplSDLMixer_uber_0.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAudioSystem\implementations\CryAudioImplSDLMixer\ATLEntities_sdlmixer.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAudioSystem\implementations\CryAudioImplSDLMixer\AudioSystemImplCVars_sdlmixer.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAudioSystem\implementations\CryAudioImplSDLMixer\AudioSystemImplCVars_sdlmixer.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAudioSystem\implementations\CryAudioImplSDLMixer\AudioSystemImpl_sdlmixer.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAudioSystem\implementations\CryAudioImplSDLMixer\AudioSystemImpl_sdlmixer.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAudioSystem\implementations\CryAudioImplSDLMixer\Common_sdlmixer.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAudioSystem\implementations\CryAudioImplSDLMixer\Common_sdlmixer.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAudioSystem\implementations\CryAudioImplSDLMixer\CryAudioImpl_sdlmixer.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAudioSystem\implementations\CryAudioImplSDLMixer\SDLMixerSoundEngine.cpp">
+				<Filter>Source Files</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAudioSystem\implementations\CryAudioImplSDLMixer\SDLMixerSoundEngine.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAudioSystem\implementations\CryAudioImplSDLMixer\SDLMixerSoundEngineTypes.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAudioSystem\implementations\CryAudioImplSDLMixer\SDLMixerSoundEngineUtil.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAudioSystem\implementations\CryAudioImplSDLMixer\audioimplsdlmixer.waf_files">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAudioSystem\implementations\CryAudioImplSDLMixer\resource.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAudioSystem\implementations\CryAudioImplSDLMixer\stdafx.cpp">
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAudioSystem\implementations\CryAudioImplSDLMixer\stdafx.h">
+				<Filter>Header Files</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\CryAudioSystem\implementations\CryAudioImplSDLMixer\wscript">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+			<Filter Include="_WAF_">
+				<UniqueIdentifier>{88F32D28-D9A2-467A-82CE-4D592F9E94FE}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Uber Files">
+				<UniqueIdentifier>{1A8E5137-C0CF-4A7A-8E7E-EE0B26E0BD8E}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Source Files">
+				<UniqueIdentifier>{BA03E055-4FA2-4CE3-8A1C-D348547D379C}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Header Files">
+				<UniqueIdentifier>{1680C80B-FF1E-4A4D-9817-CC12254F2E40}</UniqueIdentifier>
+			</Filter>
+	</ItemGroup>
+</Project>

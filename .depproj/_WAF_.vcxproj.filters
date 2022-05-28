@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\_WAF_\default_settings.json">
+				<Filter>Settings</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\_WAF_\projects.json">
+				<Filter>Settings</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\_WAF_\user_settings.options">
+				<Filter>Settings</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\_WAF_\specs\gamemono.json">
+				<Filter>Specs</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\_WAF_\specs\gamesdk.json">
+				<Filter>Specs</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\_WAF_\specs\gamesdk_server.json">
+				<Filter>Specs</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\_WAF_\specs\gamezero.json">
+				<Filter>Specs</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\_WAF_\specs\gamezero_server.json">
+				<Filter>Specs</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Build.py">
+				<Filter>Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\ConfigSet.py">
+				<Filter>Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Configure.py">
+				<Filter>Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Context.py">
+				<Filter>Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\CryModuleExtension.py">
+				<Filter>Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Errors.py">
+				<Filter>Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Logs.py">
+				<Filter>Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Node.py">
+				<Filter>Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Options.py">
+				<Filter>Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Runner.py">
+				<Filter>Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Scripting.py">
+				<Filter>Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Task.py">
+				<Filter>Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\TaskGen.py">
+				<Filter>Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\__init__.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\ar.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\asm.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\bison.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\c.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\c_aliases.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\c_config.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\c_osx.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\c_preproc.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\c_tests.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\ccroot.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\compiler_c.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\compiler_cxx.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\compiler_d.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\compiler_fc.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\cxx.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\d.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\d_config.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\d_scan.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\dbus.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\dmd.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\errcheck.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\fc.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\fc_config.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\fc_scan.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\flex.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\g95.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\gas.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\gcc.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\gdc.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\gfortran.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\glib2.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\gnu_dirs.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\gxx.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\icc.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\icpc.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\ifort.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\intltool.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\irixcc.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\javaw.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\kde4.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\ldc2.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\lua.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\msvc.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\nasm.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\perl.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\python.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\qt4.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\ruby.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\suncc.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\suncxx.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\tex.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\vala.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\waf_unit_test.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\xlc.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Tools\xlcxx.py">
+				<Filter>Scripts\Tools</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\Utils.py">
+				<Filter>Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\__init__.py">
+				<Filter>Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\ansiterm.py">
+				<Filter>Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\__init__.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\add_objects.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\batched_cc.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\biber.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\bjam.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\boo.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\boost.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\build_logs.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\c_bgxlc.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\c_dumbpreproc.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\cabal.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\codelite.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\compat15.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\cython.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\dcc.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\doxygen.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\dpapi.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\dumbpreproc.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\erlang.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\fc_bgxlf.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\fc_cray.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\fc_nag.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\fc_open64.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\fc_pgfortran.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\fc_solstudio.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\fc_xlf.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\fluid.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\freeimage.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\fsb.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\fsc.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\go.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\gob2.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\local_rpath.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\lru_cache.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\make.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\md5_tstamp.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\midl.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\misc.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\netcache_client.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\objcopy.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\ocaml.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\package.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\parallel_debug.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\pep8.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\pgicc.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\pgicxx.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\print_commands.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\proc.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\protoc.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\qnxnto.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\relocation.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\resx.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\review.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\run_do_script.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\run_m_script.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\run_py_script.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\run_r_script.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\sas.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\scala.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\slow_qt4.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\smart_continue.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\softlink_libs.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\syms.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\sync_exec.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\ticgt.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\unity.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\valadoc.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\why.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\extras\win32_opts.py">
+				<Filter>Scripts\extras</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\waflib\fixpy2.py">
+				<Filter>Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\branch_spec.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\cmd_coordinator.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\compile_rules_darwin_x64_darwin_x64.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\compile_rules_linux_x64_linux_x64_clang.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\compile_rules_linux_x64_linux_x64_gcc.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\compile_rules_linux_x64_linux_x86_clang.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\compile_rules_linux_x64_linux_x86_gcc.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\compile_rules_win_x64_android_arm_gcc.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\compile_rules_win_x64_win_x64.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\compile_rules_win_x64_win_x86.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\compile_settings_clang.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\compile_settings_cryengine.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\compile_settings_darwin.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\compile_settings_gcc.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\compile_settings_linux.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\compile_settings_linux_x64.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\compile_settings_linux_x86.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\compile_settings_msvc.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\compile_settings_windows.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\cppcheck.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\cry_utils.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\cryengine_modules.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\cs.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\default_settings.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\eclipse.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\gccdeps.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\generate_uber_files.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\gui_tasks.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\module_extensions\module_extension_brofiler.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\module_extensions\module_extension_fmod.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\module_extensions\module_extension_mono.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\module_extensions\module_extension_ncurses.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\module_extensions\module_extension_oculus.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\module_extensions\module_extension_openvr.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\module_extensions\module_extension_osvr.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\module_extensions\module_extension_python.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\module_extensions\module_extension_scaleform.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\module_extensions\module_extension_sdl.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\module_extensions\module_extension_steam.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\module_extensions\module_extension_toolkit_pro.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\mscv_helper.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\msvcdeps.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\msvs.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\msvs_override_handling.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\project_settings.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\qt.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\recode.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\static_code_analyzer.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\swig.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\winres.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\Tools\waf-1.7.13\crywaflib\xcode.py">
+				<Filter>Crytek Scripts</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\__waf_compile_dummy__.cpp">
+				<Filter>DummyCompileNode</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\_waf_show_gui_.cpp">
+				<Filter>_WAF Commands</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\_waf_configure_.cpp">
+				<Filter>_WAF Commands</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\_waf_generate_uber_files_.cpp">
+				<Filter>_WAF Commands</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\_waf_generate_solution_.cpp">
+				<Filter>_WAF Commands</Filter>
+			</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+			<Filter Include="Crytek Scripts">
+				<UniqueIdentifier>{BDFC4C5E-5F6B-40D9-B11C-B4353975757A}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Settings">
+				<UniqueIdentifier>{F4F70727-DC34-461D-BDE1-A3C529B6205C}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="DummyCompileNode">
+				<UniqueIdentifier>{3F4B4278-2743-4193-9E02-A30212ACB5A9}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Scripts\Tools">
+				<UniqueIdentifier>{6DB1E5E3-80A6-4811-B891-84A68BF992A8}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Scripts">
+				<UniqueIdentifier>{A83F1CA5-AD00-4397-B3D9-E6A26B0E70B2}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Specs">
+				<UniqueIdentifier>{360D214E-899B-48B8-BE54-A260668C2F48}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="_WAF Commands">
+				<UniqueIdentifier>{84113DD0-A562-466F-A26E-890BDEA8AD21}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Scripts\extras">
+				<UniqueIdentifier>{5E08A310-662A-4AA3-9E8A-A3702C06DCAD}</UniqueIdentifier>
+			</Filter>
+	</ItemGroup>
+</Project>

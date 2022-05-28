@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\DistanceClouds.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\Eye.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\GeometryBeam.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\Glass.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\AmbientOcclusion.cfx">
+				<Filter>CryFX\Shadows</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\AuxGeom.cfx">
+				<Filter>CryFX\Misc</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\CloakLayer.cfx">
+				<Filter>CryFX\ForwardShading\Layers</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Clouds.cfx">
+				<Filter>CryFX\Effects\Atmospheric</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Common.cfi">
+				<Filter>CryFX\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Common.cfx">
+				<Filter>CryFX\Effects\Atmospheric</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\CommonDebugPass.cfi">
+				<Filter>CryFX\Include\CommonPasses</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\CommonEffectLayerPass.cfi">
+				<Filter>CryFX\Include\CommonPasses</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\CommonMotionBlurPass.cfi">
+				<Filter>CryFX\Include\CommonPasses</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\CommonMotionBlurPassTess.cfi">
+				<Filter>CryFX\Include\CommonPasses</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\CommonSVO.cfi">
+				<Filter>CryFX\SVO</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\CommonShadowGenPass.cfi">
+				<Filter>CryFX\Shadows\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\CommonShadowGenPassTess.cfi">
+				<Filter>CryFX\Include\CommonPasses</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\CommonTessellation.cfi">
+				<Filter>CryFX\Include\CommonPasses</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\CommonViewsPass.cfi">
+				<Filter>CryFX\Include\CommonPasses</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\CommonViewsPassTess.cfi">
+				<Filter>CryFX\Include\CommonPasses</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\CommonZPass.cfi">
+				<Filter>CryFX\Include\CommonPasses</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\CommonZPassTess.cfi">
+				<Filter>CryFX\Include\CommonPasses</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\CommonZPrePass.cfi">
+				<Filter>CryFX\Include\CommonPasses</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\DXTCompress.cfx">
+				<Filter>CryFX\Misc</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Debug.cfx">
+				<Filter>CryFX\Misc</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\DebugLight.cfx">
+				<Filter>CryFX\Misc</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\DeferredCaustics.cfx">
+				<Filter>CryFX\Deferred</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\DeferredRain.cfx">
+				<Filter>CryFX\Deferred</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\DeferredShading.cfx">
+				<Filter>CryFX\Deferred</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\DeferredShadows.cfi">
+				<Filter>CryFX\Shadows\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\DepthOfField.cfx">
+				<Filter>CryFX\PostProcess</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\DistanceClouds.cfx">
+				<Filter>CryFX\Effects\Atmospheric</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Eye.cfx">
+				<Filter>CryFX\ForwardShading</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\FXConstantDefs.cfi">
+				<Filter>CryFX\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\FXSamplerDefs.cfi">
+				<Filter>CryFX\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\FXStreamDefs.cfi">
+				<Filter>CryFX\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\FallBack.cfx">
+				<Filter>CryFX\Misc</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\FarTreeSprites.cfx">
+				<Filter>CryFX\ForwardShading</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\FixedPipelineEmu.cfx">
+				<Filter>CryFX\Misc</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\FogVolume.cfx">
+				<Filter>CryFX\Effects\Atmospheric</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\GeometryBeam.cfx">
+				<Filter>CryFX\Effects\Atmospheric</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Glass.cfx">
+				<Filter>CryFX\ForwardShading</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\GpuCollisionScreenSpace.cfi">
+				<Filter>CryFX\Particles\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\GpuMergeSort.cfi">
+				<Filter>CryFX\Particles\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\GpuMergeSort.cfx">
+				<Filter>CryFX\Particles</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\GpuParticles.cfx">
+				<Filter>CryFX\Particles</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\GpuParticlesCommon.cfi">
+				<Filter>CryFX\Particles\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\GpuPhysicsParticleFluid.cfx">
+				<Filter>CryFX\Particles</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\GpuRand.cfi">
+				<Filter>CryFX\Particles\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\GpuSNoise.cfi">
+				<Filter>CryFX\Particles\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\HDRPostProcess.cfx">
+				<Filter>CryFX\PostProcess</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Hair.cfx">
+				<Filter>CryFX\ForwardShading</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Helper.cfx">
+				<Filter>CryFX\Misc</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Hud3D.cfx">
+				<Filter>CryFX\PostProcess</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\HumanSkin.cfx">
+				<Filter>CryFX\ForwardShading</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\HumanSkinTess.cfi">
+				<Filter>CryFX\ForwardShading\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\HumanSkinValidations.cfi">
+				<Filter>CryFX\ForwardShading\Validations</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Illum.cfx">
+				<Filter>CryFX\ForwardShading</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\IllumTess.cfi">
+				<Filter>CryFX\ForwardShading\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\IllumValidations.cfi">
+				<Filter>CryFX\ForwardShading\Validations</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\LensOptics.cfx">
+				<Filter>CryFX\Effects\Optic</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Light.cfx">
+				<Filter>CryFX\Effects\Optic</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\LightBeam.cfx">
+				<Filter>CryFX\Effects\Atmospheric</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\LightPropagationVolumes.cfi">
+				<Filter>CryFX\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\LightPropagationVolumes.cfx">
+				<Filter>CryFX\Deferred</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\LightVolumes.cfi">
+				<Filter>CryFX\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\MeshBaker.cfi">
+				<Filter>CryFX\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\MeshBakerDilate.cfx">
+				<Filter>CryFX\Misc</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\ModificatorTC.cfi">
+				<Filter>CryFX\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\ModificatorVT.cfi">
+				<Filter>CryFX\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Monitor.cfx">
+				<Filter>CryFX\Effects\Game</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\MotionBlur.cfx">
+				<Filter>CryFX\PostProcess</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\NoDraw.cfx">
+				<Filter>CryFX\Misc</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\OcclusionTest.cfx">
+				<Filter>CryFX\Misc</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\ParticleImposter.cfx">
+				<Filter>CryFX\Particles</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\ParticleVT.cfi">
+				<Filter>CryFX\Particles\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Particles.cfi">
+				<Filter>CryFX\Particles\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Particles.cfx">
+				<Filter>CryFX\Particles</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\ParticlesCustomPass.cfi">
+				<Filter>CryFX\Particles\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\ParticlesShadowPass.cfi">
+				<Filter>CryFX\Particles\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\PostAA.cfx">
+				<Filter>CryFX\PostProcess</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\PostEffects.cfx">
+				<Filter>CryFX\PostProcess</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\PostEffectsGame.cfx">
+				<Filter>CryFX\PostProcess</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\PostEffectsLib.cfi">
+				<Filter>CryFX\PostProcess\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\PostEffectsRenderModes.cfx">
+				<Filter>CryFX\PostProcess</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\ReferenceImage.cfx">
+				<Filter>CryFX\Misc</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Scaleform.cfx">
+				<Filter>CryFX\Misc</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Scopes.cfx">
+				<Filter>CryFX\Effects\Game</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\ShadowBlur.cfx">
+				<Filter>CryFX\Shadows</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\ShadowCommon.cfi">
+				<Filter>CryFX\Shadows\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\ShadowMaskGen.cfx">
+				<Filter>CryFX\Shadows</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Sketch.cfx">
+				<Filter>CryFX\ForwardShading\Deprecated</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\SketchTerrain.cfx">
+				<Filter>CryFX\ForwardShading\Deprecated</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Sky.cfx">
+				<Filter>CryFX\Effects\Atmospheric</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\SkyHDR.cfx">
+				<Filter>CryFX\Effects\Atmospheric</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\SoftOcclusionQuery.cfx">
+				<Filter>CryFX\Misc</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Stars.cfx">
+				<Filter>CryFX\Effects\Atmospheric</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Stereo.cfx">
+				<Filter>CryFX\PostProcess</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Sunshafts.cfx">
+				<Filter>CryFX\PostProcess</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\TemplBeamProc.cfx">
+				<Filter>CryFX\Effects\Atmospheric</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Terrain.cfx">
+				<Filter>CryFX\ForwardShading</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\TiledShading.cfi">
+				<Filter>CryFX\ForwardShading\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Total_Illumination.cfx">
+				<Filter>CryFX\SVO</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Vegetation.cfx">
+				<Filter>CryFX\ForwardShading</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\VegetationTess.cfi">
+				<Filter>CryFX\ForwardShading\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\VegetationValidations.cfi">
+				<Filter>CryFX\ForwardShading\Validations</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\VolumeLighting.cfi">
+				<Filter>CryFX\Deferred</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\VolumeObject.cfx">
+				<Filter>CryFX\Effects\Atmospheric</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\VolumetricFog.cfi">
+				<Filter>CryFX\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Water.cfx">
+				<Filter>CryFX\Effects\Water</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\WaterCausticsPass.cfi">
+				<Filter>CryFX\Effects\Water</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\WaterFogVolume.cfx">
+				<Filter>CryFX\Effects\Water</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\WaterOceanBottom.cfx">
+				<Filter>CryFX\Effects\Water</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\WaterReflectionsPass.cfi">
+				<Filter>CryFX\Effects\Water</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\WaterVolume.cfx">
+				<Filter>CryFX\Effects\Water</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\Waterfall.cfx">
+				<Filter>CryFX\Effects\Water</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\fragLib.cfi">
+				<Filter>CryFX\ForwardShading\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\shadeLib.cfi">
+				<Filter>CryFX\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HWScripts\CryFX\vertexLib.cfi">
+				<Filter>CryFX\ForwardShading\Include</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\Hair.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\HumanSkin.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\Illum.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\LensOptics.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\LightBeam.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\Monitor.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\ParticleImposter.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\Particles.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\RunTime.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\Scopes.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\ShaderProfiles.txt">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\ShadowMaskGen.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\SketchTerrain.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\SkyHDR.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\TemplBeamProc.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\Terrain.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\Vegetation.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\VolumeObject.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\Water.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\WaterVolume.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\Waterfall.ext">
+				<Filter>CryFX\Extensions</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\hwscripts.waf_files">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Engine\Shaders\wscript">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+			<Filter Include="CryFX\Effects\Water">
+				<UniqueIdentifier>{FFF62EA1-E907-4E42-9362-D907AFB46AAB}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\ForwardShading">
+				<UniqueIdentifier>{72BECEAF-426D-4CDE-A627-5588C3CAAB5E}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX">
+				<UniqueIdentifier>{7E703A63-3539-4D3C-8C50-8BE70E215C25}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\Deferred">
+				<UniqueIdentifier>{49304A0C-1774-438E-A468-EE684BA2C2F3}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\Include">
+				<UniqueIdentifier>{E8C96ED3-54CD-454E-859E-8C3DEC3E6C63}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\SVO">
+				<UniqueIdentifier>{6C319CFB-F9B3-4098-928C-F0CB52714E86}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\Shadows">
+				<UniqueIdentifier>{5CEC20FA-41D3-4F89-B2E4-5EE2488233BD}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\Shadows\Include">
+				<UniqueIdentifier>{0D5EFE26-D0F3-470A-B9BF-C6B738750B65}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\ForwardShading\Layers">
+				<UniqueIdentifier>{671A7173-6B23-43DF-9E8B-97F4FD81D511}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\Particles">
+				<UniqueIdentifier>{6FC64FE1-1EDD-40D1-B769-AB060FE71C45}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\Include\CommonPasses">
+				<UniqueIdentifier>{DD4AD05A-C447-4219-81BE-CBD904DCC998}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="_WAF_">
+				<UniqueIdentifier>{88F32D28-D9A2-467A-82CE-4D592F9E94FE}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\Misc">
+				<UniqueIdentifier>{6121CE09-0080-4592-9DA1-AD19B48C13E7}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\PostProcess\Include">
+				<UniqueIdentifier>{0F3C23B2-4F57-4D23-97F1-382635D1541D}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\Effects\Optic">
+				<UniqueIdentifier>{0BE0D0B4-0BB5-45FD-8A58-87AB97BF49F5}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\ForwardShading\Deprecated">
+				<UniqueIdentifier>{FC45DEB6-B4EF-4138-ADAB-E966556193E1}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\ForwardShading\Validations">
+				<UniqueIdentifier>{BEBDB3CE-6FCC-4D15-9D7E-321A9074B582}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\Particles\Include">
+				<UniqueIdentifier>{51CC5A6D-6911-45F8-B68A-A19FF08823FB}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\ForwardShading\Include">
+				<UniqueIdentifier>{42C285F7-2832-401B-9659-77063FB14BA1}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\Effects\Atmospheric">
+				<UniqueIdentifier>{692A392A-D8E0-4B5A-9134-AECBC41BA930}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\Effects">
+				<UniqueIdentifier>{E3F81123-D3AC-4CF2-B0FB-860380715C58}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\PostProcess">
+				<UniqueIdentifier>{449DF2F7-9A7A-475A-9817-C8B06E8B46E3}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\Extensions">
+				<UniqueIdentifier>{F0D6E43F-4E4D-41E7-B80E-56EE0F0A6218}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CryFX\Effects\Game">
+				<UniqueIdentifier>{34B98BB6-8088-4A70-8E68-9A76BE02A17C}</UniqueIdentifier>
+			</Filter>
+	</ItemGroup>
+</Project>

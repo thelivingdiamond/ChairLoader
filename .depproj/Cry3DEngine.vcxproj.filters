@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\Cry3DEngine\Cry3DEngine_CBuffer.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\Cry3DEngine\Cry3DEngine_main_0_uber.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\Cry3DEngine\Cry3DEngine_main_1_uber.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\Cry3DEngine\Cry3DEngine_main_2_uber.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\Cry3DEngine\Cry3DEngine_main_3_uber.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\Cry3DEngine\Cry3DEngine_objects_uber.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\Cry3DEngine\Cry3DEngine_particles_uber.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\Cry3DEngine\Cry3DEngine_terrain_uber.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\BinTemp\uber_files\Cry3DEngine\Cry3DEngine_volume_water_uber.cpp">
+				<Filter>Uber Files</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\3DEngineLight.cpp">
+				<Filter>3DEngine</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\3DEngineMemory.cpp">
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\3DEngineMemory.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\3DEngineRender.cpp">
+				<Filter>3DEngine</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\3DEngine_Jobs.cpp">
+				<Filter>3DEngine</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\3dEngine.cpp">
+				<Filter>3DEngine</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\3dEngine.h">
+				<Filter>3DEngine</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\3dEngineLoad.cpp">
+				<Filter>3DEngine</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\Array2d.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\BasicArea.cpp">
+				<Filter>VisAreas</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\BasicArea.h">
+				<Filter>VisAreas</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\BreakableGlassRenderNode.cpp">
+				<Filter>RenderNodes\Breakables</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\BreakableGlassRenderNode.h">
+				<Filter>RenderNodes\Breakables</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\BreezeGenerator.cpp">
+				<Filter>3DEngine</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\BreezeGenerator.h">
+				<Filter>3DEngine</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\Brush.cpp">
+				<Filter>Brush</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\Brush.h">
+				<Filter>Brush</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\Brush_Jobs.cpp">
+				<Filter>Brush</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CCullRenderer.cpp">
+				<Filter>CBuffer</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CCullRenderer.h">
+				<Filter>CBuffer</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CCullThread.cpp">
+				<Filter>CBuffer</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CCullThread.h">
+				<Filter>CBuffer</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CGF\CGFLoader.cpp">
+				<Filter>CFG</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CGF\CGFLoader.h">
+				<Filter>CFG</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CGF\CGFSaver.cpp">
+				<Filter>CFG</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CGF\CGFSaver.h">
+				<Filter>CFG</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CGF\ChunkData.h">
+				<Filter>CFG</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CGF\ChunkFile.cpp">
+				<Filter>CFG</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CGF\ChunkFile.h">
+				<Filter>CFG</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CGF\ChunkFileReaders.cpp">
+				<Filter>CFG</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CGF\ChunkFileReaders.h">
+				<Filter>CFG</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CGF\ChunkFileWriters.cpp">
+				<Filter>CFG</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CGF\ChunkFileWriters.h">
+				<Filter>CFG</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CGF\ReadOnlyChunkFile.cpp">
+				<Filter>CFG</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CGF\ReadOnlyChunkFile.h">
+				<Filter>CFG</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ClipVolume.cpp">
+				<Filter>ClipVolumes</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ClipVolume.h">
+				<Filter>ClipVolumes</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ClipVolumeManager.cpp">
+				<Filter>ClipVolumes</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ClipVolumeManager.h">
+				<Filter>ClipVolumes</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CloudRenderNode.cpp">
+				<Filter>Effects\Clounds</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CloudRenderNode.h">
+				<Filter>Effects\Clounds</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CloudsManager.cpp">
+				<Filter>Effects\Clounds</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\CloudsManager.h">
+				<Filter>Effects\Clounds</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\Cry3DEngine.cpp">
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\Cry3DEngineBase.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\Decal.cpp">
+				<Filter>Effects\Decals</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\DecalManager.cpp">
+				<Filter>Effects\Decals</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\DecalManager.h">
+				<Filter>Effects\Decals</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\DecalRenderNode.cpp">
+				<Filter>Effects\Decals</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\DecalRenderNode.h">
+				<Filter>Effects\Decals</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\DeferredCollisionEvent.cpp">
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\DeferredCollisionEvent.h">
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\DeformableNode.h">
+				<Filter>RenderNodes</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\DistanceCloudRenderNode.cpp">
+				<Filter>Effects\Clounds</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\DistanceCloudRenderNode.h">
+				<Filter>Effects\Clounds</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\EnvironmentPreset.cpp">
+				<Filter>Environment</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\EnvironmentPreset.h">
+				<Filter>Environment</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\FogVolumeRenderNode.cpp">
+				<Filter>Effects\FogVolumes</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\FogVolumeRenderNode.h">
+				<Filter>Effects\FogVolumes</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\FogVolumeRenderNode_Jobs.cpp">
+				<Filter>Effects\FogVolumes</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\GeomCache.cpp">
+				<Filter>GeomCache</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\GeomCache.h">
+				<Filter>GeomCache</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\GeomCacheDecoder.cpp">
+				<Filter>GeomCache</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\GeomCacheDecoder.h">
+				<Filter>GeomCache</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\GeomCacheManager.cpp">
+				<Filter>GeomCache</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\GeomCacheManager.h">
+				<Filter>GeomCache</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\GeomCacheMeshManager.cpp">
+				<Filter>GeomCache</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\GeomCacheMeshManager.h">
+				<Filter>GeomCache</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\GeomCachePredictors.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\GeomCacheRenderNode.cpp">
+				<Filter>GeomCache</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\GeomCacheRenderNode.h">
+				<Filter>GeomCache</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\GlobalIllumination.cpp">
+				<Filter>Effects\LightPropagationVolumes</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\GlobalIllumination.h">
+				<Filter>Effects\LightPropagationVolumes</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\IndexedMesh.cpp">
+				<Filter>StatObj</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\IndexedMesh.h">
+				<Filter>StatObj</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\LPVRenderNode.cpp">
+				<Filter>Effects\LightPropagationVolumes</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\LPVRenderNode.h">
+				<Filter>Effects\LightPropagationVolumes</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\LightEntity.cpp">
+				<Filter>Light Entity</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\LightEntity.h">
+				<Filter>Light Entity</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\LightVolumeManager.cpp">
+				<Filter>3DEngine</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\LightVolumeManager.h">
+				<Filter>3DEngine</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\MatMan.cpp">
+				<Filter>Material</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\MatMan.h">
+				<Filter>Material</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\Material.cpp">
+				<Filter>Material</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\Material.h">
+				<Filter>Material</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\MaterialHelpers.cpp">
+				<Filter>Material</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\MaterialHelpers.h">
+				<Filter>Material</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\Material_Jobs.cpp">
+				<Filter>Material</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\MergedMeshGeometry.cpp">
+				<Filter>RenderMeshUtils</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\MergedMeshGeometry.h">
+				<Filter>RenderMeshUtils</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\MergedMeshRenderNode.cpp">
+				<Filter>RenderNodes</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\MergedMeshRenderNode.h">
+				<Filter>RenderNodes</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\MeshCompiler\ForsythFaceReorderer.cpp">
+				<Filter>Mesh Compiler</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\MeshCompiler\ForsythFaceReorderer.h">
+				<Filter>Mesh Compiler</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\MeshCompiler\MeshCompiler.cpp">
+				<Filter>Mesh Compiler</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\MeshCompiler\MeshCompiler.h">
+				<Filter>Mesh Compiler</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\MeshCompiler\TangentSpaceCalculation.cpp">
+				<Filter>Mesh Compiler</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\MeshCompiler\TangentSpaceCalculation.h">
+				<Filter>Mesh Compiler</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\MeshCompiler\TransformHelpers.h">
+				<Filter>Mesh Compiler</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ObjMan.cpp">
+				<Filter>Object Manager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ObjMan.h">
+				<Filter>Object Manager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ObjManCullQueue.cpp">
+				<Filter>Object Manager</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ObjManCullQueue.h">
+				<Filter>Object Manager</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ObjManDraw.cpp">
+				<Filter>Object Manager</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ObjManDrawEntity.cpp">
+				<Filter>Object Manager</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ObjManFar.cpp">
+				<Filter>Object Manager</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ObjManShadows.cpp">
+				<Filter>Object Manager</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ObjManStreaming.cpp">
+				<Filter>Object Manager</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ObjectsTree.cpp">
+				<Filter>Objects Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ObjectsTree.h">
+				<Filter>Objects Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ObjectsTree_Jobs.cpp">
+				<Filter>Objects Tree</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ObjectsTree_MT.cpp">
+				<Filter>Objects Tree</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ObjectsTree_Serialize.cpp">
+				<Filter>Objects Tree</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ObjectsTree_Serialize_info.h">
+				<Filter>Objects Tree</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\OpticsManager.cpp">
+				<Filter>Effects\Optics</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\OpticsManager.h">
+				<Filter>Effects\Optics</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\Particle.cpp">
+				<Filter>Effects\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\Particle.h">
+				<Filter>Effects\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleContainer.cpp">
+				<Filter>Effects\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleContainer.h">
+				<Filter>Effects\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleEffect.cpp">
+				<Filter>Effects\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleEffect.h">
+				<Filter>Effects\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleEmitter.cpp">
+				<Filter>Effects\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleEmitter.h">
+				<Filter>Effects\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleEnviron.cpp">
+				<Filter>Effects\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleEnviron.h">
+				<Filter>Effects\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleFixedSizeElementPool.cpp">
+				<Filter>Effects\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleFixedSizeElementPool.h">
+				<Filter>Effects\Particles</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleList.h">
+				<Filter>Effects\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleManager.cpp">
+				<Filter>Effects\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleManager.h">
+				<Filter>Effects\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleMemory.cpp">
+				<Filter>Effects\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleMemory.h">
+				<Filter>Effects\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleRender.cpp">
+				<Filter>Effects\Particles</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSubEmitter.cpp">
+				<Filter>Effects\Particles</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleSubEmitter.h">
+				<Filter>Effects\Particles</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ParticleUtils.h">
+				<Filter>Effects\Particles</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\PhysCallbacks.cpp">
+				<Filter>3DEngine</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\PhysCallbacks.h">
+				<Filter>3DEngine</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\PolygonClipContext.cpp">
+				<Filter>CBuffer</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\PolygonClipContext.h">
+				<Filter>CBuffer</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\PostProcessEffects.cpp">
+				<Filter>PostProcess</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\PrismRenderNode.cpp">
+				<Filter>RenderNodes</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\PrismRenderNode.h">
+				<Filter>RenderNodes</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\RenderMeshMerger.cpp">
+				<Filter>RenderMeshUtils</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\RenderMeshMerger.h">
+				<Filter>RenderMeshUtils</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\RenderMeshUtils.cpp">
+				<Filter>RenderMeshUtils</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\RenderMeshUtils.h">
+				<Filter>RenderMeshUtils</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\RoadRenderNode.cpp">
+				<Filter>RenderNodes\Roads</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\RoadRenderNode.h">
+				<Filter>RenderNodes\Roads</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\RopeRenderNode.cpp">
+				<Filter>RenderNodes\Ropes</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\RopeRenderNode.h">
+				<Filter>RenderNodes\Ropes</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\SVO\BlockPacker.cpp">
+				<Filter>SVO</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\SVO\BlockPacker.h">
+				<Filter>SVO</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\SVO\SceneTree.cpp">
+				<Filter>SVO</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\SVO\SceneTree.h">
+				<Filter>SVO</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\SVO\SceneTreeCVars.inl">
+				<Filter>SVO</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\SVO\SceneTreeManager.cpp">
+				<Filter>SVO</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\SVO\SceneTreeManager.h">
+				<Filter>SVO</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\SVO\VoxelSegment.cpp">
+				<Filter>SVO</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\SVO\VoxelSegment.h">
+				<Filter>SVO</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ShadowCache.cpp">
+				<Filter>Shadows</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\ShadowCache.h">
+				<Filter>Shadows</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\SkyLightManager.cpp">
+				<Filter>Effects\SkyLight</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\SkyLightManager.h">
+				<Filter>Effects\SkyLight</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\SkyLightNishita.cpp">
+				<Filter>Effects\SkyLight</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\SkyLightNishita.h">
+				<Filter>Effects\SkyLight</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\SkyLightNishita_info.h">
+				<Filter>Effects\SkyLight</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\StatObj.h">
+				<Filter>StatObj</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\StatObjConstr.cpp">
+				<Filter>StatObj</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\StatObjFar.cpp">
+				<Filter>StatObj</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\StatObjLoad.cpp">
+				<Filter>StatObj</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\StatObjPhys.cpp">
+				<Filter>StatObj</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\StatObjRend.cpp">
+				<Filter>StatObj</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\StatObjStream.cpp">
+				<Filter>StatObj</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\StatObj_Jobs.cpp">
+				<Filter>StatObj</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\StdAfx.cpp">
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\StdAfx.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\SurfaceTypeManager.cpp">
+				<Filter>Material</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\SurfaceTypeManager.h">
+				<Filter>Material</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\TerrainModifications.cpp">
+				<Filter>Terrain</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\TerrainModifications.h">
+				<Filter>Terrain</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\TerrainTextureCache.cpp">
+				<Filter>Terrain</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\TimeOfDay.cpp">
+				<Filter>Environment</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\TimeOfDay.h">
+				<Filter>Environment</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\VMath.hpp">
+				<Filter>CBuffer</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\VMath_C.hpp">
+				<Filter>CBuffer</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\VMath_Prototypes.hpp">
+				<Filter>CBuffer</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\VMath_SSE.hpp">
+				<Filter>CBuffer</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\Vegetation.cpp">
+				<Filter>Vegetation</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\Vegetation.h">
+				<Filter>Vegetation</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\VisAreaCompile.cpp">
+				<Filter>VisAreas</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\VisAreaCompile_info.h">
+				<Filter>VisAreas</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\VisAreaMan.cpp">
+				<Filter>VisAreas</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\VisAreaManCompile.cpp">
+				<Filter>VisAreas</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\VisArea_Jobs.cpp">
+				<Filter>VisAreas</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\VisAreas.cpp">
+				<Filter>VisAreas</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\VisAreas.h">
+				<Filter>VisAreas</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\VisibleRenderNodeManager.cpp">
+				<Filter>3DEngine</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\VisibleRenderNodeManager.h">
+				<Filter>3DEngine</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\VolumeObjectDataCreate.cpp">
+				<Filter>Effects\VolumeObject</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\VolumeObjectDataCreate.h">
+				<Filter>Effects\VolumeObject</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\VolumeObjectRenderNode.cpp">
+				<Filter>Effects\VolumeObject</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\VolumeObjectRenderNode.h">
+				<Filter>Effects\VolumeObject</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\WaterVolumeRenderNode.cpp">
+				<Filter>Water</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\WaterVolumeRenderNode.h">
+				<Filter>Water</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\WaterWaveRenderNode.cpp">
+				<Filter>Water</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\WaterWaveRenderNode.h">
+				<Filter>Water</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\cry3dengine.waf_files">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\cvars.cpp">
+				<Filter>CVars</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\cvars.h">
+				<Filter>CVars</Filter>
+			</ClInclude>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\resource.h">
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain.cpp">
+				<Filter>Terrain</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain.h">
+				<Filter>Terrain</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_compile.cpp">
+				<Filter>Terrain</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_compile_info.h">
+				<Filter>Terrain</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_damage.cpp">
+				<Filter>Terrain</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_det_tex.cpp">
+				<Filter>Terrain</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_hmap.cpp">
+				<Filter>Terrain</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_hmap_occlusion.cpp">
+				<Filter>Terrain</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_init.cpp">
+				<Filter>Terrain</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_light.cpp">
+				<Filter>Terrain</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_load.cpp">
+				<Filter>Terrain</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_node.cpp">
+				<Filter>Terrain\Sector</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_node_compile.cpp">
+				<Filter>Terrain\Sector</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_render.cpp">
+				<Filter>Terrain</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_sector.cpp">
+				<Filter>Terrain\Sector</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_sector.h">
+				<Filter>Terrain\Sector</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_sector_beach.cpp">
+				<Filter>Terrain\Sector</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_sector_info.h">
+				<Filter>Terrain\Sector</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_sector_render.cpp">
+				<Filter>Terrain\Sector</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_sector_tex.cpp">
+				<Filter>Terrain\Sector</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_water.h">
+				<Filter>Water</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terrain_water_quad.cpp">
+				<Filter>Water</Filter>
+			</ClCompile>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\terran_edit.cpp">
+				<Filter>Terrain</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\CryEngine\Cry3DEngine\wscript">
+				<Filter>_WAF_</Filter>
+			</ClInclude>
+			<ClCompile Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\TangentBasisComputation\mikkelsen\mikktspace.cpp">
+				<Filter>Mesh Compiler</Filter>
+			</ClCompile>
+			<ClInclude Include="c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Code\SDKs\TangentBasisComputation\mikkelsen\mikktspace.h">
+				<Filter>Mesh Compiler</Filter>
+			</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+			<Filter Include="Mesh Compiler">
+				<UniqueIdentifier>{7AA5311F-F712-4B8A-96BD-08ED0D734EF3}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Effects\Optics">
+				<UniqueIdentifier>{31BD7E02-8BFA-4378-8961-38E5AF2D19E9}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Environment">
+				<UniqueIdentifier>{0BA29C6A-1AFA-4F58-AB03-A26162C72274}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="StatObj">
+				<UniqueIdentifier>{4CF7CF86-112D-4E07-A936-70AA421A526B}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Effects\Decals">
+				<UniqueIdentifier>{7B81AF43-B431-47E1-BA3E-BFFE8809E75D}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="RenderNodes\Ropes">
+				<UniqueIdentifier>{123282B6-545C-434C-9F2A-72CA7220E66E}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Effects\Clounds">
+				<UniqueIdentifier>{A695B687-607D-45C0-A9EA-DB605E0AB187}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Vegetation">
+				<UniqueIdentifier>{517B2902-6E15-4E0B-BE6C-51FDE9D686CD}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CVars">
+				<UniqueIdentifier>{3D94B1FC-5A8E-4CE2-B038-BE3A51637DC6}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Object Manager">
+				<UniqueIdentifier>{C53E1CC2-DDF5-47A5-A406-087B6CE51E9A}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Material">
+				<UniqueIdentifier>{D92A8333-DD3C-4B89-9CC6-5F7455B71206}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Terrain\Sector">
+				<UniqueIdentifier>{5259D2CC-B27F-4882-B1FE-0E4CA753D503}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Effects\LightPropagationVolumes">
+				<UniqueIdentifier>{DC442E88-5879-4495-AAC3-FCDF631276B9}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Water">
+				<UniqueIdentifier>{27634FF8-002B-42E7-9D98-E07CCD005D18}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="RenderNodes">
+				<UniqueIdentifier>{D88E6788-3B35-4313-AD55-21DAFDDF1B47}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Effects">
+				<UniqueIdentifier>{527E4752-A2EE-4D45-A2D5-4BAD52433916}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="PostProcess">
+				<UniqueIdentifier>{98FC7581-0211-4372-BAF6-E79B639514D8}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="GeomCache">
+				<UniqueIdentifier>{D88A7086-02D6-44E1-B616-37D8BD9EAB06}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Effects\FogVolumes">
+				<UniqueIdentifier>{B058AF38-1634-44ED-863D-1E55ABF49C2C}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Brush">
+				<UniqueIdentifier>{A2574442-8546-4723-86B9-3DD44900A81A}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Shadows">
+				<UniqueIdentifier>{DDE98FA6-6EF8-4810-A9FF-B8F24D643C89}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="SVO">
+				<UniqueIdentifier>{7CA093FF-664B-432C-A6F6-52EC19B1B1E7}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="_WAF_">
+				<UniqueIdentifier>{88F32D28-D9A2-467A-82CE-4D592F9E94FE}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Effects\VolumeObject">
+				<UniqueIdentifier>{3CAA3FA6-1428-471A-92F3-712C81D10079}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Uber Files">
+				<UniqueIdentifier>{1A8E5137-C0CF-4A7A-8E7E-EE0B26E0BD8E}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Effects\Particles">
+				<UniqueIdentifier>{DDF63B43-640D-4024-8DEF-ADE5BB51C75B}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Light Entity">
+				<UniqueIdentifier>{5D96C186-F504-42EA-855F-C0E2310F118A}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="VisAreas">
+				<UniqueIdentifier>{B87BD0AB-23AE-449D-BEF4-44CC9AB95E77}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Effects\SkyLight">
+				<UniqueIdentifier>{6C776D74-15EB-40D4-B09A-EF079AFAE79D}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Objects Tree">
+				<UniqueIdentifier>{9169EA7C-C024-4D2C-B3BE-9BA53B3D7C66}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CBuffer">
+				<UniqueIdentifier>{7BF035B9-E852-47BD-81A1-35C04FAC8C9A}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="CFG">
+				<UniqueIdentifier>{FDD77D90-0C9D-4547-8EF8-D20AFF4680DC}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="3DEngine">
+				<UniqueIdentifier>{F0B403FB-6E57-4CCD-A8D4-5A84D42A78DB}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="Terrain">
+				<UniqueIdentifier>{4CCFEA7A-25FA-43C1-9315-55F0856D2B42}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="ClipVolumes">
+				<UniqueIdentifier>{BCB12BA0-5FCB-4F23-A397-79FAF931E5B2}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="RenderNodes\Roads">
+				<UniqueIdentifier>{100EC6EA-0EFC-4B14-975C-866B00D32116}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="RenderMeshUtils">
+				<UniqueIdentifier>{1D30E60A-281F-48E5-B214-4B7B4D703530}</UniqueIdentifier>
+			</Filter>
+			<Filter Include="RenderNodes\Breakables">
+				<UniqueIdentifier>{9B6CEA3C-7658-4486-93B7-01E771B8D89A}</UniqueIdentifier>
+			</Filter>
+	</ItemGroup>
+</Project>

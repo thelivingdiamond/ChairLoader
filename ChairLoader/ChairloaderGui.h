@@ -3,7 +3,7 @@
 
 #include "ArkBasicTypes.h"
 #include "ChairloaderUtils.h"
-#include "pch.h"
+#include "StdAfx.h"
 #include "preyDllObjects.h"
 #include "ArkEntityArchetypeLibrary.h"
 // #include <stack>

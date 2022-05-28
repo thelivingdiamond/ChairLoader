@@ -1,0 +1,36 @@
+Following control character sequences available during serialiazation of data
+through PropertyTree (using PropertyI/OArchive-s). Label of the serialized value
+should start with sequence of such characters. 
+
+List of characters:
+ "&" - [REMOVED] Put value to the "digest" of parent element.
+ 
+ "!" - Read only field. Prevents user from changing value of the field. 
+	   Doesn't affect nested members.
+
+ "!!" - Text field looks like read only, but can be changed with F2
+ 
+ "^" - Pull up the row. The row will appear in the same line with parent one, after it's value.
+	   Works for containers as well.
+
+ "^^" - Put value of a child element before name of the parent.
+ 
+ "<" - Expand value field to maximal width. Handeful for long fields.
+	   label can contain only "<" character, in this case the whole line will
+	   be occupied with the value.
+
+ ">" - Set widget size to minimal, it will not resize anymore.
+ ">size>" - Set minimal widget width to "size".
+ 
+ "~" - Temporary element (with null Serializer).
+ 
+ "[controls]" - Forward control characters to container elements.
+
+Examples:
+
+	// will bring the Name to the line of parent structure
+	ar(name_, "name", "^Name"); 
+
+	// appears as nameless, read-only, full-line value field
+	ar(description_, "description", "!<"); 
+

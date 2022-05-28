@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0"
+	xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Debug|Win32'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Debug|Win32'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Debug|x64'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Debug|x64'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Profile|Win32'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Profile|Win32'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Profile|x64'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Profile|x64'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Performance|Win32'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Performance|Win32'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Performance|x64'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Performance|x64'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Release|Win32'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Release|Win32'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Release|x64'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamezero --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameZero] Release|x64'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_debug build_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_debug --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|Win32'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_debug build_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_debug --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Debug|x64'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_profile build_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_profile --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|Win32'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_profile build_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_profile --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Profile|x64'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_performance build_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_performance --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|Win32'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_performance build_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_performance --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Performance|x64'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_release build_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x86_release --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|Win32'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
+		<ClCompile>
+			<WAF_SingleCompilationMode>Code</WAF_SingleCompilationMode>
+			<WAF_ExecPath>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe</WAF_ExecPath>
+			<WAF_TargetSolution>c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln </WAF_TargetSolution>
+			<WAF_DisableCompilerOptimization>false</WAF_DisableCompilerOptimization>
+			<WAF_ExcludeFromUberFile>false</WAF_ExcludeFromUberFile>
+			<WAF_BuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_BuildCommandLine>
+			<WAF_RebuildCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_release build_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_RebuildCommandLine>
+			<WAF_CleanCommandLine>cd /d &quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release&quot; &amp; cry_waf.exe clean_win_x64_release --project-spec gamesdk --execsolution=&quot;c:\Users\theli\Downloads\CRYENGINE-release\CRYENGINE-release\Chairloader\Chairloader.sln&quot; --targets=HWScripts</WAF_CleanCommandLine>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='[GameSDK] Release|x64'">
+		<Deploy>
+			<DeploymentType>CopyToHardDrive</DeploymentType>
+		</Deploy>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup />
+	<ItemGroup />
+</Project>

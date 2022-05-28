@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "pch.h"
+#include "StdAfx.h"
 template<typename T> class CryStringT
 {
 public:
