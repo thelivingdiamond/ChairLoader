@@ -20,6 +20,7 @@ namespace ip = boost::interprocess;
 #endif
 #define SAFE_RELEASE(p)      { if(p) { (p)->Release(); (p)=NULL; } 
 
+//_WIN32;CODE_BASE_FOLDER="c:/Users/theli/Downloads/CRYENGINE-release/CRYENGINE-release/Code/";_DEBUG;SWIG_CSHARP_NO_IMCLASS_STATIC_CONSTRUCTOR;_MT;_DLL;_USRDLL;USE_BROFILER;USE_OPENVR;INCLUDE_OPENVR_SDK;CRY_FEATURE_SCALEFORM_HELPER;$(NMakePreprocessorDefinitions)
 
 // #include "pugixml.hpp"
 // D3X HOOK DEFINITIONS
