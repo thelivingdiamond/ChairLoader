@@ -240,7 +240,7 @@ IEntity* ChairloaderUtils::NpcSpawnHelper::spawnNpc(CArkNpcSpawner* spawner, cha
 		uint32_t oldId = spawner->m_lastSpawnedEntityId;
 		privateFuncs->CArkNpcSpawnerF->requestSpawn(spawner);
 		while(spawner->m_lastSpawnedEntityId == oldId) {
-			Sleep(1);
+			// Sleep(1);
 		}
 		spawner->m_Entity->m_szName.m_str = oldName;
 		// Sleep(50);

@@ -25,11 +25,11 @@
     <Filter Include="pugixml">
       <UniqueIdentifier>{c4bfa91b-57fd-44a7-af50-3bcf92ed6786}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Chairloader\GUI">
+      <UniqueIdentifier>{37ac128b-c0af-4517-af38-0f40722904a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="preyFunctions.h">
       <Filter>Prey</Filter>
     </ClInclude>
@@ -60,15 +60,42 @@
     <ClInclude Include="ArkAbilityLibrary.h">
       <Filter>Prey</Filter>
     </ClInclude>
-    <ClInclude Include="ChairloaderGui.h">
-      <Filter>Chairloader</Filter>
-    </ClInclude>
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+<<<<<<< Updated upstream
+=======
     <ClInclude Include="ChairLoader.h">
       <Filter>Chairloader</Filter>
     </ClInclude>
+    <ClInclude Include="ChairloaderGUILog.h">
+      <Filter>Chairloader\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ChairloaderGUI.h">
+      <Filter>Chairloader\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIUtils.h">
+      <Filter>Chairloader\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+<<<<<<< Updated upstream
+    <ClInclude Include="ChairLoader.h">
+      <Filter>Chairloader</Filter>
+    </ClInclude>
+=======
+    <ClInclude Include="ChairloaderGUIEntityManager.h">
+      <Filter>Chairloader\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ChairloaderGUIPlayerManager.h">
+      <Filter>Chairloader\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ChairloaderGUIConsole.h">
+      <Filter>Chairloader\GUI</Filter>
+    </ClInclude>
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PreyDllObjects.cpp">
@@ -89,15 +116,24 @@
     <ClCompile Include="proc.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="ChairloaderGui.cpp">
-      <Filter>Chairloader</Filter>
-    </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+<<<<<<< Updated upstream
     <ClCompile Include="ChairLoader.cpp">
       <Filter>Chairloader</Filter>
     </ClCompile>
+=======
+<<<<<<< Updated upstream
+=======
+    <ClCompile Include="ChairLoader.cpp">
+      <Filter>Chairloader</Filter>
+    </ClCompile>
+    <ClCompile Include="ChairloaderGUI.cpp">
+      <Filter>Chairloader\GUI</Filter>
+    </ClCompile>
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <Text Include="EntityArchetypesList.txt" />

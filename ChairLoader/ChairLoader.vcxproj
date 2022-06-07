@@ -113,6 +113,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Prey\Binaries\Danielle\x64\Release</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Library|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -236,11 +237,24 @@
     <ClInclude Include="ArkBasicTypes.h" />
     <ClInclude Include="ArkEntityArchetypeLibrary.h" />
     <ClInclude Include="ArkEntityClassLibrary.h" />
+<<<<<<< Updated upstream
     <ClInclude Include="ChairLoader.h" />
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
     <ClInclude Include="ChairloaderGui.h" />
+=======
+    <ClInclude Include="ChairLoader.h" />
+    <ClInclude Include="ChairloaderGUI.h" />
+    <ClInclude Include="ChairloaderGUIConsole.h" />
+    <ClInclude Include="ChairloaderGUIEntityManager.h" />
+    <ClInclude Include="ChairloaderGUILog.h" />
+    <ClInclude Include="ChairloaderGUIPlayerManager.h" />
+>>>>>>> Stashed changes
     <ClInclude Include="ChairloaderUtils.h" />
     <ClInclude Include="ArkEnums.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="GUIUtils.h" />
     <ClInclude Include="mem.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="preyFunctions.h" />
@@ -248,8 +262,16 @@
     <ClInclude Include="proc.h" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <ClCompile Include="ChairLoader.cpp" />
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
     <ClCompile Include="ChairloaderGui.cpp" />
+=======
+    <ClCompile Include="ChairLoader.cpp" />
+    <ClCompile Include="ChairloaderGUI.cpp" />
+>>>>>>> Stashed changes
     <ClCompile Include="ChairloaderUtils.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="mem.cpp" />
