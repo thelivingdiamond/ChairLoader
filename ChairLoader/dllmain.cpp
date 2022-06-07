@@ -7,16 +7,8 @@
 #include "preyDllObjects.h"
 #include "preyFunctions.h"
 #include "ChairloaderUtils.h"
-<<<<<<< Updated upstream
-#include "ChairloaderGui.h"
-<<<<<<< Updated upstream
-#include "ChairLoader.h"
-=======
-=======
 #include "ChairloaderGUI.h"
 #include "ChairLoader.h"
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 // #include "ArkEntityArchetypeLibrary.h
 
 #if _WIN32 || _WIN64

@@ -1,15 +1,9 @@
 #include "preyFunctions.h"
-<<<<<<< Updated upstream
-
-class ChairLoader {
-public:
-=======
 #include "ChairloaderGUI.h"
 
 class ChairLoader {
 public:
 	ChairloaderGui* chairloaderGUI;
->>>>>>> Stashed changes
 	// After CGame::Init
 	ChairLoader();
 
@@ -32,17 +26,10 @@ private:
 
 	void CreateConsole();
 	void HookGameUpdate(uintptr_t moduleBase);
-<<<<<<< Updated upstream
-=======
 	void HookDirectX();
->>>>>>> Stashed changes
 	void LoadConfigFile();
 	void UpdateFreeCam();
 
 	static int GameUpdate(CGame *_this, bool haveFocus, unsigned int updateFlags);
 };
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 extern ChairLoader *gCL;

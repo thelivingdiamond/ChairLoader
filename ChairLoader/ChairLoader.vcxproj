@@ -237,20 +237,12 @@
     <ClInclude Include="ArkBasicTypes.h" />
     <ClInclude Include="ArkEntityArchetypeLibrary.h" />
     <ClInclude Include="ArkEntityClassLibrary.h" />
-<<<<<<< Updated upstream
-    <ClInclude Include="ChairLoader.h" />
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-    <ClInclude Include="ChairloaderGui.h" />
-=======
     <ClInclude Include="ChairLoader.h" />
     <ClInclude Include="ChairloaderGUI.h" />
     <ClInclude Include="ChairloaderGUIConsole.h" />
     <ClInclude Include="ChairloaderGUIEntityManager.h" />
     <ClInclude Include="ChairloaderGUILog.h" />
     <ClInclude Include="ChairloaderGUIPlayerManager.h" />
->>>>>>> Stashed changes
     <ClInclude Include="ChairloaderUtils.h" />
     <ClInclude Include="ArkEnums.h" />
     <ClInclude Include="framework.h" />
@@ -262,16 +254,8 @@
     <ClInclude Include="proc.h" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< Updated upstream
-    <ClCompile Include="ChairLoader.cpp" />
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
     <ClCompile Include="ChairloaderGui.cpp" />
-=======
     <ClCompile Include="ChairLoader.cpp" />
-    <ClCompile Include="ChairloaderGUI.cpp" />
->>>>>>> Stashed changes
     <ClCompile Include="ChairloaderUtils.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="mem.cpp" />
@@ -290,9 +274,6 @@
   <ItemGroup>
     <Text Include="codeArchive.txt" />
     <Text Include="EntityArchetypesList.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Xml Include="..\x64\Release\chairloaderconfig.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

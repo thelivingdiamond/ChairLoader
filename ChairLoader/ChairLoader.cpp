@@ -3,10 +3,6 @@
 #include "ChairLoader.h"
 #include "ChairloaderUtils.h"
 
-<<<<<<< Updated upstream
-ChairLoader *gCL = nullptr;
-
-=======
 ChairloaderGui* gui = nullptr;
 ChairLoader *gCL = nullptr;
 
@@ -209,9 +205,6 @@ void GetPresent()
 	Sleep(2000);
 }
 
-
-
->>>>>>> Stashed changes
 ChairLoader::ChairLoader() {
 	CreateConsole();
 	std::cout << "ChairLoader Initializing...\n";
@@ -219,12 +212,8 @@ ChairLoader::ChairLoader() {
 	std::cout << "Module Base: 0x" << std::hex << moduleBase << std::dec << "\n\n";
 
 	chairloader = new ChairloaderUtils(moduleBase);
-<<<<<<< Updated upstream
-
-=======
 	chairloaderGUI = new ChairloaderGui(chairloader);
 	gui = chairloaderGUI;
->>>>>>> Stashed changes
 	HookGameUpdate(moduleBase);
 	LoadConfigFile();
 }
@@ -240,19 +229,13 @@ ChairLoader::~ChairLoader()
 }
 
 void ChairLoader::PreUpdate(bool haveFocus, unsigned int updateFlags) {
-<<<<<<< Updated upstream
-=======
 	if (g_bInitialised) {
 		gui->update();
 	}
->>>>>>> Stashed changes
 	UpdateFreeCam();
 }
 
 void ChairLoader::PostUpdate(bool haveFocus, unsigned int updateFlags) {
-<<<<<<< Updated upstream
-	
-=======
 	if(GetAsyncKeyState(VK_HOME) & 1) {
 		HookDirectX();
 	}
@@ -262,7 +245,6 @@ void ChairLoader::PostUpdate(bool haveFocus, unsigned int updateFlags) {
 	if(!haveFocus) {
 		g_ShowMenu = false;
 	}
->>>>>>> Stashed changes
 }
 
 void ChairLoader::CreateConsole() {
@@ -278,9 +260,6 @@ void ChairLoader::HookGameUpdate(uintptr_t moduleBase) {
 	DetourAttach(&(LPVOID &)m_CGameUpdate, (PBYTE)&GameUpdate);
 	DetourTransactionCommit();
 }
-
-<<<<<<< Updated upstream
-=======
 void ChairLoader::HookDirectX() {
 	// begin gui hooking
 	GetPresent();
@@ -295,7 +274,6 @@ void ChairLoader::HookDirectX() {
 	printValues();
 }
 
->>>>>>> Stashed changes
 void ChairLoader::LoadConfigFile() {
 	auto path = std::filesystem::current_path() / L"Binaries/Danielle/x64/Release/chairloaderconfig.xml";
 	pugi::xml_document doc;

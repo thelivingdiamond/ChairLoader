@@ -1,37 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="Imgui">
-      <UniqueIdentifier>{b6742d2c-deaa-4dfa-be54-e516a1d6c39e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Chairloader">
-      <UniqueIdentifier>{a2d95cdf-123a-4241-be9e-e51ecde3c772}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Prey">
-      <UniqueIdentifier>{fcc57aea-6c99-420f-b126-e240bedc8041}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pugixml">
-      <UniqueIdentifier>{c4bfa91b-57fd-44a7-af50-3bcf92ed6786}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Chairloader\GUI">
-      <UniqueIdentifier>{37ac128b-c0af-4517-af38-0f40722904a9}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="ChairLoader.cpp">
+      <Filter>Chairloader</Filter>
+    </ClCompile>
+    <ClCompile Include="ChairloaderUtils.cpp">
+      <Filter>Chairloader</Filter>
+    </ClCompile>
+    <ClCompile Include="ChairloaderGui.cpp">
+      <Filter>Chairloader\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PreyDllObjects.cpp">
+      <Filter>Prey</Filter>
+    </ClCompile>
+    <ClCompile Include="preyFunctions.cpp">
+      <Filter>Prey</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="proc.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="preyFunctions.h">
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="ChairloaderGUI.h">
+      <Filter>Chairloader\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ChairloaderGUIConsole.h">
+      <Filter>Chairloader\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ChairloaderGUIEntityManager.h">
+      <Filter>Chairloader\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ChairloaderGUILog.h">
+      <Filter>Chairloader\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ChairloaderGUIPlayerManager.h">
+      <Filter>Chairloader\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ChairLoader.h">
+      <Filter>Chairloader</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkAbilityLibrary.h">
       <Filter>Prey</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkBasicTypes.h">
+      <Filter>Prey</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkEntityArchetypeLibrary.h">
+      <Filter>Prey</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkEntityClassLibrary.h">
+      <Filter>Prey</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkEnums.h">
+      <Filter>Prey</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIUtils.h">
+      <Filter>Chairloader\GUI</Filter>
     </ClInclude>
     <ClInclude Include="ChairloaderUtils.h">
       <Filter>Chairloader</Filter>
@@ -39,112 +70,44 @@
     <ClInclude Include="preyDllObjects.h">
       <Filter>Prey</Filter>
     </ClInclude>
-    <ClInclude Include="ArkBasicTypes.h">
-      <Filter>Prey</Filter>
-    </ClInclude>
-    <ClInclude Include="ArkEntityClassLibrary.h">
-      <Filter>Prey</Filter>
-    </ClInclude>
-    <ClInclude Include="ArkEntityArchetypeLibrary.h">
-      <Filter>Prey</Filter>
-    </ClInclude>
-    <ClInclude Include="ArkEnums.h">
+    <ClInclude Include="preyFunctions.h">
       <Filter>Prey</Filter>
     </ClInclude>
     <ClInclude Include="mem.h">
-      <Filter>Resource Files</Filter>
+      <Filter>Utils</Filter>
     </ClInclude>
     <ClInclude Include="proc.h">
-      <Filter>Resource Files</Filter>
+      <Filter>Utils</Filter>
     </ClInclude>
-    <ClInclude Include="ArkAbilityLibrary.h">
-      <Filter>Prey</Filter>
-    </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-<<<<<<< Updated upstream
-=======
-    <ClInclude Include="ChairLoader.h">
-      <Filter>Chairloader</Filter>
-    </ClInclude>
-    <ClInclude Include="ChairloaderGUILog.h">
-      <Filter>Chairloader\GUI</Filter>
-    </ClInclude>
-    <ClInclude Include="ChairloaderGUI.h">
-      <Filter>Chairloader\GUI</Filter>
-    </ClInclude>
-    <ClInclude Include="GUIUtils.h">
-      <Filter>Chairloader\GUI</Filter>
-    </ClInclude>
-    <ClInclude Include="framework.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-<<<<<<< Updated upstream
-    <ClInclude Include="ChairLoader.h">
-      <Filter>Chairloader</Filter>
-    </ClInclude>
-=======
-    <ClInclude Include="ChairloaderGUIEntityManager.h">
-      <Filter>Chairloader\GUI</Filter>
-    </ClInclude>
-    <ClInclude Include="ChairloaderGUIPlayerManager.h">
-      <Filter>Chairloader\GUI</Filter>
-    </ClInclude>
-    <ClInclude Include="ChairloaderGUIConsole.h">
-      <Filter>Chairloader\GUI</Filter>
-    </ClInclude>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="PreyDllObjects.cpp">
-      <Filter>Prey</Filter>
-    </ClCompile>
-    <ClCompile Include="preyFunctions.cpp">
-      <Filter>Prey</Filter>
-    </ClCompile>
-    <ClCompile Include="ChairloaderUtils.cpp">
-      <Filter>Chairloader</Filter>
-    </ClCompile>
-    <ClCompile Include="dllmain.cpp">
-      <Filter>Chairloader</Filter>
-    </ClCompile>
-    <ClCompile Include="mem.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="proc.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="pch.cpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-<<<<<<< Updated upstream
-    <ClCompile Include="ChairLoader.cpp">
-      <Filter>Chairloader</Filter>
-    </ClCompile>
-=======
-<<<<<<< Updated upstream
-=======
-    <ClCompile Include="ChairLoader.cpp">
-      <Filter>Chairloader</Filter>
-    </ClCompile>
-    <ClCompile Include="ChairloaderGUI.cpp">
-      <Filter>Chairloader\GUI</Filter>
-    </ClCompile>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
+    <Text Include="EntityArchetypesList.txt">
+      <Filter>Misc</Filter>
+    </Text>
+    <Text Include="codeArchive.txt">
+      <Filter>Misc</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="EntityArchetypesList.txt" />
-    <Text Include="codeArchive.txt" />
+    <Filter Include="Prey">
+      <UniqueIdentifier>{eda87699-d5df-4533-9b50-94cc54909034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chairloader">
+      <UniqueIdentifier>{d319acc1-ae58-49dc-9ebb-3b0c427d207c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chairloader\GUI">
+      <UniqueIdentifier>{7fe4e9bc-8a00-460d-a594-a7f06da1ff7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{ef6bddca-63fb-43bf-b9a3-4052c944d48e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{7ed5f623-6c19-40fc-bf01-4a2f2b2ff617}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Xml Include="..\x64\Release\chairloaderconfig.xml">
-      <Filter>Chairloader</Filter>
-    </Xml>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram.cd">
+      <Filter>Misc</Filter>
+    </None>
   </ItemGroup>
 </Project>
