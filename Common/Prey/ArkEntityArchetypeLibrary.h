@@ -3,12 +3,12 @@
 #include "pch.h"
 class ArchetypeLibrary {
 public:
-	struct ArkGameplayArchitecutre{
-	
+	struct ArkGameplayArchitecutre {
+
 		struct AreaHazards {
 			uint64_t RadioactiveTank = 10396455764390116210;;
 		}AreaHazards;
-		
+
 		struct Cargo {
 			uint64_t CargoContainer_Default = 10739735956144621953;;
 			uint64_t CargoContainer_Igwe = 4349723564950086257;;
@@ -16,7 +16,7 @@ public:
 		struct Clocks {
 			uint64_t DefaultClock = 10396455764390116232;;
 		}Clocks;
-		struct Containers{
+		struct Containers {
 			struct Kitchen {
 				uint64_t BreakroomCabinet = 10396455764390116165;;
 				uint64_t BreakroomCountertop = 10396455764390116177;;
@@ -24,7 +24,7 @@ public:
 				uint64_t Refridgerator_Breakroom_A = 10396455764390116178;;
 				uint64_t cabinet_apt_kitchen_a_lower = 10396455764390116167;;
 			}Kitchen;
-			struct Apartment{
+			struct Apartment {
 				uint64_t Apt_Bathroom_Cabinet = 10396455764390116229;;
 				uint64_t Cabinet_Apt_Kitchen_A_Tall = 10396455764390116166;;
 				uint64_t Cabinet_Apt_Kitchen_A_Upper = 10396455764390116168;;
@@ -63,15 +63,15 @@ public:
 			}Misc;
 			struct NeoDeco {
 
-				uint64_t Boss_Desk_L = 10396455764390116234			;
-				uint64_t Boss_Desk_R = 10396455764390116235			;
-				uint64_t Cabinet_NeoDeco = 10396455764390116181		;
-				uint64_t FileCabinet_B = 10396455764390116211		;
-				uint64_t FileCabinet_NeoDeco = 10396455764390116182	;
-				uint64_t Trashcan_Lobby = 10396455764390116175		;
+				uint64_t Boss_Desk_L = 10396455764390116234;
+				uint64_t Boss_Desk_R = 10396455764390116235;
+				uint64_t Cabinet_NeoDeco = 10396455764390116181;
+				uint64_t FileCabinet_B = 10396455764390116211;
+				uint64_t FileCabinet_NeoDeco = 10396455764390116182;
+				uint64_t Trashcan_Lobby = 10396455764390116175;
 				uint64_t PreorderDesk = 1713490239449028749;
 			}NeoDeco;
-		
+
 		};
 		struct Door {
 			uint64_t AlexOffice_Hidden_Door = 10396455764390116274;
@@ -265,7 +265,7 @@ public:
 			uint64_t Vending_Drinks_A = 13038346798787428587;
 		}Vending_Machines;
 	}ArkGameplayArchitecutre;
-// ArkGameplayObjects //;
+	// ArkGameplayObjects //;
 	struct ArkGameplayObjects {
 		struct Books {
 			uint64_t Book_A = 391;
@@ -374,7 +374,7 @@ public:
 			uint64_t Switch_ColdWar_GravityShaft = 379;
 		}Switch;
 	}ArkGameplayObjects;
-// ArkHumans //;
+	// ArkHumans //;
 	struct ArkHumans {
 		struct Admin {
 			uint64_t _ArkHumanAdmin = 10739735956144685641;
@@ -701,8 +701,8 @@ public:
 			uint64_t ZhaoSun = 10739735956144685784;
 		}Volunteer;
 	}ArkHumans;
-// ArkInteractiveProps //;
-;
+	// ArkInteractiveProps //;
+	;
 	struct ArkInteractiveProps {
 		struct Apartment {
 			uint64_t Apt_Shower_A = 10739735956144680704;
@@ -713,7 +713,7 @@ public:
 			uint64_t Apt_Toilet_A = 10739735956144680703;
 			uint64_t Apt_Toilet_A_Male = 13038346798788042919;
 		}Apartment;
-		struct Bathroom{
+		struct Bathroom {
 			uint64_t Faucet_ColdWar = 10739735956144680728;
 			uint64_t Faucet_Crew = 10739735956144680716;
 			uint64_t Space_Shower_A = 10739735956144680719;
@@ -824,7 +824,7 @@ public:
 			uint64_t Instrument_Piano = 13038346798793501493;
 		}Universal;
 	}ArkInteractiveProps;
-// ArkInteractiveReadable //;
+	// ArkInteractiveReadable //;
 	struct ArkInteractiveReadable {
 		struct Books {
 			uint64_t ArkBk_Apt_Consciousness = 844024417317221571;
@@ -2694,7 +2694,7 @@ public:
 		uint64_t NullwaveTransmitterWeapon = 1116;
 		uint64_t RecyclerGrenadeWeapon = 1117;
 	}ArkSpecialWeapons;
-	struct MorganOffice{
+	struct MorganOffice {
 		uint64_t LookingGlass = 1713490239437081336;
 	}MorganOffice;
 };

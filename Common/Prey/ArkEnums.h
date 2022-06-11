@@ -149,12 +149,7 @@ enum class EArkSafeBoundsResult {
     Unsafe=2
 };
 
-enum class EArkLegendControlScheme {
-    all=0,
-    keyboard=1,
-    controller=2,
-    last=3
-};
+
 
 enum class EArkInstigationType {
     _standard=0,

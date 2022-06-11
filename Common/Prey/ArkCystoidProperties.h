@@ -1,0 +1,46 @@
+#pragma once
+class ArkCystoidProperties
+{
+  float m_energizedAttackRange;
+  float m_explodeDelay;
+  float m_energizeDuration;
+  float m_lureDelay;
+  float m_targetRefreshDelay;
+  float m_invalidTargetDelay;
+  float m_stunDuration;
+  float m_minMovementPeriod;
+  float m_maxMovementPeriod;
+  float m_nullWaveDeaccumulation;
+  float m_maxTimeOffGround;
+  unsigned __int64 m_damageSignal;
+  unsigned __int64 m_energizedDamageSignal;
+  unsigned __int64 m_nullWaveSignal;
+  unsigned __int64 m_lureSignal;
+  const ArkSignalSystem::Data::SignalGroupData *m_pDamageSignalGroup;
+  const ArkSignalSystem::Data::SignalGroupData *m_pTriggerSignalGroup;
+  unsigned __int64 m_factionId;
+  std::vector<unsigned __int64> m_tagsToIgnore;
+  ArkCystoidProperties::GravityDependentProperties m_oneGProperties;
+  ArkCystoidProperties::GravityDependentProperties m_zeroGProperties;
+  CryStringT<char> m_modelName;
+  bool m_physicalize;
+  bool m_rigidBody;
+  float m_mass;
+  float m_density;
+  _smart_ptr<IParticleEffect> m_pActiveParticle;
+  _smart_ptr<IParticleEffect> m_pDormantParticle;
+  _smart_ptr<IParticleEffect> m_pProximityParticle;
+  _smart_ptr<IParticleEffect> m_pExplodeParticle;
+  _smart_ptr<IParticleEffect> m_pSpawnedByWeaverParticle;
+  _smart_ptr<IParticleEffect> m_pEnergizedParticle;
+  ArkAudioTrigger m_followStartAudio;
+  ArkAudioTrigger m_followStopAudio;
+  ArkAudioTrigger m_attackStartAudio;
+  ArkAudioTrigger m_attackStopAudio;
+  ArkAudioTrigger m_explodeAudio;
+  ArkAudioTrigger m_damagePlayerAudio;
+  ArkAudioTrigger m_existStartAudio;
+  ArkAudioTrigger m_existStopAudio;
+  std::vector<unsigned __int64> m_energizeSignals;
+  std::vector<unsigned __int64> m_stunSignals;
+};

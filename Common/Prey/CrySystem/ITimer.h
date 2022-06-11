@@ -2,7 +2,7 @@
 #include <cstdint>
 #include <ctime>
 #include <Prey/CryNetwork/ISerialize.h>
-
+#include "Prey/ArkNpc.h"
 class CTimeValue {
 public:
 	uint64_t m_lValue;
@@ -15,8 +15,7 @@ public:
 		ETIMER_REAL = 0x0,
 		ETIMER_GAME = 0x1,
 		ETIMER_UI = 0x2,
-		ETIMER_PLAYER = 0x3,
-		ETIMER_LAST = 0x4,
+		ETIMER_PLAYER = 0x3,ETIMER_LAST = 0x4,
 	};
 
 	enum ETimeDilationChannel
