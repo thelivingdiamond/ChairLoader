@@ -1,4 +1,5 @@
 #pragma once
+#include "pch.h"
 
 // Base non-templated class for function hooks.
 class FunctionHookBase : NoCopy {

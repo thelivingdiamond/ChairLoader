@@ -201,9 +201,6 @@
     <ClInclude Include="ChairLoaderImGui.h">
       <Filter>Chairloader</Filter>
     </ClInclude>
-    <ClInclude Include="EntityManager.h">
-      <Filter>Chairloader</Filter>
-    </ClInclude>
     <ClInclude Include="OverlayLog.h">
       <Filter>Chairloader</Filter>
     </ClInclude>
@@ -823,9 +820,6 @@
       <Filter>Common\Chairloader</Filter>
     </ClInclude>
     <ClInclude Include="..\Common\ChairLoader\ChairloaderEnv.h">
-      <Filter>Common\Chairloader</Filter>
-    </ClInclude>
-    <ClInclude Include="IChairloaderEnv.h">
       <Filter>Common\Chairloader</Filter>
     </ClInclude>
     <ClInclude Include="..\Common\Prey\ArkCommon\ArkContiguousMemory.h">
@@ -2799,6 +2793,57 @@
     <ClInclude Include="..\Common\Prey\GameDll\ark\npc\ArkNpcSpawnManager.h">
       <Filter>Common\Prey\GameDll\ark\npc</Filter>
     </ClInclude>
+    <ClInclude Include="..\Common\ChairLoader\IChairloaderEnv.h">
+      <Filter>Common\Chairloader</Filter>
+    </ClInclude>
+    <ClInclude Include="IChairloaderModule.h">
+      <Filter>Common\Chairloader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Prey\CryEntitySystem\EntitySystem.h">
+      <Filter>Common\Prey\CryEntitySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Prey\CryEntitySystem\EntityTimeoutList.h">
+      <Filter>Common\Prey\CryEntitySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Prey\CryEntitySystem\SaltBufferArray.h">
+      <Filter>Common\Prey\CryEntitySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Prey\CryEntitySystem\SEntitySchedulingProfiles.h">
+      <Filter>Common\Prey\CryEntitySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Prey\CryEntitySystem\SEntityScriptEvent.h">
+      <Filter>Common\Prey\CryEntitySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Prey\CryEntitySystem\SEntityTimerEvent.h">
+      <Filter>Common\Prey\CryEntitySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Prey\CryEntitySystem\SEntityAttachment.h">
+      <Filter>Common\Prey\CryEntitySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Prey\CryEntitySystem\SEntityCollHist.h">
+      <Filter>Common\Prey\CryEntitySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Prey\CryEntitySystem\SEntityEvent.h">
+      <Filter>Common\Prey\CryEntitySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Prey\CryEntitySystem\SEntityEventTarget.h">
+      <Filter>Common\Prey\CryEntitySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Prey\CryEntitySystem\SEntityHits.h">
+      <Filter>Common\Prey\CryEntitySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Prey\CryEntitySystem\SEntityLayerGarbage.h">
+      <Filter>Common\Prey\CryEntitySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Prey\CryEntitySystem\SEntityObjectXForm.h">
+      <Filter>Common\Prey\CryEntitySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Prey\CryEntitySystem\Entity.h">
+      <Filter>Common\Prey\CryEntitySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ChairLoader\IChairloaderModuleManager.h">
+      <Filter>Common\Chairloader</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -2847,9 +2892,6 @@
       <Filter>Chairloader</Filter>
     </ClCompile>
     <ClCompile Include="OverlayLog.cpp">
-      <Filter>Chairloader</Filter>
-    </ClCompile>
-    <ClCompile Include="EntityManager.cpp">
       <Filter>Chairloader</Filter>
     </ClCompile>
     <ClCompile Include="PlayerManager.cpp">
@@ -2968,6 +3010,9 @@
     </ClCompile>
     <ClCompile Include="..\Common\Prey\GameDll\ark\npc\HeaderTest.cpp">
       <Filter>Common\Prey\GameDll\ark\npc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\EntityUtils.cpp">
+      <Filter>Common</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -15,7 +15,10 @@
 #include "Profiler.h"
 #include <Prey/CryCore/Platform/CryWindows.h>
 #include <detours/detours.h>
+
+#include "IChairloaderModule.h"
 #include "ChairLoader/ChairloaderEnv.h"
+#include "Chairloader/IChairloaderModuleManager.h"
 
 ChairLoader *gCL = nullptr;
 static bool smokeFormExited = false;
@@ -202,6 +205,15 @@ void ChairLoader::InitSystem(CSystem* pSystem)
 	gConf = new ChairloaderConfigManager();
 	gCLEnv->conf = (IChairloaderConfigManager*)gConf;
 	CryLog("Chairloader config loaded: %u", gConf->loadModConfigFile(chairloaderModName));
+	chairloaderModulesConfigNode = gConf->getConfigNode("Chairloader")->child("Modules");
+	//load modules
+	loadModuleManager();
+	//init modules
+	moduleManager->init(pSystem, this);
+	modules = moduleManager->getLoadedModules();
+	for(auto &CLModule : modules) {
+		CLModule.second->InitSystem();
+	}
 
 	// get list of installed mods and their load order
 	ReadModList();
@@ -229,6 +241,11 @@ void ChairLoader::InitGame(IGameFramework* pFramework)
 	gCLEnv->cl = gCL;
 	gCLEnv->gui = (IChairloaderGui*)gui;
 	gCLEnv->entUtils = gEntUtils;
+
+	for (auto & CLModule : modules) {
+		CLModule.second->InitGame(pFramework);
+	}
+
 
 	// run each mod InitGame();
 	for (auto& mod : modList) {
@@ -283,11 +300,20 @@ void ChairLoader::PreUpdate(bool haveFocus, unsigned int updateFlags) {
 	gui->update();
 	gConf->Update();
 	// pre update all mods
+	for (auto & CLModule : modules) {
+		CLModule.second->PreUpdate();
+	}
+
 	for (auto& mod : modList) {
 		mod.modInterface->PreUpdate();
 	}
 	bool todo = true;
 	gui->draw(&todo);
+	ImGui::PushStyleVar(ImGuiStyleVar_Alpha, 0.8f);
+	for (auto& CLModule : modules) {
+		CLModule.second->Draw(ImGui::GetCurrentContext());
+	}
+	ImGui::PopStyleVar();
 	// draw all mods
 	for (auto& mod : modList) {
 		mod.modInterface->Draw(ImGui::GetCurrentContext());
@@ -380,6 +406,25 @@ void ChairLoader::sortLoadOrder() {
 	std::sort(modList.begin(), modList.end());
 }
 
+typedef IChairloaderModuleManager* (__stdcall* instanceModuleManager)();
+
+void ChairLoader::loadModuleManager() {
+	auto moduleManagerDLL = LoadLibraryA(".\\Mods\\ChairloaderModules\\ChairloaderModules.dll");
+	if(moduleManagerDLL) {
+		instanceModuleManager function = (instanceModuleManager)GetProcAddress(moduleManagerDLL, "ClModuleManager_Instantiate");
+		if(function) {
+			moduleManager = function();
+		}
+		else {
+			CryError("ChairloaderModules: Module manager not found");
+		}
+	}
+	else {
+		CryFatalError("ChairloaderModules: DLL Failed to load");
+	}
+}
+
+
 void ChairLoader::CreateConsole() {
 	AllocConsole();
 	freopen_s(&m_pConsoleFile, "CONOUT$", "w", stdout);
@@ -410,6 +455,10 @@ void ChairLoader::UpdateFreeCam() {
 			gEnv->pConsole->ExecuteString("FreeCamDisable", false, true);
 		}
 	}
+}
+
+pugi::xml_node ChairLoader::getModuleConfigNode(std::string modName) {
+	return chairloaderModulesConfigNode.child(modName.c_str());
 }
 
 IChairloaderGlobalEnvironment* ChairLoader::getChairloaderEnvironment() {

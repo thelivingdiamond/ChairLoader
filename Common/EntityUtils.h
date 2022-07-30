@@ -33,7 +33,7 @@ public:
 	
 	EntityUtils();
 	ArkPlayer* ArkPlayerPtr();
-
+	~EntityUtils();
 	// ArchetypeLibrary entityArchetypeLibrary;
 	ArkAbilityLibrary abilityLibrary;
 	

@@ -17,6 +17,7 @@ public:
     void logItem(std::string msg, const std::string modNameIn, logLevel level = logLevel::normal, bool displayToScreen = true);
     // Log Item with a premade logMessage
     void logItem(logMessage message, bool displayToScreen = true);
+
 private:
     const std::string modName = "OverlayLog";
     std::vector<logMessage> archiveLogQueue;

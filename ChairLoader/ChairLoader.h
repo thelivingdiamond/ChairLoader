@@ -10,6 +10,7 @@
 
 #define PREY_DLL_NAME "PreyDll.dll"
 
+struct IChairloaderModuleManager;
 struct SInputEvent;
 struct IGameFramework;
 class CSystem;
@@ -97,11 +98,20 @@ private:
 	//! sorts the modList by load order
 	void sortLoadOrder();
 
+	
+
 	//! load all mod DLL's from the mod names obtained from the config Mod List
 	void initializeMods();
 
 	//! load all registered mod configs
 	void loadAllConfigs();
+
+	/* Modules */
+	IChairloaderModuleManager* moduleManager = nullptr;
+
+	std::map<std::string, std::shared_ptr<IChairloaderModule>> modules;
+
+	void loadModuleManager();
 
 	const std::string chairloaderModName = "Chairloader";
 	uintptr_t m_ModuleBase = 0;
@@ -117,9 +127,11 @@ private:
 	void CreateConsole();
 	void InstallHooks();
 	void UpdateFreeCam();
+protected:
+	pugi::xml_node chairloaderModulesConfigNode;
+	pugi::xml_node getModuleConfigNode(std::string modName) override;
 public:
 	IChairloaderGlobalEnvironment* getChairloaderEnvironment() override;
-
 };
 
 extern ChairLoader *gCL;

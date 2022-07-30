@@ -140,5 +140,7 @@ ArkPlayer* EntityUtils::ArkPlayerPtr() {
 	return ArkPlayer::GetInstancePtr();
 }
 
+EntityUtils::~EntityUtils() {}
+
 
 

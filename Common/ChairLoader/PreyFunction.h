@@ -1,6 +1,7 @@
 #pragma once
 #include <type_traits>
 #include <ChairLoader/FunctionHook.h>
+#include "pch.h"
 
 // These declarations are required because C++
 template <typename UnusedType>

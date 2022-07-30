@@ -3,7 +3,6 @@
 #include <Prey/CrySystem/System.h>
 #include <Prey/ArkEntityArchetypeLibrary.h>
 #include "OverlayLog.h"
-#include "EntityManager.h"
 #include "PlayerManager.h"
 #include "ChairloaderConfigManager.h"
 #include "GUIUtils.h"
@@ -47,14 +46,13 @@ private:
     
     bool g_PresentHooked;
     bool g_ShowMenu;
-    BOOL g_bInitialised;
+    bool g_bInitialised;
 
 
     //TODO: switch to module internal draw booleans
     chairloaderGuiControl control;
     ChairloaderGUILog log;
     ChairloaderGUIPlayerManager playerManager; 
-    ChairloaderGUIEntityManager entityManager;
     PerfOverlay perfOverlay;
     ProfilerDialog profilerDialog;
     DevConsoleDialog devConsoleDialog;

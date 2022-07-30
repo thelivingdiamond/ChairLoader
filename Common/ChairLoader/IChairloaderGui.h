@@ -10,7 +10,7 @@ struct logMessage {
     std::string message;
     std::string modName;
     time_t time;
-    logLevel level;
+    logLevel level = logLevel::normal;
 
     bool empty() {
         return message.empty();

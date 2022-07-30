@@ -7,6 +7,7 @@ struct ChairloaderGlobalEnvironment : IChairloaderGlobalEnvironment {
 	IChairloaderGui* gui;
 	IChairloaderConfigManager* conf;
 	EntityUtils* entUtils;
+
 };
 
 // extern ChairloaderGlobalEnvironment* gCLEnv;

@@ -1,6 +1,8 @@
 // Header file automatically created from a PDB.
-
 #pragma once
+#include <vector>
+
+#include "ChairLoader/PreyFunction.h"
 
 // Header: FromCpp
 // Prey/ArkCommon/ArkContiguousMemory.h

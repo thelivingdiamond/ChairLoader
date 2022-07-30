@@ -1,11 +1,12 @@
 #include "pch.h"
+
+#include "ChairLoader.h"
 #include "ChairloaderGUI.h"
 
 ChairloaderGui *gui = nullptr;
 
 ChairloaderGui::ChairloaderGui() :
-    playerManager(),
-    entityManager(){
+    playerManager() {
     // gui = this;
     GUILog = &log;
     // gEnv.
@@ -59,7 +60,6 @@ void ChairloaderGui::draw(bool* bShow) {
                 ImGui::EndMenu();
             }
             playerManager.drawMenuBar(&control.showPlayerManager);
-            entityManager.drawMenuBar(&control.showEntityList, &control.showEntitySpawner);
             ImGui::EndMainMenuBar();
         }
 
@@ -103,11 +103,6 @@ void ChairloaderGui::draw(bool* bShow) {
             if (control.showLogHistory)
                 log.drawHistory(&control.showLogHistory);
             log.drawDisplay();
-            if (control.showEntitySpawner) {
-                entityManager.drawEntitySpawner(&control.showEntitySpawner);
-            }
-            if (control.showEntityList)
-                entityManager.drawEntityList(&control.showEntityList);
             if (control.showPlayerManager)
                 playerManager.draw(&control.showPlayerManager);
 
@@ -133,7 +128,6 @@ void ChairloaderGui::update() {
     //auto pAction = reinterpret_cast<CCryAction*>(gCL->GetFramework());
     //if (!pAction->IsInLevelLoad() || !pAction->IsLoadingSaveGame()) {
         drawHandleMutex.lock();
-        entityManager.update(&log);
         playerManager.update(&log);
         drawHandleMutex.unlock();
     //}

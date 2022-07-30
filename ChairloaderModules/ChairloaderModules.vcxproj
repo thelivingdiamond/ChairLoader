@@ -1,17 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
       <Platform>Win32</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Library|Win32">
-      <Configuration>Library</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Library|x64">
-      <Configuration>Library</Configuration>
-      <Platform>x64</Platform>
     </ProjectConfiguration>
     <ProjectConfiguration Include="Release|Win32">
       <Configuration>Release</Configuration>
@@ -29,29 +21,20 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4983a09c-d87d-4050-ae0f-7b8ec5b9eaf1}</ProjectGuid>
-    <RootNamespace>PreyTestTrainer</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>ChairLoader</ProjectName>
+    <ProjectGuid>{cb25646b-ef95-4f5c-aa5b-33bef42b0d52}</ProjectGuid>
+    <RootNamespace>ChairloaderModules</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
-    <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Library|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -64,14 +47,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
-    <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Library|x64'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
-    <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -82,53 +58,17 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="Project.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="Project.props" />
-    <Import Project="ChairloaderProperties.props" />
-  </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Library|Win32'" Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="Project.props" />
-    <Import Project="ChairloaderProperties.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="Project.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="Project.props" />
-    <Import Project="ChairloaderProperties.props" />
-  </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Library|x64'" Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="Project.props" />
-    <Import Project="ChairloaderProperties.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LinkIncremental>true</LinkIncremental>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LinkIncremental>false</LinkIncremental>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Library|Win32'">
-    <LinkIncremental>false</LinkIncremental>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\..\..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Prey\Binaries\Danielle\x64\Release</OutDir>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\..\..\..\..\..\..\..\Program Files %28x86%29\Steam\steamapps\common\Prey\Binaries\Danielle\x64\Release</OutDir>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Library|x64'">
-    <LinkIncremental>false</LinkIncremental>
-  </PropertyGroup>
   <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <VcpkgConfiguration>Release</VcpkgConfiguration>
   </PropertyGroup>
@@ -136,12 +76,10 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;PREYTESTTRAINER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;CHAIRLOADERMODULES_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
-      <ObjectFileName>$(IntDir)\Kostyl\Kostyl\Kostyl\Kostyl\%(RelativeDir)</ObjectFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -155,31 +93,10 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;PREYTESTTRAINER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;CHAIRLOADERMODULES_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
-    </ClCompile>
-    <Link>
-      <SubSystem>Windows</SubSystem>
-      <EnableCOMDATFolding>true</EnableCOMDATFolding>
-      <OptimizeReferences>true</OptimizeReferences>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <EnableUAC>false</EnableUAC>
-    </Link>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Library|Win32'">
-    <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
-      <IntrinsicFunctions>true</IntrinsicFunctions>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;PREYTESTTRAINER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -197,20 +114,18 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\Users\theli\Documents\Modding\Prey Modding\Learning2Hack\ChairLoader\Common\imgui;C:\Users\theli\Documents\Modding\Prey Modding\Learning2Hack\ChairLoader\ChairloaderModules;C:\Users\theli\Documents\Modding\Prey Modding\Learning2Hack\ChairLoader\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>$(ProjectDir);../Common;../Common/imgui</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
-      <ObjectFileName>$(IntDir)\Kostyl\Kostyl\Kostyl\Kostyl\%(RelativeDir)</ObjectFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>d3d11.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <ModuleDefinitionFile>
-      </ModuleDefinitionFile>
     </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(TargetDir)$(TargetName).dll" "C:\Program Files (x86)\Steam\steamapps\common\Prey\Mods\ChairloaderModules\$(TargetName).dll"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -218,13 +133,10 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;PREYTESTTRAINER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;CHAIRLOADERMODULES_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>$(ProjectDir);../Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -232,33 +144,10 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>d3d11.lib;%(AdditionalDependencies)</AdditionalDependencies>
-    </Link>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Library|x64'">
-    <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
-      <IntrinsicFunctions>true</IntrinsicFunctions>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;PREYTESTTRAINER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>$(ProjectDir);../Common;$(SolutionDir)boost_1_77_0;$(SolutionDir)detours;$(SolutionDir)imgui-1.87;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>pch.h</ForcedIncludeFiles>
-    </ClCompile>
-    <Link>
-      <SubSystem>Windows</SubSystem>
-      <EnableCOMDATFolding>true</EnableCOMDATFolding>
-      <OptimizeReferences>true</OptimizeReferences>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>$(SolutionDir)detours\detours.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\ChairLoader\IChairloaderModule.h" />
     <ClInclude Include="..\Common\ChairLoader\ChairloaderEnv.h" />
     <ClInclude Include="..\Common\ChairLoader\FunctionHook.h" />
     <ClInclude Include="..\Common\ChairLoader\IChairloader.h" />
@@ -404,6 +293,7 @@
     <ClInclude Include="..\Common\Prey\CryCore\TypeInfo_impl.h" />
     <ClInclude Include="..\Common\Prey\CryCore\Wrapper.h" />
     <ClInclude Include="..\Common\Prey\CryEntitySystem\Entity.h" />
+    <ClInclude Include="..\Common\Prey\CryEntitySystem\EntityArchetype.h" />
     <ClInclude Include="..\Common\Prey\CryEntitySystem\EntitySystem.h" />
     <ClInclude Include="..\Common\Prey\CryEntitySystem\EntityTimeoutList.h" />
     <ClInclude Include="..\Common\Prey\CryEntitySystem\IComponent.h" />
@@ -415,8 +305,6 @@
     <ClInclude Include="..\Common\Prey\CryEntitySystem\SaltBufferArray.h" />
     <ClInclude Include="..\Common\Prey\CryEntitySystem\SEntityAttachment.h" />
     <ClInclude Include="..\Common\Prey\CryEntitySystem\SEntityCollHist.h" />
-    <ClInclude Include="..\Common\Prey\CryEntitySystem\SEntityEvent.h" />
-    <ClInclude Include="..\Common\Prey\CryEntitySystem\SEntityEventTarget.h" />
     <ClInclude Include="..\Common\Prey\CryEntitySystem\SEntityHits.h" />
     <ClInclude Include="..\Common\Prey\CryEntitySystem\SEntityLayerGarbage.h" />
     <ClInclude Include="..\Common\Prey\CryEntitySystem\SEntityObjectXForm.h" />
@@ -1130,20 +1018,10 @@
     <ClInclude Include="..\Common\Prey\GameDll\weaponzoomoffset.h" />
     <ClInclude Include="..\Common\proc.h" />
     <ClInclude Include="..\Common\VTableHook.h" />
-    <ClInclude Include="ChairloaderConfigManager.h" />
-    <ClInclude Include="ChairLoader.h" />
-    <ClInclude Include="ChairloaderGui.h" />
-    <ClInclude Include="IChairloaderModule.h" />
-    <ClInclude Include="OverlayLog.h" />
-    <ClInclude Include="PlayerManager.h" />
-    <ClInclude Include="DevConsoleDialog.h" />
-    <ClInclude Include="ChairLoaderImGui.h" />
-    <ClInclude Include="GUIUtils.h" />
-    <ClInclude Include="ImGui\imgui_widget_flamegraph.h" />
-    <ClInclude Include="LibD3D11.h" />
+    <ClInclude Include="EntityManager.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="ModuleManager.h" />
     <ClInclude Include="pch.h" />
-    <ClInclude Include="PerfOverlay.h" />
-    <ClInclude Include="Profiler.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Common\ChairLoader\FunctionHook.cpp" />
@@ -1164,7 +1042,9 @@
     <ClCompile Include="..\Common\Prey\ArkCommon\reflection\HeaderTest.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="..\Common\Prey\Ark\HeaderTest.cpp" />
+    <ClCompile Include="..\Common\Prey\Ark\HeaderTest.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="..\Common\Prey\CryRenderer\Texture.cpp" />
     <ClCompile Include="..\Common\Prey\GameDll\ark\attention\HeaderTest.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
@@ -1243,42 +1123,21 @@
     </ClCompile>
     <ClCompile Include="..\Common\proc.cpp" />
     <ClCompile Include="..\Common\VTableHook.cpp" />
-    <ClCompile Include="ChairLoader.cpp" />
-    <ClCompile Include="ChairloaderGui.cpp" />
-    <ClCompile Include="ChairloaderConfigManager.cpp" />
-    <ClCompile Include="OverlayLog.cpp" />
-    <ClCompile Include="PlayerManager.cpp" />
-    <ClCompile Include="DevConsoleDialog.cpp" />
-    <ClCompile Include="ChairLoaderImGui.cpp" />
     <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="HeaderTestFile.cpp" />
-    <ClCompile Include="ImGui\imgui_widget_flamegraph.cpp" />
+    <ClCompile Include="EntityManager.cpp" />
+    <ClCompile Include="ModuleManager.cpp" />
     <ClCompile Include="pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Library|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Library|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="PerfOverlay.cpp" />
-    <ClCompile Include="Profiler.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="codeArchive.txt" />
-    <Text Include="EntityArchetypesList.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Common\Prey\CryCore\CryTypeInfo.inl" />
     <None Include="..\Common\Prey\CryCore\Platform\platform_impl.inl" />
     <None Include="..\Common\Prey\CryMath\CryHalf.inl" />
     <None Include="..\Common\Prey\CryMath\GeomQuery.inl" />
-    <None Include="..\imgui\examples\example_emscripten_opengl3\shell_minimal.html" />
-    <None Include="..\imgui\examples\example_emscripten_wgpu\web\index.html" />
-    <None Include="ClassDiagram.cd" />
-  </ItemGroup>
-  <ItemGroup>
-    <Xml Include="testconfig.xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

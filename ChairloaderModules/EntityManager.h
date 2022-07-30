@@ -3,72 +3,73 @@
 
 #include "EntityUtils.h"
 #include <Prey/ArkEntityArchetypeLibrary.h>
-#include "GUIUtils.h"
-#include "ChairLoader.h"
-#include "OverlayLog.h"
+#include "../ChairLoader/GUIUtils.h"
+#include "../ChairLoader/IChairloaderModule.h"
+#include "ChairLoader/IChairloader.h"
+#include "ChairLoader/ChairloaderEnv.h"
+#include "Prey/CryEntitySystem/EntitySystem.h"
 
-class ChairloaderGUIEntityManager
+
+class EntityManager : public IChairloaderModule
 {
 public:
+    //TODO: completely redo entity modify
+    EntityManager(ChairloaderGlobalEnvironment* env);
+    ~EntityManager();
 
-    enum class entityModifyType {
-        none = -1,
-        pos = 0,
-        rot = 1,
-        scale = 2,
-        playerPos = 3,
-    };
-    struct entityModifyRequest {
-        IEntity* entity;
-        entityModifyType type;
-        Vec3_tpl<float> pos{ 0,0,0 };
-        Vec4_tpl<float> rot{ 0,0,0,0 };
-        Vec3_tpl<float> scale = { 0,0,0 };
-    };
-    struct spawnRequest {
-        IEntityArchetype* archetype;
-        std::string name;
-        Vec3_tpl<float> pos = { 0,0,0 };
-        Vec4_tpl<float> rot = { 0,0,0,1 };
-        int spawnCount = 1;
-        bool usePlayerPos = true,
-            offsetFromPlayer = true;
-    };
-
-    struct archetypeFilterRequest {
-        std::string text;
-    };
-    ChairloaderGUIEntityManager();
-    ~ChairloaderGUIEntityManager();
-
-    // void draw(bool* bShow);
     void drawEntitySpawner(bool* bShow);
     void drawEntityList(bool* bShow);
-    void drawEntitySpawnerTest(bool* bShow);
-    void drawMenuBar(bool* entityListShow, bool* entitySpawnerShow);
+    void drawMenuBar();
 
-    void update(ChairloaderGUILog* log);
+   
 private:
-    const std::string modName = "EntityManager";
-    std::vector<IEntity*> entityDisplayList;
+    bool showEntitySpawner = false, showEntityList = false;
+
+    // environment *
+    ChairloaderGlobalEnvironment* gCLEnv = nullptr;
+
+    const std::string moduleName = "EntityManager";
+
     bool refreshDisplayList = true;
     std::string filterText, oldFilterText;
-    IEntity* selected = nullptr;
-    std::queue<spawnRequest> archetypeSpawnRequestQueue;
-    IEntityArchetype* archetypeToSpawn;
+
+    CEntity* selected = nullptr;
+
+    IEntityArchetype* archetypeToSpawn = nullptr;
+
     // archetype filter
     std::string archetypeFilterText, oldArchetypeFilterText;
-    std::queue<archetypeFilterRequest> archetypeFilterRequestQueue;
+
     std::vector<IEntityArchetype*> archetypeFilteredList;
-    std::queue<entityModifyRequest> modifyQueue;
+    std::vector<CEntity*> entityDisplayList;
+
+    // std::unordered_map< uint64_t, IEntityArchetype*>* archetypeList = &((IEntityArchetype*)gEnv->pEntitySystem)->m_pEntityArchetypeManager->m_idToArchetypeMap;
+    // std::queue<entityModifyRequest> modifyQueue;
     // bool entitySpawningMethod = false;
 
-	void entityModifyHandler(ChairloaderGUILog* log);
-    void filterEntityList(ChairloaderGUILog* log);
-    void archetypeFilterRequestHandler(ChairloaderGUILog* log);
-   
 
+    inline CEntitySystem* GetEntitySystem() { return (CEntitySystem*)gEnv->pEntitySystem; }
 
+   bool usePlayerPos = true, offsetFromPlayer = true;
+   std::string inputId, inputName;
+   std::string statusMessage;
+   float spawnX, spawnY, spawnZ;
+   int spawnCount{ 1 };
+   ImVec4 color{ 1,1,1,1 };
+   time_t statusTimer;
+
+    void spawnEntity();
+    void quickSpawnEntity(uint64_t archetypeId);
+public:
+    void InitSystem() override;
+    void InitGame(IGameFramework* pFramework) override;
+    void Draw(ImGuiContext*) override;
+    void PreUpdate() override;
+    void PostUpdate() override;
+    void ShutdownGame() override;
+    void ShutdownSystem() override;
+    std::string GetModuleName() override { return moduleName; };
+private:
     // Currently Mostly Unused
     std::vector <std::string> actions{
         "ActivateWander",
